@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TestBenchSettings>
+    <TestBenchID valid="false" value="HCS000" />
+    <LimitSelection valid="false" value="HCSII_Standard" />
+    <TesterNames>
+        <Name>Operator</Name>
+    </TesterNames>
+</TestBenchSettings>

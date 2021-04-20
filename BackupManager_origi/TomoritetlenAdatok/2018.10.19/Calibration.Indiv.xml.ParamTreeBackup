@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CalibrationCtrl Version="1.0">
+  <Globals>
+    <ReactionAfterError Individual="false">eCONTINUE_ALL_PROC_AREAS</ReactionAfterError>
+  </Globals>
+</CalibrationCtrl>

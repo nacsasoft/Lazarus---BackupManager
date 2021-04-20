@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StationInterface Version="1.0">
+  <Configuration>
+    <BidServer>
+      <MaxStoredBoards Individual="false">3</MaxStoredBoards>
+      <PositionInSMEMACluster>0</PositionInSMEMACluster>
+      <Successors/>
+      <Predecessors/>
+    </BidServer>
+    <LineControl>
+      <Data>&lt;Client Name=&quot;LineControl&quot; ServiceId=&quot;&amp;lt;ServiceId&amp;gt;&amp;lt;Channel&amp;gt;&amp;lt;Port&amp;gt;49003&amp;lt;/Port&amp;gt;&amp;lt;Protocol&amp;gt;http&amp;lt;/Protocol&amp;gt;&amp;lt;/Channel&amp;gt;&amp;lt;Channel&amp;gt;&amp;lt;Port&amp;gt;49004&amp;lt;/Port&amp;gt;&amp;lt;Protocol&amp;gt;tcp&amp;lt;/Protocol&amp;gt;&amp;lt;/Channel&amp;gt;&amp;lt;HostName&amp;gt;TABW2407&amp;lt;/HostName&amp;gt;&amp;lt;IPAdress&amp;gt;192.168.172.13&amp;lt;/IPAdress&amp;gt;&amp;lt;IPAdress&amp;gt;10.222.48.58&amp;lt;/IPAdress&amp;gt;&amp;lt;ServiceName&amp;gt;Siplace/StationReceiverInterface&amp;lt;/ServiceName&amp;gt;&amp;lt;/ServiceId&amp;gt;&quot; SessionId=&quot;3cbc14d8-814c-4c84-8044-0fa2cd4fb2dd&quot; /&gt;</Data>
+    </LineControl>
+    <AdvisedClients>
+      <Client>
+        <Data>&lt;Client Name=&quot;OIS&quot; ServiceId=&quot;&amp;lt;ServiceId&amp;gt;&amp;lt;Channel&amp;gt;&amp;lt;Port&amp;gt;51051&amp;lt;/Port&amp;gt;&amp;lt;Protocol&amp;gt;http&amp;lt;/Protocol&amp;gt;&amp;lt;/Channel&amp;gt;&amp;lt;HostName&amp;gt;TABW2407&amp;lt;/HostName&amp;gt;&amp;lt;IPAdress&amp;gt;10.222.48.58&amp;lt;/IPAdress&amp;gt;&amp;lt;IPAdress&amp;gt;192.168.172.13&amp;lt;/IPAdress&amp;gt;&amp;lt;IPAdress&amp;gt;::1&amp;lt;/IPAdress&amp;gt;&amp;lt;ServiceName&amp;gt;StationInterface&amp;lt;/ServiceName&amp;gt;&amp;lt;/ServiceId&amp;gt;&quot; SessionId=&quot;e599b4b2-9937-46c4-bbd2-dc5a30313966&quot;&gt;&lt;EventList Version=&quot;1.0&quot;&gt;&lt;Events&gt;&lt;Event Spool=&quot;false&quot; Type=&quot;ComponentMeasurementErrorOccurred&quot; /&gt;&lt;Event Spool=&quot;false&quot; Type=&quot;ComponentTreatmentErrorOccurred&quot; /&gt;&lt;Event Spool=&quot;false&quot; Type=&quot;FeederErrorOccurred&quot; /&gt;&lt;Event Spool=&quot;false&quot; Type=&quot;MachineStateChanged&quot; /&gt;&lt;Event Spool=&quot;false&quot; Type=&quot;PCBAborted&quot; /&gt;&lt;Event Spool=&quot;false&quot; Type=&quot;PCBProduced&quot; /&gt;&lt;Event Spool=&quot;false&quot; Type=&quot;PCBRemoved&quot; /&gt;&lt;Event Spool=&quot;false&quot; Type=&quot;PickupErrorOccurred&quot; /&gt;&lt;Event Spool=&quot;false&quot; Type=&quot;PlaceErrorOccurred&quot; /&gt;&lt;Event Spool=&quot;false&quot; Type=&quot;ProductionAborted&quot; /&gt;&lt;Event Spool=&quot;false&quot; Type=&quot;ProductionConfigurationChanged&quot; /&gt;&lt;Event Spool=&quot;false&quot; Type=&quot;ProductionControlModeChanged&quot; /&gt;&lt;Event Spool=&quot;false&quot; Type=&quot;ProductionEnded&quot; /&gt;&lt;Event Spool=&quot;false&quot; Type=&quot;ProductionStarted&quot; /&gt;&lt;Event Spool=&quot;false&quot; Type=&quot;SpliceDetected&quot; /&gt;&lt;/Events&gt;&lt;/EventList&gt;&lt;QualityOfService Version=&quot;1.0&quot; ConnectionPersistence=&quot;1&quot; SpoolingType=&quot;3&quot; SpoolingBufferSize=&quot;20&quot; /&gt;&lt;/Client&gt;</Data>
+        <SessionId>e599b4b2-9937-46c4-bbd2-dc5a30313966</SessionId>
+      </Client>
+      <Client>
+        <Data>&lt;Client Name=&quot;SetupControl&quot; ServiceId=&quot;&amp;lt;ServiceId&amp;gt;&amp;lt;Channel&amp;gt;&amp;lt;Port&amp;gt;49041&amp;lt;/Port&amp;gt;&amp;lt;Protocol&amp;gt;http&amp;lt;/Protocol&amp;gt;&amp;lt;/Channel&amp;gt;&amp;lt;HostName&amp;gt;TABW2407&amp;lt;/HostName&amp;gt;&amp;lt;IPAdress&amp;gt;10.222.48.58&amp;lt;/IPAdress&amp;gt;&amp;lt;IPAdress&amp;gt;192.168.172.13&amp;lt;/IPAdress&amp;gt;&amp;lt;ServiceName&amp;gt;StationInterface&amp;lt;/ServiceName&amp;gt;&amp;lt;/ServiceId&amp;gt;&quot; SessionId=&quot;26e64f79-dd5a-4f10-bfed-2f80808f08c0&quot;&gt;&lt;EventList Version=&quot;1.0&quot;&gt;&lt;Events&gt;&lt;Event Spool=&quot;false&quot; Type=&quot;PackagingConsumed&quot; /&gt;&lt;/Events&gt;&lt;/EventList&gt;&lt;QualityOfService Version=&quot;1.0&quot; ConnectionPersistence=&quot;1&quot; SpoolingType=&quot;1&quot; SpoolingBufferSize=&quot;0&quot; /&gt;&lt;/Client&gt;</Data>
+        <SessionId>26e64f79-dd5a-4f10-bfed-2f80808f08c0</SessionId>
+      </Client>
+    </AdvisedClients>
+    <TimeSync>
+      <Activation>false</Activation>
+    </TimeSync>
+  </Configuration>
+</StationInterface>

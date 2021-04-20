@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HardwareExchangeCtrl Version="1.0">
+  <ConfigurationCheck>
+    <LastKnownConfiguration>
+      <Gantries>
+        <Gantry Id="1">
+          <WasPresent>true</WasPresent>
+          <Location>1R</Location>
+        </Gantry>
+        <Gantry Id="2">
+          <WasPresent>true</WasPresent>
+          <Location>2R</Location>
+        </Gantry>
+        <Gantry Id="3">
+          <WasPresent>true</WasPresent>
+          <Location>2L</Location>
+        </Gantry>
+        <Gantry Id="4">
+          <WasPresent>true</WasPresent>
+          <Location>1L</Location>
+        </Gantry>
+      </Gantries>
+    </LastKnownConfiguration>
+  </ConfigurationCheck>
+</HardwareExchangeCtrl>

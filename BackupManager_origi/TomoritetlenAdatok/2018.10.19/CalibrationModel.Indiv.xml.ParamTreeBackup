@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CalibrationModel Version="1.0">
+  <OptionsAndSettings>
+    <AdjustMapping>
+      <TimerSettings>
+        <interval_fiducials Individual="false">300</interval_fiducials>
+        <interval_segments Individual="false">600</interval_segments>
+      </TimerSettings>
+    </AdjustMapping>
+  </OptionsAndSettings>
+</CalibrationModel>

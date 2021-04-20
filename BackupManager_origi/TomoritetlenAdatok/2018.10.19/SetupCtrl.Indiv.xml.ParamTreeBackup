@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SetupCtrl Version="1.0">
+  <Configuration>
+    <leavingTrayThreshold Individual="false">0</leavingTrayThreshold>
+    <defaultUsageMode Individual="false">0</defaultUsageMode>
+    <spliceOnlyIfRequired Individual="false">false</spliceOnlyIfRequired>
+    <fillLevelUpdate>
+      <GUI Individual="false">5</GUI>
+      <SSI Individual="false">60</SSI>
+    </fillLevelUpdate>
+    <errorStatisticsUpdateInterval Individual="false">20</errorStatisticsUpdateInterval>
+    <useFifo Individual="false">false</useFifo>
+    <autoPitchEnabled>true</autoPitchEnabled>
+    <autoPitchNumCompBetweenCyclicCheck Individual="false">0</autoPitchNumCompBetweenCyclicCheck>
+    <autoPitchOnlyForUndefinedPitch Individual="false">false</autoPitchOnlyForUndefinedPitch>
+    <shortTapeHandlingActivated Individual="false">false</shortTapeHandlingActivated>
+    <errorFilterThreshold Individual="false">1</errorFilterThreshold>
+    <factorToBuildAllowedTeachingArea Individual="false">0.5</factorToBuildAllowedTeachingArea>
+    <Learning>
+      <learnXyFirst Individual="false">0.1</learnXyFirst>
+      <learnXyNext Individual="false">0.05</learnXyNext>
+      <learnZFirst Individual="false">0.25</learnZFirst>
+      <learnZNext Individual="false">0.25</learnZNext>
+      <resetHeightAfterPocketRecognition Individual="false">true</resetHeightAfterPocketRecognition>
+      <SafetyZOffset Individual="false">2.0</SafetyZOffset>
+    </Learning>
+    <FrequentPickupAndVisionErrors>
+      <PickupWarningsActivated>true</PickupWarningsActivated>
+      <PickupErrorsActivated>true</PickupErrorsActivated>
+      <PickupCountWarning>10</PickupCountWarning>
+      <PickupCountErrors>25</PickupCountErrors>
+      <PickupCountAll Individual="false">500</PickupCountAll>
+      <VisionWarningsActivated>true</VisionWarningsActivated>
+      <VisionErrorsActivated>true</VisionErrorsActivated>
+      <VisionCountWarning>10</VisionCountWarning>
+      <VisionCountErrors>25</VisionCountErrors>
+      <VisionCountAll Individual="false">500</VisionCountAll>
+    </FrequentPickupAndVisionErrors>
+    <PickupHeightMonitoring>
+      <HeightMonitoringActivated Individual="false">true</HeightMonitoringActivated>
+      <MinHighComponentCategoryForCheck Individual="false">2</MinHighComponentCategoryForCheck>
+      <SafetyDistance Individual="false">0.5</SafetyDistance>
+      <ImmediateHeightCheck>
+        <PerformCheck Individual="false">true</PerformCheck>
+      </ImmediateHeightCheck>
+      <UnitHorizontalAlignmentCheck>
+        <PerformCheck Individual="false">true</PerformCheck>
+        <DistinctivnessTreshold Individual="false">0.5</DistinctivnessTreshold>
+        <MinNumberOfRows Individual="false">3</MinNumberOfRows>
+        <MinNumberOfColumns Individual="false">3</MinNumberOfColumns>
+        <MinNumberOfLevels Individual="false">3</MinNumberOfLevels>
+      </UnitHorizontalAlignmentCheck>
+    </PickupHeightMonitoring>
+    <MeasureComponentBeforePick>
+      <ToleranceFactor Individual="false">1.0</ToleranceFactor>
+    </MeasureComponentBeforePick>
+    <GripProperty4DryRun>
+      <DryRunZOffset Individual="false">3.0</DryRunZOffset>
+      <PickPresenceCheckMode Individual="false">eNONE</PickPresenceCheckMode>
+      <PlacePresenceCheckMode Individual="false">eNONE</PlacePresenceCheckMode>
+      <MassMomentInertia Individual="false">1</MassMomentInertia>
+      <PickModeDown Individual="false">100</PickModeDown>
+      <PickContactMode Individual="false">eNO_PART</PickContactMode>
+    </GripProperty4DryRun>
+    <Repic1Handling>
+      <MaterialDefect>
+        <additionalTrials Individual="false">1</additionalTrials>
+      </MaterialDefect>
+      <EmptyPocket>
+        <additionalTrials Individual="false">1</additionalTrials>
+        <heightFactor Individual="false">0.7</heightFactor>
+      </EmptyPocket>
+    </Repic1Handling>
+    <threshold4slowLocations Individual="false">0.5</threshold4slowLocations>
+  </Configuration>
+</SetupCtrl>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CameraGlassPlateModel Version="1.0">
+  <Configuration>
+    <GlassPlates>
+      <GlassPlate Id="11">
+        <StationaryCamToPcbCamOffset>
+          <x Individual="false">0.0</x>
+          <y Individual="false">0.0</y>
+          <phi Individual="false">0.0</phi>
+          <CalibrationDateAndTime>
+            <date_time Individual="false">unknown</date_time>
+            <counter Individual="false">0</counter>
+          </CalibrationDateAndTime>
+        </StationaryCamToPcbCamOffset>
+      </GlassPlate>
+      <GlassPlate Id="12">
+        <StationaryCamToPcbCamOffset>
+          <x Individual="false">0.0</x>
+          <y Individual="false">0.0</y>
+          <phi Individual="false">0.0</phi>
+          <CalibrationDateAndTime>
+            <date_time Individual="false">unknown</date_time>
+            <counter Individual="false">0</counter>
+          </CalibrationDateAndTime>
+        </StationaryCamToPcbCamOffset>
+      </GlassPlate>
+      <GlassPlate Id="21">
+        <StationaryCamToPcbCamOffset>
+          <x Individual="false">0.0</x>
+          <y Individual="false">0.0</y>
+          <phi Individual="false">0.0</phi>
+          <CalibrationDateAndTime>
+            <date_time Individual="false">unknown</date_time>
+            <counter Individual="false">0</counter>
+          </CalibrationDateAndTime>
+        </StationaryCamToPcbCamOffset>
+      </GlassPlate>
+      <GlassPlate Id="22">
+        <StationaryCamToPcbCamOffset>
+          <x Individual="false">0.0</x>
+          <y Individual="false">0.0</y>
+          <phi Individual="false">0.0</phi>
+          <CalibrationDateAndTime>
+            <date_time Individual="false">unknown</date_time>
+            <counter Individual="false">0</counter>
+          </CalibrationDateAndTime>
+        </StationaryCamToPcbCamOffset>
+      </GlassPlate>
+    </GlassPlates>
+  </Configuration>
+</CameraGlassPlateModel>

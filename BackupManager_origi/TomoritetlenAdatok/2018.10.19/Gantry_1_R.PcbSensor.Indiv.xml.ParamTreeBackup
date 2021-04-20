@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisionSensor Version="1.0">
+  <OptionalSettings>
+    <Operationmode>
+      <dump_always Individual="false">false</dump_always>
+      <suppress_orientation_warning Individual="false">false</suppress_orientation_warning>
+      <SelectiveFilter>
+        <GlueInspection>
+          <dump_always Individual="false">false</dump_always>
+        </GlueInspection>
+      </SelectiveFilter>
+    </Operationmode>
+    <LocalSimulationMode Individual="false">0 //0 = NORMALMODE 1=SIMULATION</LocalSimulationMode>
+  </OptionalSettings>
+  <CommonSettings>
+    <VersionNumber>1</VersionNumber>
+  </CommonSettings>
+  <Resolution>
+    <SST>34</SST>
+    <ScaleX>11765</ScaleX>
+    <ScaleY>11767</ScaleY>
+    <CalibrationDate>
+      <date_time>2015-May-29 08:08:00</date_time>
+      <counter>130773532805930000</counter>
+    </CalibrationDate>
+  </Resolution>
+</VisionSensor>

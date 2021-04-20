@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BoardHandler Version="1.0">
+  <Configuration>
+    <MaxHistorySizeInMegaBytes Individual="false">1000</MaxHistorySizeInMegaBytes>
+    <BoardHistory>
+      <IsEnabled Individual="false">true</IsEnabled>
+    </BoardHistory>
+  </Configuration>
+</BoardHandler>

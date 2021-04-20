@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StartupCtrl Version="1.0">
+  <EmbeddedSoftwareDownload>
+    <TestMode>
+      <HelpText Individual="false">In individual file, set &lt;TestStatus&gt; &quot;on&quot; to (re-) start the download test; set &quot;off&quot; to stop the test. Once all subsystems ar up-to-date, the test stops automatically.
+Only Subsystems listed in the &lt;WhiteList&gt; (in the Individual file) are downloaded. If no subsystems are listed there, ALL subsystems are downloaded.
+Subsystems listed in the &lt;BlackList&gt; (in the Individual file) are ignored.
+To identify a download target in these lists, several approaches are possible: (part of) download file name, (part of) subsystem name [internal name - see C:/Sirio/Type/Subsystems/IssConfiguration.xml for examples], subsystem name with destination (&lt;name&gt;_App&lt;destination&gt;).
+In individual file, in the nodes &lt;WhiteList&gt; and &lt;BlackList&gt;, add list entries like that:
+&lt;Entry&gt;COMTAB&lt;/Entry&gt;
+&lt;Entry&gt;AXIALL_004&lt;/Entry&gt;
+&lt;Entry&gt;Gantry_1_R.Twin.Seg_2&lt;/Entry&gt;
+&lt;Entry&gt;Gantry_1_R.yAxis_App0&lt;/Entry&gt;
+&lt;Entry&gt;_1_R&lt;/Entry&gt;
+It is NOT possible to temporarily deactivate WhiteList or BlackList entries (e.g. by renaming the &lt;Entry&gt; to &lt;Entry_&gt;. If you do not want to delete these entries, you might move them into the &lt;TempList&gt;. There, they remain in the individual file but do not have any influence.</HelpText>
+      <TestStatus Individual="false">off</TestStatus>
+      <RestartCount Individual="false">0</RestartCount>
+      <WhiteList/>
+      <BlackList/>
+      <TempList/>
+      <Sequence/>
+      <Tasks/>
+    </TestMode>
+    <ScenarioLog>
+      <Scenario Id="eAVOID_1">
+        <Count>462</Count>
+        <TimestampLatest>2018-10-15 20:18:28</TimestampLatest>
+      </Scenario>
+      <Scenario Id="ePOSTPONED_6">
+        <Count>160</Count>
+        <TimestampLatest>2018-09-30 21:38:21</TimestampLatest>
+      </Scenario>
+      <Scenario Id="ePOSTPONED_8">
+        <Count>121</Count>
+        <TimestampLatest>2018-10-01 21:04:56</TimestampLatest>
+      </Scenario>
+    </ScenarioLog>
+  </EmbeddedSoftwareDownload>
+  <ForceUsingRealMachine Individual="false">false</ForceUsingRealMachine>
+  <ForceUsingVirtualMachineLocal Individual="false">false</ForceUsingVirtualMachineLocal>
+  <EnableWorkaroundsForVirtualMachine Individual="false">false</EnableWorkaroundsForVirtualMachine>
+</StartupCtrl>

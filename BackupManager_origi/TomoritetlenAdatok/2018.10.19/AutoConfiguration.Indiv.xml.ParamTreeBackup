@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoConfiguration Version="1.0">
+  <Configuration>
+    <Settings>
+      <AutoDetectionIsEnabled Individual="false">true</AutoDetectionIsEnabled>
+    </Settings>
+    <NonVolatileStorage>
+      <Type>Default</Type>
+    </NonVolatileStorage>
+    <CanCard>
+      <Type>CanCardSieCin4</Type>
+      <PhysicalCardDetected>true</PhysicalCardDetected>
+    </CanCard>
+    <MachineFrame>
+      <MachineIo>
+        <Type>IoGreenYellowRedBuzzerXS</Type>
+      </MachineIo>
+      <VacuumType>
+        <Type>VacuumPump</Type>
+      </VacuumType>
+      <Conveyor>
+        <Type>DualLaneX4iS</Type>
+      </Conveyor>
+      <ProcessingAreas>
+        <ProcessingArea Id="1">
+          <GantriesAreDisabled Individual="false">false</GantriesAreDisabled>
+          <Gantries>
+            <Gantry Id="L">
+              <MeasureHead>
+                <VisionSensor>
+                  <Type>SST34</Type>
+                </VisionSensor>
+              </MeasureHead>
+              <PlaceHeads>
+                <PlaceHead Id="1">
+                  <Type>CP20Plus</Type>
+                  <VisionSensor>
+                    <Type>SST23</Type>
+                  </VisionSensor>
+                </PlaceHead>
+              </PlaceHeads>
+              <AspHead>
+                <Type></Type>
+              </AspHead>
+            </Gantry>
+            <Gantry Id="R">
+              <MeasureHead>
+                <VisionSensor>
+                  <Type>SST34</Type>
+                </VisionSensor>
+              </MeasureHead>
+              <PlaceHeads>
+                <PlaceHead Id="1">
+                  <Type>CP20Plus</Type>
+                  <VisionSensor>
+                    <Type>SST23</Type>
+                  </VisionSensor>
+                </PlaceHead>
+              </PlaceHeads>
+              <AspHead>
+                <Type></Type>
+              </AspHead>
+            </Gantry>
+          </Gantries>
+          <DeviceLocations>
+            <DeviceLocation Id="L">
+              <Type>X4iSPosition1</Type>
+              <TapeCutter>
+                <Type>Default</Type>
+              </TapeCutter>
+            </DeviceLocation>
+            <DeviceLocation Id="R">
+              <Type>X4iSPosition1</Type>
+              <TapeCutter>
+                <Type>Default</Type>
+              </TapeCutter>
+            </DeviceLocation>
+          </DeviceLocations>
+          <StationarySensors>
+            <FC Id="L">
+              <Type></Type>
+            </FC>
+            <FC Id="R">
+              <Type></Type>
+            </FC>
+            <IC Id="L">
+              <Type></Type>
+            </IC>
+            <IC Id="R">
+              <Type></Type>
+            </IC>
+          </StationarySensors>
+          <AspLocations>
+            <AspLocation Id="L">
+              <AspMagazines>
+                <Magazine Id="2">
+                  <Type></Type>
+                </Magazine>
+                <Magazine Id="4">
+                  <Type></Type>
+                </Magazine>
+              </AspMagazines>
+            </AspLocation>
+            <AspLocation Id="R">
+              <AspMagazines>
+                <Magazine Id="2">
+                  <Type></Type>
+                </Magazine>
+                <Magazine Id="4">
+                  <Type></Type>
+                </Magazine>
+              </AspMagazines>
+            </AspLocation>
+          </AspLocations>
+        </ProcessingArea>
+        <ProcessingArea Id="2">
+          <GantriesAreDisabled Individual="false">false</GantriesAreDisabled>
+          <Gantries>
+            <Gantry Id="L">
+              <MeasureHead>
+                <VisionSensor>
+                  <Type>SST34</Type>
+                </VisionSensor>
+              </MeasureHead>
+              <PlaceHeads>
+                <PlaceHead Id="1">
+                  <Type>CP20Plus</Type>
+                  <VisionSensor>
+                    <Type>SST23</Type>
+                  </VisionSensor>
+                </PlaceHead>
+              </PlaceHeads>
+              <AspHead>
+                <Type></Type>
+              </AspHead>
+            </Gantry>
+            <Gantry Id="R">
+              <MeasureHead>
+                <VisionSensor>
+                  <Type>SST34</Type>
+                </VisionSensor>
+              </MeasureHead>
+              <PlaceHeads>
+                <PlaceHead Id="1">
+                  <Type>CP20Plus</Type>
+                  <VisionSensor>
+                    <Type>SST23</Type>
+                  </VisionSensor>
+                </PlaceHead>
+              </PlaceHeads>
+              <AspHead>
+                <Type></Type>
+              </AspHead>
+            </Gantry>
+          </Gantries>
+          <DeviceLocations>
+            <DeviceLocation Id="L">
+              <Type>X4iSPosition1</Type>
+              <TapeCutter>
+                <Type>Default</Type>
+              </TapeCutter>
+            </DeviceLocation>
+            <DeviceLocation Id="R">
+              <Type>X4iSPosition1</Type>
+              <TapeCutter>
+                <Type>Default</Type>
+              </TapeCutter>
+            </DeviceLocation>
+          </DeviceLocations>
+          <StationarySensors>
+            <FC Id="L">
+              <Type></Type>
+            </FC>
+            <FC Id="R">
+              <Type></Type>
+            </FC>
+            <IC Id="L">
+              <Type></Type>
+            </IC>
+            <IC Id="R">
+              <Type></Type>
+            </IC>
+          </StationarySensors>
+          <AspLocations>
+            <AspLocation Id="L">
+              <AspMagazines>
+                <Magazine Id="2">
+                  <Type></Type>
+                </Magazine>
+                <Magazine Id="4">
+                  <Type></Type>
+                </Magazine>
+              </AspMagazines>
+            </AspLocation>
+            <AspLocation Id="R">
+              <AspMagazines>
+                <Magazine Id="2">
+                  <Type></Type>
+                </Magazine>
+                <Magazine Id="4">
+                  <Type></Type>
+                </Magazine>
+              </AspMagazines>
+            </AspLocation>
+          </AspLocations>
+        </ProcessingArea>
+      </ProcessingAreas>
+    </MachineFrame>
+  </Configuration>
+</AutoConfiguration>

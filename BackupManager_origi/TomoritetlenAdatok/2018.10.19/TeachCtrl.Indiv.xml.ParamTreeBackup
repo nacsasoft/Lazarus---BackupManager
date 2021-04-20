@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TeachCtrl Version="1.0">
+  <PackageFormTeaching>
+    <AccelerationsTeaching>
+      <Tolerance>
+        <Factors>
+          <x Individual="false">0.1</x>
+          <y Individual="false">0.1</y>
+          <phi Individual="false">0.2</phi>
+        </Factors>
+        <List/>
+      </Tolerance>
+    </AccelerationsTeaching>
+  </PackageFormTeaching>
+</TeachCtrl>

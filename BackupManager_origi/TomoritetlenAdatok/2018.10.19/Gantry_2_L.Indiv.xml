@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Gantry Id="L" Version="1.0">
+  <Individual>
+    <CalibrationDateTraversingRange>
+      <date_time>2018-Jul-04 17:17:54</date_time>
+      <counter>131751910743720000</counter>
+    </CalibrationDateTraversingRange>
+    <MinPosX>1269220</MinPosX>
+    <MaxPosX>3670593</MaxPosX>
+    <MinPosY>-1854742</MinPosY>
+    <MaxPosY>3609445</MaxPosY>
+    <YAxisMappingOffsetB Individual="false">0</YAxisMappingOffsetB>
+    <YAxisMappingOffsetG Individual="false">0</YAxisMappingOffsetG>
+    <XAxis>
+      <Distance Individual="false">0</Distance>
+      <Moves Individual="false">0</Moves>
+      <HardwareErrors Individual="false">0</HardwareErrors>
+      <ProcessErrors Individual="false">0</ProcessErrors>
+    </XAxis>
+    <YAxis>
+      <Distance Individual="false">0</Distance>
+      <Moves Individual="false">0</Moves>
+      <HardwareErrors Individual="false">0</HardwareErrors>
+      <ProcessErrors Individual="false">0</ProcessErrors>
+    </YAxis>
+    <GantryExchange>
+      <IsChangeable Individual="false">false</IsChangeable>
+      <DeviceID Individual="false">Unknown</DeviceID>
+      <ChangeMasterLocation Individual="false">1R</ChangeMasterLocation>
+      <DefaultPolynomialDegree Individual="false">8</DefaultPolynomialDegree>
+      <MaxPolynomialDegree Individual="false">9</MaxPolynomialDegree>
+      <MappingSeparationStrategy Individual="false">eSEP_NO_LINEAR_ELIMINATION</MappingSeparationStrategy>
+    </GantryExchange>
+  </Individual>
+  <Kinematics>
+    <GantryOffset>
+      <x>0.000000</x>
+      <y>0.000000</y>
+      <CalibrationDateAndTime>
+        <date_time>2018-Oct-13 17:00:37</date_time>
+        <counter>131839164378070000</counter>
+      </CalibrationDateAndTime>
+    </GantryOffset>
+  </Kinematics>
+  <AxisDataBaseOverrides>
+    <XAxis>
+      <ZeroCorrection>-1601581</ZeroCorrection>
+      <DistanceEndPositionBuffers>2423373</DistanceEndPositionBuffers>
+      <PinPickerConfiguration>LeNONE_ReNONE</PinPickerConfiguration>
+      <CalibrationDateAutoTuning>
+        <date_time Individual="false">unknown</date_time>
+        <counter Individual="false">0</counter>
+      </CalibrationDateAutoTuning>
+      <DistanceEndPositionsBuffer Individual="false">0</DistanceEndPositionsBuffer>
+    </XAxis>
+    <YAxis>
+      <CalibrationDateEncoderOffset>
+        <date_time Individual="false">unknown</date_time>
+        <counter Individual="false">0</counter>
+      </CalibrationDateEncoderOffset>
+      <OffsetEncoder Individual="false">0</OffsetEncoder>
+      <OffsetEncoderOffsetCorrectionBase Individual="false">0</OffsetEncoderOffsetCorrectionBase>
+      <OffsetEncoderOffsetCorrectionGantry Individual="false">0</OffsetEncoderOffsetCorrectionGantry>
+      <OffsetCommutation Individual="false">0</OffsetCommutation>
+      <DistanceEndPositionBuffers>5489187</DistanceEndPositionBuffers>
+      <MinDistanceGantries>1750139</MinDistanceGantries>
+      <MinDistanceGantriesHeadBuffers>LeSHORT_ReSHORT_LePOS1_RePOS1</MinDistanceGantriesHeadBuffers>
+      <ZeroCorrection>-3282608</ZeroCorrection>
+      <ZeroCorrectionHeadBuffers>LeSHORT_ReSHORT_LePOS1_RePOS1</ZeroCorrectionHeadBuffers>
+      <DistanceEndPositionsBuffer Individual="false">0</DistanceEndPositionsBuffer>
+    </YAxis>
+    <CalibrationDateSystemIdentification>
+      <date_time>2016-Jun-26 20:50:25</date_time>
+      <counter>131114406257140000</counter>
+    </CalibrationDateSystemIdentification>
+  </AxisDataBaseOverrides>
+</Gantry>

@@ -1,0 +1,1242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MappingContent version="1">
+	<GeneralData MachineIdAndFrameSerialNumber="00011311-H007" MachineType="X4i S" SwVersion="708.1.0.88" />
+	<Grid Name="MappingGrid_1" KindOfMapping="eDEFAULT_MAPPING" NrOfRows="11" NrOfColumns="14" MeshWidthX="40.000000" MeshWidthY="40.000000" Resolution="eSTANDARD_RESOLUTION" MappingMode="eDEFAULT_MODE" ContextPlainText="ePCBMAPPING" Context="1" DeviceID="Default#0000000000000000000000">
+		<CalibrationDate counter="130773553118150000" date_time="2015-May-29 08:41:51" />
+		<GridEntry Row="0" Column="0">
+			<target x="688.874977" y="-323.053781" />
+			<actual x="688.886781" y="-323.056660" />
+		</GridEntry>
+		<GridEntry Row="0" Column="1">
+			<target x="688.869234" y="-283.054782" />
+			<actual x="688.878839" y="-283.056548" />
+		</GridEntry>
+		<GridEntry Row="0" Column="2">
+			<target x="688.862490" y="-243.054782" />
+			<actual x="688.872354" y="-243.052728" />
+		</GridEntry>
+		<GridEntry Row="0" Column="3">
+			<target x="688.855746" y="-203.054783" />
+			<actual x="688.864123" y="-203.059606" />
+		</GridEntry>
+		<GridEntry Row="0" Column="4">
+			<target x="688.850002" y="-163.055783" />
+			<actual x="688.857210" y="-163.060229" />
+		</GridEntry>
+		<GridEntry Row="0" Column="5">
+			<target x="688.844258" y="-123.055784" />
+			<actual x="688.848196" y="-123.068197" />
+		</GridEntry>
+		<GridEntry Row="0" Column="6">
+			<target x="688.838514" y="-83.055784" />
+			<actual x="688.840891" y="-83.075712" />
+		</GridEntry>
+		<GridEntry Row="0" Column="7">
+			<target x="688.833770" y="-43.056784" />
+			<actual x="688.832854" y="-43.081847" />
+		</GridEntry>
+		<GridEntry Row="0" Column="8">
+			<target x="688.828026" y="-3.056785" />
+			<actual x="688.826960" y="-3.079618" />
+		</GridEntry>
+		<GridEntry Row="0" Column="9">
+			<target x="688.822282" y="36.943215" />
+			<actual x="688.819545" y="36.919280" />
+		</GridEntry>
+		<GridEntry Row="0" Column="10">
+			<target x="688.817538" y="76.942215" />
+			<actual x="688.813137" y="76.921513" />
+		</GridEntry>
+		<GridEntry Row="0" Column="11">
+			<target x="688.811794" y="116.941214" />
+			<actual x="688.806116" y="116.918812" />
+		</GridEntry>
+		<GridEntry Row="0" Column="12">
+			<target x="688.806050" y="156.941214" />
+			<actual x="688.799826" y="156.918937" />
+		</GridEntry>
+		<GridEntry Row="0" Column="13">
+			<target x="688.800307" y="196.940213" />
+			<actual x="688.791777" y="196.912092" />
+		</GridEntry>
+		<GridEntry Row="1" Column="0">
+			<target x="648.875978" y="-323.058525" />
+			<actual x="648.886723" y="-323.060222" />
+		</GridEntry>
+		<GridEntry Row="1" Column="1">
+			<target x="648.869234" y="-283.059526" />
+			<actual x="648.878791" y="-283.059155" />
+		</GridEntry>
+		<GridEntry Row="1" Column="2">
+			<target x="648.863490" y="-243.060526" />
+			<actual x="648.872276" y="-243.055981" />
+		</GridEntry>
+		<GridEntry Row="1" Column="3">
+			<target x="648.856746" y="-203.060527" />
+			<actual x="648.864243" y="-203.062494" />
+		</GridEntry>
+		<GridEntry Row="1" Column="4">
+			<target x="648.851002" y="-163.061527" />
+			<actual x="648.857551" y="-163.063506" />
+		</GridEntry>
+		<GridEntry Row="1" Column="5">
+			<target x="648.845258" y="-123.061528" />
+			<actual x="648.848086" y="-123.072007" />
+		</GridEntry>
+		<GridEntry Row="1" Column="6">
+			<target x="648.839514" y="-83.062528" />
+			<actual x="648.840300" y="-83.079292" />
+		</GridEntry>
+		<GridEntry Row="1" Column="7">
+			<target x="648.834770" y="-43.062528" />
+			<actual x="648.833304" y="-43.084759" />
+		</GridEntry>
+		<GridEntry Row="1" Column="8">
+			<target x="648.829026" y="-3.062529" />
+			<actual x="648.827204" y="-3.082648" />
+		</GridEntry>
+		<GridEntry Row="1" Column="9">
+			<target x="648.823283" y="36.936471" />
+			<actual x="648.820591" y="36.916474" />
+		</GridEntry>
+		<GridEntry Row="1" Column="10">
+			<target x="648.817539" y="76.936471" />
+			<actual x="648.813300" y="76.918502" />
+		</GridEntry>
+		<GridEntry Row="1" Column="11">
+			<target x="648.811795" y="116.935470" />
+			<actual x="648.806362" y="116.915517" />
+		</GridEntry>
+		<GridEntry Row="1" Column="12">
+			<target x="648.806051" y="156.934470" />
+			<actual x="648.799537" y="156.914588" />
+		</GridEntry>
+		<GridEntry Row="1" Column="13">
+			<target x="648.800307" y="196.934469" />
+			<actual x="648.791912" y="196.907324" />
+		</GridEntry>
+		<GridEntry Row="2" Column="0">
+			<target x="608.875978" y="-323.065269" />
+			<actual x="608.886754" y="-323.061111" />
+		</GridEntry>
+		<GridEntry Row="2" Column="1">
+			<target x="608.870234" y="-283.065270" />
+			<actual x="608.879562" y="-283.060535" />
+		</GridEntry>
+		<GridEntry Row="2" Column="2">
+			<target x="608.863490" y="-243.065270" />
+			<actual x="608.872974" y="-243.057403" />
+		</GridEntry>
+		<GridEntry Row="2" Column="3">
+			<target x="608.857746" y="-203.066271" />
+			<actual x="608.864747" y="-203.063909" />
+		</GridEntry>
+		<GridEntry Row="2" Column="4">
+			<target x="608.852003" y="-163.067271" />
+			<actual x="608.857694" y="-163.065497" />
+		</GridEntry>
+		<GridEntry Row="2" Column="5">
+			<target x="608.845259" y="-123.067272" />
+			<actual x="608.848471" y="-123.073454" />
+		</GridEntry>
+		<GridEntry Row="2" Column="6">
+			<target x="608.840515" y="-83.068272" />
+			<actual x="608.840716" y="-83.080245" />
+		</GridEntry>
+		<GridEntry Row="2" Column="7">
+			<target x="608.834771" y="-43.069272" />
+			<actual x="608.833200" y="-43.085822" />
+		</GridEntry>
+		<GridEntry Row="2" Column="8">
+			<target x="608.830027" y="-3.069272" />
+			<actual x="608.827616" y="-3.083796" />
+		</GridEntry>
+		<GridEntry Row="2" Column="9">
+			<target x="608.823283" y="36.930727" />
+			<actual x="608.819662" y="36.914945" />
+		</GridEntry>
+		<GridEntry Row="2" Column="10">
+			<target x="608.817539" y="76.929727" />
+			<actual x="608.813799" y="76.917243" />
+		</GridEntry>
+		<GridEntry Row="2" Column="11">
+			<target x="608.811795" y="116.928726" />
+			<actual x="608.806725" y="116.913478" />
+		</GridEntry>
+		<GridEntry Row="2" Column="12">
+			<target x="608.806051" y="156.928726" />
+			<actual x="608.799947" y="156.912640" />
+		</GridEntry>
+		<GridEntry Row="2" Column="13">
+			<target x="608.801307" y="196.927725" />
+			<actual x="608.792356" y="196.907296" />
+		</GridEntry>
+		<GridEntry Row="3" Column="0">
+			<target x="568.876979" y="-323.071013" />
+			<actual x="568.885886" y="-323.061812" />
+		</GridEntry>
+		<GridEntry Row="3" Column="1">
+			<target x="568.871235" y="-283.071013" />
+			<actual x="568.878855" y="-283.062641" />
+		</GridEntry>
+		<GridEntry Row="3" Column="2">
+			<target x="568.864491" y="-243.071014" />
+			<actual x="568.872702" y="-243.060618" />
+		</GridEntry>
+		<GridEntry Row="3" Column="3">
+			<target x="568.858747" y="-203.072014" />
+			<actual x="568.865068" y="-203.065874" />
+		</GridEntry>
+		<GridEntry Row="3" Column="4">
+			<target x="568.853003" y="-163.073015" />
+			<actual x="568.858365" y="-163.067754" />
+		</GridEntry>
+		<GridEntry Row="3" Column="5">
+			<target x="568.846259" y="-123.073015" />
+			<actual x="568.848844" y="-123.075877" />
+		</GridEntry>
+		<GridEntry Row="3" Column="6">
+			<target x="568.841515" y="-83.074016" />
+			<actual x="568.840971" y="-83.083032" />
+		</GridEntry>
+		<GridEntry Row="3" Column="7">
+			<target x="568.835771" y="-43.075016" />
+			<actual x="568.833477" y="-43.086591" />
+		</GridEntry>
+		<GridEntry Row="3" Column="8">
+			<target x="568.831027" y="-3.075016" />
+			<actual x="568.827699" y="-3.086250" />
+		</GridEntry>
+		<GridEntry Row="3" Column="9">
+			<target x="568.824284" y="36.923983" />
+			<actual x="568.819838" y="36.912420" />
+		</GridEntry>
+		<GridEntry Row="3" Column="10">
+			<target x="568.819540" y="76.923983" />
+			<actual x="568.813541" y="76.914460" />
+		</GridEntry>
+		<GridEntry Row="3" Column="11">
+			<target x="568.812796" y="116.922982" />
+			<actual x="568.806435" y="116.910610" />
+		</GridEntry>
+		<GridEntry Row="3" Column="12">
+			<target x="568.807052" y="156.922982" />
+			<actual x="568.799981" y="156.910283" />
+		</GridEntry>
+		<GridEntry Row="3" Column="13">
+			<target x="568.802308" y="196.921982" />
+			<actual x="568.792131" y="196.904663" />
+		</GridEntry>
+		<GridEntry Row="4" Column="0">
+			<target x="528.877979" y="-323.075757" />
+			<actual x="528.889869" y="-323.065689" />
+		</GridEntry>
+		<GridEntry Row="4" Column="1">
+			<target x="528.873235" y="-283.076757" />
+			<actual x="528.882452" y="-283.066249" />
+		</GridEntry>
+		<GridEntry Row="4" Column="2">
+			<target x="528.866491" y="-243.076758" />
+			<actual x="528.875981" y="-243.064934" />
+		</GridEntry>
+		<GridEntry Row="4" Column="3">
+			<target x="528.860747" y="-203.077758" />
+			<actual x="528.868083" y="-203.070694" />
+		</GridEntry>
+		<GridEntry Row="4" Column="4">
+			<target x="528.855003" y="-163.078759" />
+			<actual x="528.862182" y="-163.072152" />
+		</GridEntry>
+		<GridEntry Row="4" Column="5">
+			<target x="528.849259" y="-123.078759" />
+			<actual x="528.851634" y="-123.079815" />
+		</GridEntry>
+		<GridEntry Row="4" Column="6">
+			<target x="528.843516" y="-83.079759" />
+			<actual x="528.844125" y="-83.086870" />
+		</GridEntry>
+		<GridEntry Row="4" Column="7">
+			<target x="528.838772" y="-43.080760" />
+			<actual x="528.836611" y="-43.091049" />
+		</GridEntry>
+		<GridEntry Row="4" Column="8">
+			<target x="528.833028" y="-3.080760" />
+			<actual x="528.830296" y="-3.090487" />
+		</GridEntry>
+		<GridEntry Row="4" Column="9">
+			<target x="528.827284" y="36.918240" />
+			<actual x="528.822536" y="36.908131" />
+		</GridEntry>
+		<GridEntry Row="4" Column="10">
+			<target x="528.821540" y="76.918239" />
+			<actual x="528.815780" y="76.909542" />
+		</GridEntry>
+		<GridEntry Row="4" Column="11">
+			<target x="528.815796" y="116.917239" />
+			<actual x="528.808717" y="116.906581" />
+		</GridEntry>
+		<GridEntry Row="4" Column="12">
+			<target x="528.809052" y="156.916238" />
+			<actual x="528.801819" y="156.904767" />
+		</GridEntry>
+		<GridEntry Row="4" Column="13">
+			<target x="528.803308" y="196.916238" />
+			<actual x="528.792939" y="196.899586" />
+		</GridEntry>
+		<GridEntry Row="5" Column="0">
+			<target x="488.878979" y="-323.081501" />
+			<actual x="488.888167" y="-323.067583" />
+		</GridEntry>
+		<GridEntry Row="5" Column="1">
+			<target x="488.873236" y="-283.082501" />
+			<actual x="488.880481" y="-283.068390" />
+		</GridEntry>
+		<GridEntry Row="5" Column="2">
+			<target x="488.867492" y="-243.082502" />
+			<actual x="488.873875" y="-243.066731" />
+		</GridEntry>
+		<GridEntry Row="5" Column="3">
+			<target x="488.861748" y="-203.083502" />
+			<actual x="488.865711" y="-203.072943" />
+		</GridEntry>
+		<GridEntry Row="5" Column="4">
+			<target x="488.856004" y="-163.084502" />
+			<actual x="488.858925" y="-163.074312" />
+		</GridEntry>
+		<GridEntry Row="5" Column="5">
+			<target x="488.850260" y="-123.085503" />
+			<actual x="488.849372" y="-123.080996" />
+		</GridEntry>
+		<GridEntry Row="5" Column="6">
+			<target x="488.844516" y="-83.085503" />
+			<actual x="488.841530" y="-83.087555" />
+		</GridEntry>
+		<GridEntry Row="5" Column="7">
+			<target x="488.838772" y="-43.086504" />
+			<actual x="488.833952" y="-43.092481" />
+		</GridEntry>
+		<GridEntry Row="5" Column="8">
+			<target x="488.834028" y="-3.086504" />
+			<actual x="488.827646" y="-3.092418" />
+		</GridEntry>
+		<GridEntry Row="5" Column="9">
+			<target x="488.827284" y="36.912496" />
+			<actual x="488.819530" y="36.906591" />
+		</GridEntry>
+		<GridEntry Row="5" Column="10">
+			<target x="488.821541" y="76.911495" />
+			<actual x="488.812776" y="76.908021" />
+		</GridEntry>
+		<GridEntry Row="5" Column="11">
+			<target x="488.815797" y="116.911495" />
+			<actual x="488.805344" y="116.904775" />
+		</GridEntry>
+		<GridEntry Row="5" Column="12">
+			<target x="488.810053" y="156.910494" />
+			<actual x="488.798100" y="156.903167" />
+		</GridEntry>
+		<GridEntry Row="5" Column="13">
+			<target x="488.804309" y="196.909494" />
+			<actual x="488.789338" y="196.898596" />
+		</GridEntry>
+		<GridEntry Row="6" Column="0">
+			<target x="448.879980" y="-323.087245" />
+			<actual x="448.888157" y="-323.071445" />
+		</GridEntry>
+		<GridEntry Row="6" Column="1">
+			<target x="448.874236" y="-283.088245" />
+			<actual x="448.880710" y="-283.072668" />
+		</GridEntry>
+		<GridEntry Row="6" Column="2">
+			<target x="448.868492" y="-243.088245" />
+			<actual x="448.873715" y="-243.071464" />
+		</GridEntry>
+		<GridEntry Row="6" Column="3">
+			<target x="448.861748" y="-203.089246" />
+			<actual x="448.865731" y="-203.076917" />
+		</GridEntry>
+		<GridEntry Row="6" Column="4">
+			<target x="448.856004" y="-163.090246" />
+			<actual x="448.858533" y="-163.078817" />
+		</GridEntry>
+		<GridEntry Row="6" Column="5">
+			<target x="448.850260" y="-123.091247" />
+			<actual x="448.848972" y="-123.085370" />
+		</GridEntry>
+		<GridEntry Row="6" Column="6">
+			<target x="448.844516" y="-83.091247" />
+			<actual x="448.840800" y="-83.091525" />
+		</GridEntry>
+		<GridEntry Row="6" Column="7">
+			<target x="448.839773" y="-43.092247" />
+			<actual x="448.833094" y="-43.095485" />
+		</GridEntry>
+		<GridEntry Row="6" Column="8">
+			<target x="448.834029" y="-3.093248" />
+			<actual x="448.827065" y="-3.095436" />
+		</GridEntry>
+		<GridEntry Row="6" Column="9">
+			<target x="448.827285" y="36.906752" />
+			<actual x="448.819395" y="36.903429" />
+		</GridEntry>
+		<GridEntry Row="6" Column="10">
+			<target x="448.821541" y="76.905751" />
+			<actual x="448.813534" y="76.904509" />
+		</GridEntry>
+		<GridEntry Row="6" Column="11">
+			<target x="448.815797" y="116.904751" />
+			<actual x="448.804728" y="116.900912" />
+		</GridEntry>
+		<GridEntry Row="6" Column="12">
+			<target x="448.810053" y="156.904750" />
+			<actual x="448.798396" y="156.899268" />
+		</GridEntry>
+		<GridEntry Row="6" Column="13">
+			<target x="448.804309" y="196.903750" />
+			<actual x="448.789263" y="196.894965" />
+		</GridEntry>
+		<GridEntry Row="7" Column="0">
+			<target x="408.880980" y="-323.093988" />
+			<actual x="408.889623" y="-323.075886" />
+		</GridEntry>
+		<GridEntry Row="7" Column="1">
+			<target x="408.876236" y="-283.093989" />
+			<actual x="408.882482" y="-283.076871" />
+		</GridEntry>
+		<GridEntry Row="7" Column="2">
+			<target x="408.869492" y="-243.094989" />
+			<actual x="408.876675" y="-243.076592" />
+		</GridEntry>
+		<GridEntry Row="7" Column="3">
+			<target x="408.863749" y="-203.094990" />
+			<actual x="408.867910" y="-203.080757" />
+		</GridEntry>
+		<GridEntry Row="7" Column="4">
+			<target x="408.858005" y="-163.095990" />
+			<actual x="408.860916" y="-163.083652" />
+		</GridEntry>
+		<GridEntry Row="7" Column="5">
+			<target x="408.852261" y="-123.096990" />
+			<actual x="408.851424" y="-123.088421" />
+		</GridEntry>
+		<GridEntry Row="7" Column="6">
+			<target x="408.846517" y="-83.097991" />
+			<actual x="408.843218" y="-83.095074" />
+		</GridEntry>
+		<GridEntry Row="7" Column="7">
+			<target x="408.841773" y="-43.097991" />
+			<actual x="408.835676" y="-43.098851" />
+		</GridEntry>
+		<GridEntry Row="7" Column="8">
+			<target x="408.836029" y="-3.097992" />
+			<actual x="408.829542" y="-3.099941" />
+		</GridEntry>
+		<GridEntry Row="7" Column="9">
+			<target x="408.829285" y="36.901008" />
+			<actual x="408.821780" y="36.899764" />
+		</GridEntry>
+		<GridEntry Row="7" Column="10">
+			<target x="408.824541" y="76.900008" />
+			<actual x="408.814868" y="76.900060" />
+		</GridEntry>
+		<GridEntry Row="7" Column="11">
+			<target x="408.817798" y="116.899007" />
+			<actual x="408.806707" y="116.896511" />
+		</GridEntry>
+		<GridEntry Row="7" Column="12">
+			<target x="408.812054" y="156.899007" />
+			<actual x="408.801368" y="156.895506" />
+		</GridEntry>
+		<GridEntry Row="7" Column="13">
+			<target x="408.806310" y="196.898006" />
+			<actual x="408.791838" y="196.891378" />
+		</GridEntry>
+		<GridEntry Row="8" Column="0">
+			<target x="368.882981" y="-323.099732" />
+			<actual x="368.891881" y="-323.078099" />
+		</GridEntry>
+		<GridEntry Row="8" Column="1">
+			<target x="368.877237" y="-283.100732" />
+			<actual x="368.885419" y="-283.078817" />
+		</GridEntry>
+		<GridEntry Row="8" Column="2">
+			<target x="368.872493" y="-243.100733" />
+			<actual x="368.878900" y="-243.078870" />
+		</GridEntry>
+		<GridEntry Row="8" Column="3">
+			<target x="368.866749" y="-203.101733" />
+			<actual x="368.871163" y="-203.083861" />
+		</GridEntry>
+		<GridEntry Row="8" Column="4">
+			<target x="368.861005" y="-163.101734" />
+			<actual x="368.864026" y="-163.085386" />
+		</GridEntry>
+		<GridEntry Row="8" Column="5">
+			<target x="368.854261" y="-123.102734" />
+			<actual x="368.854864" y="-123.089807" />
+		</GridEntry>
+		<GridEntry Row="8" Column="6">
+			<target x="368.849517" y="-83.103734" />
+			<actual x="368.846758" y="-83.096499" />
+		</GridEntry>
+		<GridEntry Row="8" Column="7">
+			<target x="368.843773" y="-43.103735" />
+			<actual x="368.838458" y="-43.100035" />
+		</GridEntry>
+		<GridEntry Row="8" Column="8">
+			<target x="368.838030" y="-3.104735" />
+			<actual x="368.832383" y="-3.101531" />
+		</GridEntry>
+		<GridEntry Row="8" Column="9">
+			<target x="368.832286" y="36.895264" />
+			<actual x="368.824929" y="36.898124" />
+		</GridEntry>
+		<GridEntry Row="8" Column="10">
+			<target x="368.826542" y="76.894264" />
+			<actual x="368.817793" y="76.897463" />
+		</GridEntry>
+		<GridEntry Row="8" Column="11">
+			<target x="368.819798" y="116.893263" />
+			<actual x="368.809891" y="116.894686" />
+		</GridEntry>
+		<GridEntry Row="8" Column="12">
+			<target x="368.814054" y="156.893263" />
+			<actual x="368.803822" y="156.893284" />
+		</GridEntry>
+		<GridEntry Row="8" Column="13">
+			<target x="368.808310" y="196.892263" />
+			<actual x="368.795392" y="196.888707" />
+		</GridEntry>
+		<GridEntry Row="9" Column="0">
+			<target x="328.882981" y="-323.105476" />
+			<actual x="328.896183" y="-323.083304" />
+		</GridEntry>
+		<GridEntry Row="9" Column="1">
+			<target x="328.877237" y="-283.106476" />
+			<actual x="328.889201" y="-283.084693" />
+		</GridEntry>
+		<GridEntry Row="9" Column="2">
+			<target x="328.872493" y="-243.107477" />
+			<actual x="328.883088" y="-243.084770" />
+		</GridEntry>
+		<GridEntry Row="9" Column="3">
+			<target x="328.866749" y="-203.107477" />
+			<actual x="328.875184" y="-203.088694" />
+		</GridEntry>
+		<GridEntry Row="9" Column="4">
+			<target x="328.861006" y="-163.108478" />
+			<actual x="328.868231" y="-163.090750" />
+		</GridEntry>
+		<GridEntry Row="9" Column="5">
+			<target x="328.854262" y="-123.108478" />
+			<actual x="328.859364" y="-123.095919" />
+		</GridEntry>
+		<GridEntry Row="9" Column="6">
+			<target x="328.849518" y="-83.109478" />
+			<actual x="328.851174" y="-83.100814" />
+		</GridEntry>
+		<GridEntry Row="9" Column="7">
+			<target x="328.843774" y="-43.109479" />
+			<actual x="328.842974" y="-43.103984" />
+		</GridEntry>
+		<GridEntry Row="9" Column="8">
+			<target x="328.838030" y="-3.110479" />
+			<actual x="328.836360" y="-3.106162" />
+		</GridEntry>
+		<GridEntry Row="9" Column="9">
+			<target x="328.831286" y="36.889520" />
+			<actual x="328.828707" y="36.893649" />
+		</GridEntry>
+		<GridEntry Row="9" Column="10">
+			<target x="328.825542" y="76.888520" />
+			<actual x="328.821885" y="76.892454" />
+		</GridEntry>
+		<GridEntry Row="9" Column="11">
+			<target x="328.819798" y="116.887519" />
+			<actual x="328.813739" y="116.889597" />
+		</GridEntry>
+		<GridEntry Row="9" Column="12">
+			<target x="328.814054" y="156.887519" />
+			<actual x="328.807451" y="156.888196" />
+		</GridEntry>
+		<GridEntry Row="9" Column="13">
+			<target x="328.807311" y="196.886518" />
+			<actual x="328.798275" y="196.883732" />
+		</GridEntry>
+		<GridEntry Row="10" Column="0">
+			<target x="288.882982" y="-323.112220" />
+			<actual x="288.900083" y="-323.087427" />
+		</GridEntry>
+		<GridEntry Row="10" Column="1">
+			<target x="288.878238" y="-283.113220" />
+			<actual x="288.892694" y="-283.088597" />
+		</GridEntry>
+		<GridEntry Row="10" Column="2">
+			<target x="288.872494" y="-243.113221" />
+			<actual x="288.886385" y="-243.088954" />
+		</GridEntry>
+		<GridEntry Row="10" Column="3">
+			<target x="288.866750" y="-203.113221" />
+			<actual x="288.878356" y="-203.092291" />
+		</GridEntry>
+		<GridEntry Row="10" Column="4">
+			<target x="288.861006" y="-163.114222" />
+			<actual x="288.871758" y="-163.094823" />
+		</GridEntry>
+		<GridEntry Row="10" Column="5">
+			<target x="288.854262" y="-123.114222" />
+			<actual x="288.862514" y="-123.099014" />
+		</GridEntry>
+		<GridEntry Row="10" Column="6">
+			<target x="288.849518" y="-83.115222" />
+			<actual x="288.854440" y="-83.104787" />
+		</GridEntry>
+		<GridEntry Row="10" Column="7">
+			<target x="288.843774" y="-43.115223" />
+			<actual x="288.845858" y="-43.107293" />
+		</GridEntry>
+		<GridEntry Row="10" Column="8">
+			<target x="288.838030" y="-3.115223" />
+			<actual x="288.839818" y="-3.109163" />
+		</GridEntry>
+		<GridEntry Row="10" Column="9">
+			<target x="288.832286" y="36.883776" />
+			<actual x="288.832060" y="36.889989" />
+		</GridEntry>
+		<GridEntry Row="10" Column="10">
+			<target x="288.826543" y="76.882776" />
+			<actual x="288.825402" y="76.888992" />
+		</GridEntry>
+		<GridEntry Row="10" Column="11">
+			<target x="288.819799" y="116.881775" />
+			<actual x="288.816572" y="116.886228" />
+		</GridEntry>
+		<GridEntry Row="10" Column="12">
+			<target x="288.814055" y="156.881775" />
+			<actual x="288.810209" y="156.884538" />
+		</GridEntry>
+		<GridEntry Row="10" Column="13">
+			<target x="288.808311" y="196.880775" />
+			<actual x="288.800845" y="196.881003" />
+		</GridEntry>
+	</Grid>
+	<Grid Name="MappingGrid_2" KindOfMapping="eDEFAULT_MAPPING" NrOfRows="11" NrOfColumns="14" MeshWidthX="40.000000" MeshWidthY="40.000000" Resolution="eSTANDARD_RESOLUTION" MappingMode="eDEFAULT_MODE" ContextPlainText="ePCBMAPPING" Context="1" DeviceID="Default#0000000000000000000000">
+		<CalibrationDate counter="130773576038090000" date_time="2015-May-29 09:20:03" />
+		<GridEntry Row="0" Column="0">
+			<target x="688.559187" y="-196.149185" />
+			<actual x="688.573208" y="-196.145253" />
+		</GridEntry>
+		<GridEntry Row="0" Column="1">
+			<target x="688.552633" y="-156.150186" />
+			<actual x="688.563384" y="-156.150531" />
+		</GridEntry>
+		<GridEntry Row="0" Column="2">
+			<target x="688.545078" y="-116.150187" />
+			<actual x="688.553266" y="-116.157264" />
+		</GridEntry>
+		<GridEntry Row="0" Column="3">
+			<target x="688.537523" y="-76.150187" />
+			<actual x="688.544209" y="-76.165126" />
+		</GridEntry>
+		<GridEntry Row="0" Column="4">
+			<target x="688.530969" y="-36.151188" />
+			<actual x="688.536778" y="-36.166338" />
+		</GridEntry>
+		<GridEntry Row="0" Column="5">
+			<target x="688.524414" y="3.848812" />
+			<actual x="688.528789" y="3.832672" />
+		</GridEntry>
+		<GridEntry Row="0" Column="6">
+			<target x="688.517860" y="43.848811" />
+			<actual x="688.521099" y="43.835156" />
+		</GridEntry>
+		<GridEntry Row="0" Column="7">
+			<target x="688.512305" y="83.847811" />
+			<actual x="688.512629" y="83.832468" />
+		</GridEntry>
+		<GridEntry Row="0" Column="8">
+			<target x="688.505751" y="123.847810" />
+			<actual x="688.505594" y="123.833747" />
+		</GridEntry>
+		<GridEntry Row="0" Column="9">
+			<target x="688.499196" y="163.847810" />
+			<actual x="688.498125" y="163.829208" />
+		</GridEntry>
+		<GridEntry Row="0" Column="10">
+			<target x="688.493642" y="203.846809" />
+			<actual x="688.489712" y="203.825311" />
+		</GridEntry>
+		<GridEntry Row="0" Column="11">
+			<target x="688.487087" y="243.845809" />
+			<actual x="688.480548" y="243.818926" />
+		</GridEntry>
+		<GridEntry Row="0" Column="12">
+			<target x="688.480533" y="283.845808" />
+			<actual x="688.471121" y="283.817658" />
+		</GridEntry>
+		<GridEntry Row="0" Column="13">
+			<target x="688.473978" y="323.844808" />
+			<actual x="688.463369" y="323.813485" />
+		</GridEntry>
+		<GridEntry Row="1" Column="0">
+			<target x="648.560187" y="-196.154740" />
+			<actual x="648.573169" y="-196.149562" />
+		</GridEntry>
+		<GridEntry Row="1" Column="1">
+			<target x="648.552633" y="-156.155741" />
+			<actual x="648.563791" y="-156.154666" />
+		</GridEntry>
+		<GridEntry Row="1" Column="2">
+			<target x="648.546079" y="-116.156741" />
+			<actual x="648.553851" y="-116.160925" />
+		</GridEntry>
+		<GridEntry Row="1" Column="3">
+			<target x="648.538524" y="-76.156742" />
+			<actual x="648.544826" y="-76.168096" />
+		</GridEntry>
+		<GridEntry Row="1" Column="4">
+			<target x="648.531970" y="-36.157742" />
+			<actual x="648.537317" y="-36.170039" />
+		</GridEntry>
+		<GridEntry Row="1" Column="5">
+			<target x="648.525415" y="3.842257" />
+			<actual x="648.529021" y="3.828676" />
+		</GridEntry>
+		<GridEntry Row="1" Column="6">
+			<target x="648.518861" y="43.841257" />
+			<actual x="648.521361" y="43.831002" />
+		</GridEntry>
+		<GridEntry Row="1" Column="7">
+			<target x="648.513306" y="83.841256" />
+			<actual x="648.512880" y="83.828551" />
+		</GridEntry>
+		<GridEntry Row="1" Column="8">
+			<target x="648.506751" y="123.841256" />
+			<actual x="648.505803" y="123.828281" />
+		</GridEntry>
+		<GridEntry Row="1" Column="9">
+			<target x="648.500197" y="163.840255" />
+			<actual x="648.498344" y="163.826253" />
+		</GridEntry>
+		<GridEntry Row="1" Column="10">
+			<target x="648.493642" y="203.840255" />
+			<actual x="648.490013" y="203.821738" />
+		</GridEntry>
+		<GridEntry Row="1" Column="11">
+			<target x="648.487088" y="243.839254" />
+			<actual x="648.480891" y="243.816127" />
+		</GridEntry>
+		<GridEntry Row="1" Column="12">
+			<target x="648.480534" y="283.838254" />
+			<actual x="648.472126" y="283.814384" />
+		</GridEntry>
+		<GridEntry Row="1" Column="13">
+			<target x="648.473979" y="323.838253" />
+			<actual x="648.463465" y="323.811381" />
+		</GridEntry>
+		<GridEntry Row="2" Column="0">
+			<target x="608.560188" y="-196.162294" />
+			<actual x="608.573292" y="-196.152043" />
+		</GridEntry>
+		<GridEntry Row="2" Column="1">
+			<target x="608.553634" y="-156.162295" />
+			<actual x="608.563742" y="-156.156977" />
+		</GridEntry>
+		<GridEntry Row="2" Column="2">
+			<target x="608.546079" y="-116.162296" />
+			<actual x="608.554697" y="-116.162942" />
+		</GridEntry>
+		<GridEntry Row="2" Column="3">
+			<target x="608.539525" y="-76.163296" />
+			<actual x="608.545149" y="-76.170359" />
+		</GridEntry>
+		<GridEntry Row="2" Column="4">
+			<target x="608.532970" y="-36.164297" />
+			<actual x="608.537496" y="-36.171952" />
+		</GridEntry>
+		<GridEntry Row="2" Column="5">
+			<target x="608.525416" y="3.835703" />
+			<actual x="608.529610" y="3.826581" />
+		</GridEntry>
+		<GridEntry Row="2" Column="6">
+			<target x="608.519861" y="43.834702" />
+			<actual x="608.521891" y="43.828580" />
+		</GridEntry>
+		<GridEntry Row="2" Column="7">
+			<target x="608.513307" y="83.833702" />
+			<actual x="608.512962" y="83.825812" />
+		</GridEntry>
+		<GridEntry Row="2" Column="8">
+			<target x="608.507752" y="123.833701" />
+			<actual x="608.505469" y="123.825358" />
+		</GridEntry>
+		<GridEntry Row="2" Column="9">
+			<target x="608.500197" y="163.833701" />
+			<actual x="608.497926" y="163.823445" />
+		</GridEntry>
+		<GridEntry Row="2" Column="10">
+			<target x="608.493643" y="203.832700" />
+			<actual x="608.489753" y="203.819467" />
+		</GridEntry>
+		<GridEntry Row="2" Column="11">
+			<target x="608.487089" y="243.831699" />
+			<actual x="608.480430" y="243.814061" />
+		</GridEntry>
+		<GridEntry Row="2" Column="12">
+			<target x="608.480534" y="283.831699" />
+			<actual x="608.472065" y="283.811710" />
+		</GridEntry>
+		<GridEntry Row="2" Column="13">
+			<target x="608.474980" y="323.830699" />
+			<actual x="608.463750" y="323.808713" />
+		</GridEntry>
+		<GridEntry Row="3" Column="0">
+			<target x="568.561189" y="-196.168849" />
+			<actual x="568.572924" y="-196.154911" />
+		</GridEntry>
+		<GridEntry Row="3" Column="1">
+			<target x="568.554634" y="-156.168849" />
+			<actual x="568.564257" y="-156.159505" />
+		</GridEntry>
+		<GridEntry Row="3" Column="2">
+			<target x="568.547080" y="-116.168850" />
+			<actual x="568.555039" y="-116.165498" />
+		</GridEntry>
+		<GridEntry Row="3" Column="3">
+			<target x="568.540525" y="-76.169851" />
+			<actual x="568.545152" y="-76.172578" />
+		</GridEntry>
+		<GridEntry Row="3" Column="4">
+			<target x="568.533971" y="-36.170851" />
+			<actual x="568.537683" y="-36.174653" />
+		</GridEntry>
+		<GridEntry Row="3" Column="5">
+			<target x="568.526416" y="3.829148" />
+			<actual x="568.529513" y="3.822985" />
+		</GridEntry>
+		<GridEntry Row="3" Column="6">
+			<target x="568.520862" y="43.828148" />
+			<actual x="568.522016" y="43.826071" />
+		</GridEntry>
+		<GridEntry Row="3" Column="7">
+			<target x="568.514307" y="83.827147" />
+			<actual x="568.513430" y="83.822192" />
+		</GridEntry>
+		<GridEntry Row="3" Column="8">
+			<target x="568.508753" y="123.827147" />
+			<actual x="568.505896" y="123.822947" />
+		</GridEntry>
+		<GridEntry Row="3" Column="9">
+			<target x="568.501198" y="163.826146" />
+			<actual x="568.498177" y="163.818998" />
+		</GridEntry>
+		<GridEntry Row="3" Column="10">
+			<target x="568.495644" y="203.826146" />
+			<actual x="568.489785" y="203.816381" />
+		</GridEntry>
+		<GridEntry Row="3" Column="11">
+			<target x="568.488089" y="243.825145" />
+			<actual x="568.480626" y="243.810585" />
+		</GridEntry>
+		<GridEntry Row="3" Column="12">
+			<target x="568.481535" y="283.825144" />
+			<actual x="568.472033" y="283.808485" />
+		</GridEntry>
+		<GridEntry Row="3" Column="13">
+			<target x="568.475980" y="323.824144" />
+			<actual x="568.464164" y="323.805332" />
+		</GridEntry>
+		<GridEntry Row="4" Column="0">
+			<target x="528.562189" y="-196.174403" />
+			<actual x="528.575007" y="-196.159996" />
+		</GridEntry>
+		<GridEntry Row="4" Column="1">
+			<target x="528.556635" y="-156.175404" />
+			<actual x="528.566570" y="-156.164373" />
+		</GridEntry>
+		<GridEntry Row="4" Column="2">
+			<target x="528.549080" y="-116.175404" />
+			<actual x="528.557092" y="-116.170146" />
+		</GridEntry>
+		<GridEntry Row="4" Column="3">
+			<target x="528.542526" y="-76.176405" />
+			<actual x="528.547736" y="-76.176954" />
+		</GridEntry>
+		<GridEntry Row="4" Column="4">
+			<target x="528.535971" y="-36.177405" />
+			<actual x="528.540355" y="-36.178833" />
+		</GridEntry>
+		<GridEntry Row="4" Column="5">
+			<target x="528.529417" y="3.822594" />
+			<actual x="528.532508" y="3.818553" />
+		</GridEntry>
+		<GridEntry Row="4" Column="6">
+			<target x="528.522862" y="43.821593" />
+			<actual x="528.525259" y="43.820538" />
+		</GridEntry>
+		<GridEntry Row="4" Column="7">
+			<target x="528.517308" y="83.820593" />
+			<actual x="528.517791" y="83.818112" />
+		</GridEntry>
+		<GridEntry Row="4" Column="8">
+			<target x="528.510753" y="123.820593" />
+			<actual x="528.509007" y="123.817850" />
+		</GridEntry>
+		<GridEntry Row="4" Column="9">
+			<target x="528.504199" y="163.819592" />
+			<actual x="528.501023" y="163.814747" />
+		</GridEntry>
+		<GridEntry Row="4" Column="10">
+			<target x="528.497644" y="203.819591" />
+			<actual x="528.492805" y="203.811701" />
+		</GridEntry>
+		<GridEntry Row="4" Column="11">
+			<target x="528.491090" y="243.818591" />
+			<actual x="528.483146" y="243.806371" />
+		</GridEntry>
+		<GridEntry Row="4" Column="12">
+			<target x="528.483535" y="283.817590" />
+			<actual x="528.474361" y="283.803247" />
+		</GridEntry>
+		<GridEntry Row="4" Column="13">
+			<target x="528.476981" y="323.817590" />
+			<actual x="528.465632" y="323.799607" />
+		</GridEntry>
+		<GridEntry Row="5" Column="0">
+			<target x="488.563190" y="-196.180958" />
+			<actual x="488.573424" y="-196.162999" />
+		</GridEntry>
+		<GridEntry Row="5" Column="1">
+			<target x="488.556635" y="-156.181958" />
+			<actual x="488.564108" y="-156.166910" />
+		</GridEntry>
+		<GridEntry Row="5" Column="2">
+			<target x="488.550081" y="-116.181959" />
+			<actual x="488.554703" y="-116.172618" />
+		</GridEntry>
+		<GridEntry Row="5" Column="3">
+			<target x="488.543526" y="-76.182959" />
+			<actual x="488.545553" y="-76.178483" />
+		</GridEntry>
+		<GridEntry Row="5" Column="4">
+			<target x="488.536972" y="-36.183960" />
+			<actual x="488.538065" y="-36.180747" />
+		</GridEntry>
+		<GridEntry Row="5" Column="5">
+			<target x="488.530417" y="3.815040" />
+			<actual x="488.529972" y="3.817174" />
+		</GridEntry>
+		<GridEntry Row="5" Column="6">
+			<target x="488.523863" y="43.815039" />
+			<actual x="488.522639" y="43.818628" />
+		</GridEntry>
+		<GridEntry Row="5" Column="7">
+			<target x="488.517308" y="83.814038" />
+			<actual x="488.513746" y="83.815336" />
+		</GridEntry>
+		<GridEntry Row="5" Column="8">
+			<target x="488.511754" y="123.814038" />
+			<actual x="488.506351" y="123.815134" />
+		</GridEntry>
+		<GridEntry Row="5" Column="9">
+			<target x="488.504199" y="163.813037" />
+			<actual x="488.498582" y="163.812807" />
+		</GridEntry>
+		<GridEntry Row="5" Column="10">
+			<target x="488.497645" y="203.812037" />
+			<actual x="488.489947" y="203.808636" />
+		</GridEntry>
+		<GridEntry Row="5" Column="11">
+			<target x="488.491090" y="243.812036" />
+			<actual x="488.479746" y="243.803272" />
+		</GridEntry>
+		<GridEntry Row="5" Column="12">
+			<target x="488.484536" y="283.811036" />
+			<actual x="488.470957" y="283.801811" />
+		</GridEntry>
+		<GridEntry Row="5" Column="13">
+			<target x="488.477981" y="323.810035" />
+			<actual x="488.461645" y="323.798701" />
+		</GridEntry>
+		<GridEntry Row="6" Column="0">
+			<target x="448.564190" y="-196.187512" />
+			<actual x="448.573700" y="-196.168206" />
+		</GridEntry>
+		<GridEntry Row="6" Column="1">
+			<target x="448.557636" y="-156.188513" />
+			<actual x="448.564113" y="-156.172957" />
+		</GridEntry>
+		<GridEntry Row="6" Column="2">
+			<target x="448.551081" y="-116.188513" />
+			<actual x="448.554646" y="-116.178604" />
+		</GridEntry>
+		<GridEntry Row="6" Column="3">
+			<target x="448.543527" y="-76.189514" />
+			<actual x="448.545277" y="-76.184088" />
+		</GridEntry>
+		<GridEntry Row="6" Column="4">
+			<target x="448.536972" y="-36.190514" />
+			<actual x="448.537629" y="-36.185729" />
+		</GridEntry>
+		<GridEntry Row="6" Column="5">
+			<target x="448.530418" y="3.808485" />
+			<actual x="448.529742" y="3.812421" />
+		</GridEntry>
+		<GridEntry Row="6" Column="6">
+			<target x="448.523863" y="43.808484" />
+			<actual x="448.522243" y="43.813344" />
+		</GridEntry>
+		<GridEntry Row="6" Column="7">
+			<target x="448.518309" y="83.807484" />
+			<actual x="448.513608" y="83.810233" />
+		</GridEntry>
+		<GridEntry Row="6" Column="8">
+			<target x="448.511754" y="123.806484" />
+			<actual x="448.506190" y="123.810180" />
+		</GridEntry>
+		<GridEntry Row="6" Column="9">
+			<target x="448.504200" y="163.806483" />
+			<actual x="448.498331" y="163.807968" />
+		</GridEntry>
+		<GridEntry Row="6" Column="10">
+			<target x="448.497645" y="203.805482" />
+			<actual x="448.490124" y="203.804425" />
+		</GridEntry>
+		<GridEntry Row="6" Column="11">
+			<target x="448.491091" y="243.804482" />
+			<actual x="448.479801" y="243.799258" />
+		</GridEntry>
+		<GridEntry Row="6" Column="12">
+			<target x="448.484536" y="283.804481" />
+			<actual x="448.470906" y="283.797107" />
+		</GridEntry>
+		<GridEntry Row="6" Column="13">
+			<target x="448.477982" y="323.803481" />
+			<actual x="448.461626" y="323.795194" />
+		</GridEntry>
+		<GridEntry Row="7" Column="0">
+			<target x="408.565191" y="-196.195067" />
+			<actual x="408.575499" y="-196.172969" />
+		</GridEntry>
+		<GridEntry Row="7" Column="1">
+			<target x="408.559636" y="-156.195067" />
+			<actual x="408.566385" y="-156.177440" />
+		</GridEntry>
+		<GridEntry Row="7" Column="2">
+			<target x="408.552082" y="-116.196068" />
+			<actual x="408.556044" y="-116.182978" />
+		</GridEntry>
+		<GridEntry Row="7" Column="3">
+			<target x="408.545527" y="-76.196068" />
+			<actual x="408.548336" y="-76.187894" />
+		</GridEntry>
+		<GridEntry Row="7" Column="4">
+			<target x="408.538973" y="-36.197069" />
+			<actual x="408.540348" y="-36.189817" />
+		</GridEntry>
+		<GridEntry Row="7" Column="5">
+			<target x="408.532418" y="3.801931" />
+			<actual x="408.532188" y="3.809395" />
+		</GridEntry>
+		<GridEntry Row="7" Column="6">
+			<target x="408.525864" y="43.800930" />
+			<actual x="408.524185" y="43.808739" />
+		</GridEntry>
+		<GridEntry Row="7" Column="7">
+			<target x="408.520309" y="83.800930" />
+			<actual x="408.515633" y="83.805510" />
+		</GridEntry>
+		<GridEntry Row="7" Column="8">
+			<target x="408.513755" y="123.800929" />
+			<actual x="408.508226" y="123.805094" />
+		</GridEntry>
+		<GridEntry Row="7" Column="9">
+			<target x="408.506200" y="163.799929" />
+			<actual x="408.500384" y="163.803037" />
+		</GridEntry>
+		<GridEntry Row="7" Column="10">
+			<target x="408.500646" y="203.798928" />
+			<actual x="408.492148" y="203.799769" />
+		</GridEntry>
+		<GridEntry Row="7" Column="11">
+			<target x="408.493091" y="243.797927" />
+			<actual x="408.481997" y="243.794266" />
+		</GridEntry>
+		<GridEntry Row="7" Column="12">
+			<target x="408.486537" y="283.797927" />
+			<actual x="408.473332" y="283.792771" />
+		</GridEntry>
+		<GridEntry Row="7" Column="13">
+			<target x="408.479982" y="323.796926" />
+			<actual x="408.465017" y="323.791390" />
+		</GridEntry>
+		<GridEntry Row="8" Column="0">
+			<target x="368.567191" y="-196.201621" />
+			<actual x="368.577105" y="-196.177774" />
+		</GridEntry>
+		<GridEntry Row="8" Column="1">
+			<target x="368.560637" y="-156.202621" />
+			<actual x="368.568985" y="-156.180754" />
+		</GridEntry>
+		<GridEntry Row="8" Column="2">
+			<target x="368.555082" y="-116.202622" />
+			<actual x="368.560307" y="-116.185571" />
+		</GridEntry>
+		<GridEntry Row="8" Column="3">
+			<target x="368.548528" y="-76.203622" />
+			<actual x="368.551243" y="-76.190302" />
+		</GridEntry>
+		<GridEntry Row="8" Column="4">
+			<target x="368.541973" y="-36.203623" />
+			<actual x="368.543800" y="-36.191928" />
+		</GridEntry>
+		<GridEntry Row="8" Column="5">
+			<target x="368.534419" y="3.795376" />
+			<actual x="368.536160" y="3.805241" />
+		</GridEntry>
+		<GridEntry Row="8" Column="6">
+			<target x="368.528864" y="43.794376" />
+			<actual x="368.527658" y="43.806096" />
+		</GridEntry>
+		<GridEntry Row="8" Column="7">
+			<target x="368.522310" y="83.794376" />
+			<actual x="368.518984" y="83.803234" />
+		</GridEntry>
+		<GridEntry Row="8" Column="8">
+			<target x="368.515755" y="123.793375" />
+			<actual x="368.511026" y="123.801283" />
+		</GridEntry>
+		<GridEntry Row="8" Column="9">
+			<target x="368.509201" y="163.793374" />
+			<actual x="368.503218" y="163.799746" />
+		</GridEntry>
+		<GridEntry Row="8" Column="10">
+			<target x="368.502646" y="203.792374" />
+			<actual x="368.494725" y="203.796818" />
+		</GridEntry>
+		<GridEntry Row="8" Column="11">
+			<target x="368.495092" y="243.791373" />
+			<actual x="368.484833" y="243.791836" />
+		</GridEntry>
+		<GridEntry Row="8" Column="12">
+			<target x="368.488537" y="283.791373" />
+			<actual x="368.476262" y="283.790329" />
+		</GridEntry>
+		<GridEntry Row="8" Column="13">
+			<target x="368.481983" y="323.790372" />
+			<actual x="368.467877" y="323.787313" />
+		</GridEntry>
+		<GridEntry Row="9" Column="0">
+			<target x="328.567192" y="-196.208175" />
+			<actual x="328.581635" y="-196.184694" />
+		</GridEntry>
+		<GridEntry Row="9" Column="1">
+			<target x="328.560638" y="-156.209176" />
+			<actual x="328.572574" y="-156.186764" />
+		</GridEntry>
+		<GridEntry Row="9" Column="2">
+			<target x="328.555083" y="-116.210176" />
+			<actual x="328.563208" y="-116.192139" />
+		</GridEntry>
+		<GridEntry Row="9" Column="3">
+			<target x="328.548528" y="-76.210177" />
+			<actual x="328.554510" y="-76.196181" />
+		</GridEntry>
+		<GridEntry Row="9" Column="4">
+			<target x="328.541974" y="-36.211177" />
+			<actual x="328.547235" y="-36.198620" />
+		</GridEntry>
+		<GridEntry Row="9" Column="5">
+			<target x="328.534419" y="3.788822" />
+			<actual x="328.539167" y="3.799474" />
+		</GridEntry>
+		<GridEntry Row="9" Column="6">
+			<target x="328.528865" y="43.787821" />
+			<actual x="328.530979" y="43.799607" />
+		</GridEntry>
+		<GridEntry Row="9" Column="7">
+			<target x="328.522310" y="83.787821" />
+			<actual x="328.522991" y="83.797539" />
+		</GridEntry>
+		<GridEntry Row="9" Column="8">
+			<target x="328.515756" y="123.786820" />
+			<actual x="328.515489" y="123.795831" />
+		</GridEntry>
+		<GridEntry Row="9" Column="9">
+			<target x="328.508201" y="163.786820" />
+			<actual x="328.507118" y="163.794943" />
+		</GridEntry>
+		<GridEntry Row="9" Column="10">
+			<target x="328.501647" y="203.785819" />
+			<actual x="328.498816" y="203.791467" />
+		</GridEntry>
+		<GridEntry Row="9" Column="11">
+			<target x="328.495093" y="243.784819" />
+			<actual x="328.488255" y="243.784972" />
+		</GridEntry>
+		<GridEntry Row="9" Column="12">
+			<target x="328.488538" y="283.784818" />
+			<actual x="328.480146" y="283.785084" />
+		</GridEntry>
+		<GridEntry Row="9" Column="13">
+			<target x="328.480984" y="323.783817" />
+			<actual x="328.470526" y="323.782207" />
+		</GridEntry>
+		<GridEntry Row="10" Column="0">
+			<target x="288.567193" y="-196.215730" />
+			<actual x="288.585556" y="-196.189321" />
+		</GridEntry>
+		<GridEntry Row="10" Column="1">
+			<target x="288.561638" y="-156.216730" />
+			<actual x="288.576288" y="-156.191623" />
+		</GridEntry>
+		<GridEntry Row="10" Column="2">
+			<target x="288.555084" y="-116.216731" />
+			<actual x="288.567456" y="-116.195529" />
+		</GridEntry>
+		<GridEntry Row="10" Column="3">
+			<target x="288.548529" y="-76.216732" />
+			<actual x="288.557765" y="-76.201305" />
+		</GridEntry>
+		<GridEntry Row="10" Column="4">
+			<target x="288.541975" y="-36.217732" />
+			<actual x="288.550649" y="-36.202738" />
+		</GridEntry>
+		<GridEntry Row="10" Column="5">
+			<target x="288.534420" y="3.782267" />
+			<actual x="288.542736" y="3.795572" />
+		</GridEntry>
+		<GridEntry Row="10" Column="6">
+			<target x="288.528866" y="43.781267" />
+			<actual x="288.535181" y="43.795103" />
+		</GridEntry>
+		<GridEntry Row="10" Column="7">
+			<target x="288.522311" y="83.781266" />
+			<actual x="288.526758" y="83.793361" />
+		</GridEntry>
+		<GridEntry Row="10" Column="8">
+			<target x="288.515756" y="123.781266" />
+			<actual x="288.519155" y="123.792115" />
+		</GridEntry>
+		<GridEntry Row="10" Column="9">
+			<target x="288.509202" y="163.780265" />
+			<actual x="288.511287" y="163.790682" />
+		</GridEntry>
+		<GridEntry Row="10" Column="10">
+			<target x="288.502648" y="203.779265" />
+			<actual x="288.502160" y="203.787582" />
+		</GridEntry>
+		<GridEntry Row="10" Column="11">
+			<target x="288.495093" y="243.778264" />
+			<actual x="288.491977" y="243.783002" />
+		</GridEntry>
+		<GridEntry Row="10" Column="12">
+			<target x="288.488538" y="283.778263" />
+			<actual x="288.483539" y="283.781040" />
+		</GridEntry>
+		<GridEntry Row="10" Column="13">
+			<target x="288.481984" y="323.777263" />
+			<actual x="288.473820" y="323.777640" />
+		</GridEntry>
+	</Grid>
+</MappingContent>

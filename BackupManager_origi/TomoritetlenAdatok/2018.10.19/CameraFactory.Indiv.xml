@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CameraFactory Version="1.0">
+  <FeederCameras>
+    <SST46>
+      <CommonSettings>
+        <VersionNumber Individual="false">1</VersionNumber>
+        <TimeoutVisionResponse Individual="false">3000</TimeoutVisionResponse>
+      </CommonSettings>
+      <Individuals/>
+      <OptionalSettings>
+        <Operationmode>
+          <dump_always Individual="false">false</dump_always>
+          <suppress_orientation_warning Individual="false">false</suppress_orientation_warning>
+          <SelectiveFilter>
+            <GlueInspection>
+              <dump_always Individual="false">false</dump_always>
+            </GlueInspection>
+          </SelectiveFilter>
+        </Operationmode>
+        <LocalSimulationMode Individual="false">0 //0 = NORMALMODE 1=SIMULATION</LocalSimulationMode>
+        <AutodetectVirtualMachine Individual="false">true</AutodetectVirtualMachine>
+      </OptionalSettings>
+    </SST46>
+  </FeederCameras>
+  <Settings>
+    <Timeout Individual="false">0</Timeout>
+  </Settings>
+</CameraFactory>

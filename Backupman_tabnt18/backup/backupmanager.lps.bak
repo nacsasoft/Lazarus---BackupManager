@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="backupmanager.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="backupmanager"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="132"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="mainform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="mainform"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="113"/>
+        <CursorPos X="37" Y="133"/>
+        <UsageCount Value="132"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="global.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="global"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="60"/>
+        <CursorPos X="46" Y="95"/>
+        <UsageCount Value="132"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="beallitasok.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmBeallitasok"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="beallitasok"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="163"/>
+        <CursorPos X="53" Y="175"/>
+        <UsageCount Value="132"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="11" HistoryIndex="10">
+      <Position1>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="32" Column="10" TopLine="27"/>
+      </Position1>
+      <Position2>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="15" Column="26" TopLine="1"/>
+      </Position2>
+      <Position3>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position3>
+      <Position4>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="91" Column="1" TopLine="91"/>
+      </Position4>
+      <Position5>
+        <Filename Value="beallitasok.pas"/>
+        <Caret Line="309" Column="67" TopLine="304"/>
+      </Position5>
+      <Position6>
+        <Filename Value="beallitasok.pas"/>
+        <Caret Line="310" Column="67" TopLine="305"/>
+      </Position6>
+      <Position7>
+        <Filename Value="beallitasok.pas"/>
+        <Caret Line="311" Column="67" TopLine="306"/>
+      </Position7>
+      <Position8>
+        <Filename Value="global.pas"/>
+        <Caret Line="26" Column="38" TopLine="12"/>
+      </Position8>
+      <Position9>
+        <Filename Value="global.pas"/>
+        <Caret Line="61" Column="42" TopLine="34"/>
+      </Position9>
+      <Position10>
+        <Filename Value="global.pas"/>
+        <Caret Line="66" Column="83" TopLine="46"/>
+      </Position10>
+      <Position11>
+        <Filename Value="mainform.pas"/>
+        <Caret Line="116" Column="66" TopLine="106"/>
+      </Position11>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestBenchControl Version="1.0">
+  <ModuleConfiguration>
+    <MeasureSystem>
+      <HTB1>
+        <Sensors>
+          <ForceSensor2>
+            <CalibrationData>
+              <Gradient Individual="false">20</Gradient>
+              <Offset Individual="false">0</Offset>
+              <Date Individual="false"></Date>
+              <Calibrated Individual="false">false</Calibrated>
+            </CalibrationData>
+          </ForceSensor2>
+          <AccelerationSensor>
+            <CalibrationData>
+              <Gradient Individual="false">0.2008</Gradient>
+              <Offset Individual="false">0</Offset>
+              <Date Individual="false"></Date>
+              <Calibrated Individual="false">false</Calibrated>
+            </CalibrationData>
+          </AccelerationSensor>
+          <ECU_ForceSensor_120N>
+            <CalibrationData>
+              <Gradient Individual="false">24</Gradient>
+              <Offset Individual="false">0</Offset>
+              <Date Individual="false"></Date>
+              <Calibrated Individual="false">true</Calibrated>
+            </CalibrationData>
+          </ECU_ForceSensor_120N>
+          <ECU_ForceSensor_50N>
+            <CalibrationData>
+              <Gradient Individual="false">10</Gradient>
+              <Offset Individual="false">0</Offset>
+              <Date Individual="false"></Date>
+              <Calibrated Individual="false">true</Calibrated>
+            </CalibrationData>
+          </ECU_ForceSensor_50N>
+          <ECU_ForceSensor_20N>
+            <CalibrationData>
+              <Gradient Individual="false">4</Gradient>
+              <Offset Individual="false">0</Offset>
+              <Date Individual="false"></Date>
+              <Calibrated Individual="false">true</Calibrated>
+            </CalibrationData>
+          </ECU_ForceSensor_20N>
+          <ECU_ForceSensor_5N>
+            <CalibrationData>
+              <Gradient Individual="false">1</Gradient>
+              <Offset Individual="false">0</Offset>
+              <Date Individual="false"></Date>
+              <Calibrated Individual="false">true</Calibrated>
+            </CalibrationData>
+          </ECU_ForceSensor_5N>
+          <ECU_PressureSensor>
+            <CalibrationData>
+              <Gradient Individual="false">2</Gradient>
+              <Offset Individual="false">0</Offset>
+              <Date Individual="false"></Date>
+              <Calibrated Individual="false">true</Calibrated>
+            </CalibrationData>
+          </ECU_PressureSensor>
+        </Sensors>
+      </HTB1>
+      <HCSII>
+        <Sensors>
+          <ForceSensor2>
+            <CalibrationData>
+              <Gradient Individual="false">20</Gradient>
+              <Offset Individual="false">0</Offset>
+              <Date Individual="false"></Date>
+              <Calibrated Individual="false">false</Calibrated>
+            </CalibrationData>
+          </ForceSensor2>
+          <AccelerationSensor>
+            <CalibrationData>
+              <Gradient Individual="false">0.2008</Gradient>
+              <Offset Individual="false">0</Offset>
+              <Date Individual="false"></Date>
+              <Calibrated Individual="false">false</Calibrated>
+            </CalibrationData>
+          </AccelerationSensor>
+          <ECU_ForceSensor_120N>
+            <CalibrationData>
+              <Gradient Individual="false">24</Gradient>
+              <Offset Individual="false">0</Offset>
+              <Date Individual="false"></Date>
+              <Calibrated Individual="false">true</Calibrated>
+            </CalibrationData>
+          </ECU_ForceSensor_120N>
+          <ECU_ForceSensor_50N>
+            <CalibrationData>
+              <Gradient Individual="false">10</Gradient>
+              <Offset Individual="false">0</Offset>
+              <Date Individual="false"></Date>
+              <Calibrated Individual="false">true</Calibrated>
+            </CalibrationData>
+          </ECU_ForceSensor_50N>
+          <ECU_ForceSensor_20N>
+            <CalibrationData>
+              <Gradient Individual="false">4</Gradient>
+              <Offset Individual="false">0</Offset>
+              <Date Individual="false"></Date>
+              <Calibrated Individual="false">true</Calibrated>
+            </CalibrationData>
+          </ECU_ForceSensor_20N>
+          <ECU_ForceSensor_5N>
+            <CalibrationData>
+              <Gradient Individual="false">1</Gradient>
+              <Offset Individual="false">0</Offset>
+              <Date Individual="false"></Date>
+              <Calibrated Individual="false">true</Calibrated>
+            </CalibrationData>
+          </ECU_ForceSensor_5N>
+          <ECU_PressureSensor>
+            <CalibrationData>
+              <Gradient Individual="false">2</Gradient>
+              <Offset Individual="false">0</Offset>
+              <Date Individual="false"></Date>
+              <Calibrated Individual="false">true</Calibrated>
+            </CalibrationData>
+          </ECU_PressureSensor>
+        </Sensors>
+      </HCSII>
+    </MeasureSystem>
+  </ModuleConfiguration>
+</TestBenchControl>

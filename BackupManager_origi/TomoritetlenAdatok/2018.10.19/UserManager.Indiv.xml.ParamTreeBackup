@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UserManager Version="1.0">
+  <Configuration>
+    <UserDataFileName Individual="false">ICUser/user.xml</UserDataFileName>
+    <LogonType Individual="false">eLT_CARDREADER_OPTIONAL</LogonType>
+    <PollingIntervalInSecconds Individual="false">1.0</PollingIntervalInSecconds>
+  </Configuration>
+</UserManager>

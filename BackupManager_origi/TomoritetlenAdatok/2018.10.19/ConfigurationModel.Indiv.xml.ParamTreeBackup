@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConfigurationModel Version="1.0">
+  <SoftwareConfiguration>
+    <SelectedCompatibleVersion Individual="false"></SelectedCompatibleVersion>
+    <DefaultCompatibleVersion>711.1</DefaultCompatibleVersion>
+  </SoftwareConfiguration>
+  <OptionsAndSettings>
+    <GeneralProperties Individual="false"></GeneralProperties>
+    <ProductionSettings>
+      <PeriodicSpsCheck>
+        <IsEnabled>false</IsEnabled>
+        <IntervalInSeconds Individual="false">3600</IntervalInSeconds>
+      </PeriodicSpsCheck>
+      <PcbFiducialsAreRemeasuredAfterPowerOff Individual="false">true</PcbFiducialsAreRemeasuredAfterPowerOff>
+      <OscillatingBoardDetection>
+        <Reaction Individual="false">eSTOP</Reaction>
+        <Threshold Individual="false">0.5</Threshold>
+        <CreepHeight Individual="false">1.0</CreepHeight>
+        <MaximumCmponentDeltaHeightToQualifyForDetection Individual="false">0.1</MaximumCmponentDeltaHeightToQualifyForDetection>
+      </OscillatingBoardDetection>
+      <PostPlacementMeasurement>
+        <Mode Individual="false">eNONE</Mode>
+        <PermittedToleranceInMM Individual="false">0.1</PermittedToleranceInMM>
+      </PostPlacementMeasurement>
+      <FiducialPlausibilityCheck>
+        <IsEnabled Individual="false">false</IsEnabled>
+        <PermittedToleranceInMM Individual="false">0.5</PermittedToleranceInMM>
+      </FiducialPlausibilityCheck>
+      <FiducialSelfHealing>
+        <IsEnabled Individual="false">true</IsEnabled>
+        <VisionSearchAreaRelativeToFOV Individual="false">1.0</VisionSearchAreaRelativeToFOV>
+        <PermittedFiducialDistanceTolerance Individual="false">0.02</PermittedFiducialDistanceTolerance>
+      </FiducialSelfHealing>
+      <IndependentPlacement>
+        <IsEnabled Individual="false">true</IsEnabled>
+      </IndependentPlacement>
+      <InspectionOptions>
+        <UnknownPlaceState>ePROCESSING_AREA</UnknownPlaceState>
+        <AutoRecovery>eEND_OF_LINE</AutoRecovery>
+        <ManualFiducial Individual="false">eNONE</ManualFiducial>
+        <AirPressureDrop Individual="false">eOUTPUT_BELT_OR_END_OF_LINE</AirPressureDrop>
+        <LostComponents>eNONE</LostComponents>
+        <EmergencyStop>eNONE</EmergencyStop>
+        <SkippedComponents Individual="false">eOUTPUT_BELT_OR_END_OF_LINE</SkippedComponents>
+        <PinPositionToleranceExceeded>eNONE</PinPositionToleranceExceeded>
+        <SnapInDetectionCheck Individual="false">eOUTPUT_BELT</SnapInDetectionCheck>
+        <PackageFormsWithoutAutoRepair>
+          <PackageForm Individual="false">BGA</PackageForm>
+        </PackageFormsWithoutAutoRepair>
+      </InspectionOptions>
+      <PreferReadyComponents>
+        <IsEnabled Individual="false">false</IsEnabled>
+      </PreferReadyComponents>
+      <SkipInspectionAreas>
+        <IsEnabled Individual="false">false</IsEnabled>
+      </SkipInspectionAreas>
+    </ProductionSettings>
+    <NozzleProperties Individual="false"></NozzleProperties>
+    <GlueProperties>
+      <ActiveGlueProperty>
+        <Id Individual="false">1</Id>
+      </ActiveGlueProperty>
+      <IndividualList/>
+    </GlueProperties>
+    <PreconfiguredOptionsList>
+      <PreconfiguredOptions Id="0">
+        <Name Individual="false">Default</Name>
+        <General>
+          <FeederRecognitionIsPerformed Individual="false">true</FeederRecognitionIsPerformed>
+          <ThroughTransportIsEnabledLane1 Individual="false">false</ThroughTransportIsEnabledLane1>
+          <ThroughTransportIsEnabledLane2 Individual="false">false</ThroughTransportIsEnabledLane2>
+          <InkspotsAreEnabledLane1 Individual="false">true</InkspotsAreEnabledLane1>
+          <InkspotsAreEnabledLane2 Individual="false">true</InkspotsAreEnabledLane2>
+          <SetupVerificationIsPerformed Individual="false">true</SetupVerificationIsPerformed>
+          <NozzleScanningIsPerformed Individual="false">true</NozzleScanningIsPerformed>
+          <WhisperingIsPerformed Individual="false">true</WhisperingIsPerformed>
+          <MeasureFiducialsAfterSafetyCircuitInterruption Individual="false">true</MeasureFiducialsAfterSafetyCircuitInterruption>
+        </General>
+        <InspectionReasons>
+          <UnknownPlaceState Individual="false">ePROCESSING_AREA</UnknownPlaceState>
+          <AutoRecovery Individual="false">eOUTPUT_BELT</AutoRecovery>
+          <ManualFiducialRecognition Individual="false">eOUTPUT_BELT</ManualFiducialRecognition>
+          <DropInAirPressure Individual="false">eOUTPUT_BELT</DropInAirPressure>
+          <LostComponents Individual="false">eOUTPUT_BELT</LostComponents>
+          <EmergencyStopDuringPlacement Individual="false">eOUTPUT_BELT</EmergencyStopDuringPlacement>
+          <SkippedComponents Individual="false">eOUTPUT_BELT</SkippedComponents>
+          <SupportPinToleranceExceeded Individual="false">eOUTPUT_BELT</SupportPinToleranceExceeded>
+        </InspectionReasons>
+        <MachineConfiguration>
+          <ProducabilityCheckIsEnabled Individual="false">true</ProducabilityCheckIsEnabled>
+          <ProcessingArea1IsEnabled Individual="false">true</ProcessingArea1IsEnabled>
+          <ProcessingArea2IsEnabled Individual="false">true</ProcessingArea2IsEnabled>
+          <AutomaticFeederDownloadIsPerformed Individual="false">true</AutomaticFeederDownloadIsPerformed>
+        </MachineConfiguration>
+        <Recognition>
+          <BoardMeasurementIsPerformed Individual="false">true</BoardMeasurementIsPerformed>
+          <ComponentMeasurementIsPerformed Individual="false">true</ComponentMeasurementIsPerformed>
+          <ComponentMeasurementOnGlassPlateIsPerformed Individual="false">true</ComponentMeasurementOnGlassPlateIsPerformed>
+        </Recognition>
+        <Dipping>
+          <DippingIsPerformed Individual="false">true</DippingIsPerformed>
+        </Dipping>
+        <GlueDispensing>
+          <GlueDispensingIsPerformed Individual="false">true</GlueDispensingIsPerformed>
+        </GlueDispensing>
+        <Placement>
+          <PlacementIsContinuedAfterPickupFailure Individual="false">false</PlacementIsContinuedAfterPickupFailure>
+          <PlacementIsPerformed Individual="false">true</PlacementIsPerformed>
+          <PlacementIsSimulated Individual="false">false</PlacementIsSimulated>
+          <HeadTestBenchMode Individual="false">false</HeadTestBenchMode>
+          <SetupIsSimulated Individual="false">false</SetupIsSimulated>
+          <PickFromBoard Individual="false">false</PickFromBoard>
+          <DryRunMode Individual="false">eNONE</DryRunMode>
+        </Placement>
+        <NozzleScanning>
+          <Level Id="1">
+            <Description Individual="false">Check nozzle position</Description>
+            <IsEnabled Individual="false">true</IsEnabled>
+            <SelfHealingAction Individual="false">eCLEAN_AND_REPLACE</SelfHealingAction>
+            <ActionOnError Individual="false">eSTOP_MACHINE</ActionOnError>
+          </Level>
+          <Level Id="2">
+            <Description Individual="false">Check for soiling</Description>
+            <IsEnabled Individual="false">true</IsEnabled>
+            <SelfHealingAction Individual="false">eCLEAN_AND_REPLACE</SelfHealingAction>
+            <ActionOnError Individual="false">eSTOP_MACHINE</ActionOnError>
+          </Level>
+          <Level Id="3">
+            <Description Individual="false">Check nozzle ducts</Description>
+            <IsEnabled Individual="false">true</IsEnabled>
+            <SelfHealingAction Individual="false">eCLEAN</SelfHealingAction>
+            <ActionOnError Individual="false">eNONE</ActionOnError>
+          </Level>
+          <Level Id="4">
+            <Description Individual="false">Check nozzle end surface</Description>
+            <IsEnabled Individual="false">true</IsEnabled>
+            <SelfHealingAction Individual="false">eCLEAN</SelfHealingAction>
+            <ActionOnError Individual="false">eNONE</ActionOnError>
+          </Level>
+        </NozzleScanning>
+        <FaultDetection>
+          <OscillatingBoardReaction Individual="false">eSTOP</OscillatingBoardReaction>
+          <PeriodicSpsCheckEnabled Individual="false">true</PeriodicSpsCheckEnabled>
+          <PeriodicSpsCheckIntervalInSeconds Individual="false">3600</PeriodicSpsCheckIntervalInSeconds>
+          <IgnoreConveyorReferenceRunErrors Individual="false">true</IgnoreConveyorReferenceRunErrors>
+        </FaultDetection>
+      </PreconfiguredOptions>
+    </PreconfiguredOptionsList>
+  </OptionsAndSettings>
+</ConfigurationModel>

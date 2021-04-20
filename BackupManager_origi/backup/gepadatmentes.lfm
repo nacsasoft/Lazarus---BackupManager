@@ -1,0 +1,56 @@
+object frmGepadatmentes: TfrmGepadatmentes
+  Left = 552
+  Height = 143
+  Top = 294
+  Width = 285
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'BackupManager - Gépadatmentés'
+  ClientHeight = 143
+  ClientWidth = 285
+  DesignTimePPI = 120
+  OnClose = FormClose
+  OnShow = FormShow
+  Position = poScreenCenter
+  ShowInTaskBar = stAlways
+  LCLVersion = '1.8.4.0'
+  object edtMentesNeve: TEdit
+    Left = 24
+    Height = 28
+    Top = 40
+    Width = 235
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 22
+    Height = 20
+    Top = 14
+    Width = 278
+    Caption = 'Gépadatok lementése a következő néven :'
+    ParentColor = False
+  end
+  object btnMentes: TButton
+    Left = 24
+    Height = 26
+    Top = 94
+    Width = 84
+    Caption = 'Adatmentés'
+    Font.Height = 13
+    Font.Name = 'Tahoma'
+    OnClick = btnMentesClick
+    ParentFont = False
+    TabOrder = 1
+  end
+  object btnKilepes: TButton
+    Left = 175
+    Height = 26
+    Top = 94
+    Width = 84
+    Caption = 'Kilépés'
+    Font.Height = 13
+    Font.Name = 'Tahoma'
+    OnClick = btnKilepesClick
+    ParentFont = False
+    TabOrder = 2
+  end
+end

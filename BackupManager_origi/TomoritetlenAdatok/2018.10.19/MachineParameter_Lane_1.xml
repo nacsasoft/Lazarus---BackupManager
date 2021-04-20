@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<LaneParameter>
+	<MachineParameterId Value="2015030228" />
+	<Parameter Id="4" Value="60" Info="Release parameter" />
+	<Parameter Id="30" Value="41984" Info="conveyor options - part 1" />
+	<Parameter Id="323" Value="0" Info="conveyor options - part 2" />
+	<Parameter Id="31" Value="0" Info="Robust PCB movement" />
+	<Parameter Id="10" Value="800" Info="[mm/s] velocity PCB maximum" />
+	<Parameter Id="11" Value="350" Info="[mm/s] velocity input machine" />
+	<Parameter Id="12" Value="450" Info="[mm/s] velocity output machine" />
+	<Parameter Id="13" Value="3000" Info="[mm/s2] acceleration maximum" />
+	<Parameter Id="101" Value="100" Info="[m/s3] jerk PCB maximum" />
+	<Parameter Id="17" Value="50" Info="[mm/s] velocity stopper/laser" />
+	<Parameter Id="18" Value="150" Info="[mm/s] velocity positioning long PCBs" />
+	<Parameter Id="19" Value="1000" Info="[mm/s] acceleration positioning long PCBs" />
+	<Parameter Id="21" Value="80" Info="[mm/s] velocity laser posit. long PCBs" />
+	<Parameter Id="22" Value="350" Info="[mm/s] velocity for moving to PCB sensor" />
+	<Parameter Id="25" Value="1" Info="error message timeout downstream machine" />
+	<Parameter Id="26" Value="25" Info="[s] timeout moving downstream machine" />
+	<Parameter Id="320" Value="4" Info="[s] timeout finished upstream machine" />
+	<Parameter Id="321" Value="10" Info="[s] timeout start move upstream" />
+	<Parameter Id="322" Value="10" Info="[s] timeout start move downstream" />
+	<Parameter Id="121" Value="300" Info="[mm/s] velocity lifting table maximum" />
+	<Parameter Id="120" Value="50" Info="[mm/s] clamping velocity board" />
+	<Parameter Id="122" Value="3000" Info="[mm/s2] acceleration lifting table" />
+	<Parameter Id="123" Value="100" Info="[m/s3] jerk lifting table" />
+	<Parameter Id="126" Value="7801" Info="[um] lifting table 1 index pulse" />
+	<Parameter Id="127" Value="1000" Info="[um] lifting table 1 down position" />
+	<Parameter Id="128" Value="1300" Info="[0/00] lifting table 1 current (force)" />
+	<Parameter Id="129" Value="7409" Info="[um] reference point 1 lifting table" />
+	<Parameter Id="119" Value="332" Info="[um] travel range 1 lifting table" />
+	<Parameter Id="316" Value="40500" Info="[um] lifting table 1 up position" />
+	<Parameter Id="318" Value="19400" Info="[um] lifting table 1 mapping position" />
+	<Parameter Id="114" Value="7926" Info="[um] lifting table 2 index pulse" />
+	<Parameter Id="115" Value="1000" Info="[um] lifting table 2 down position" />
+	<Parameter Id="116" Value="1300" Info="[0/00] lifting table 2 current (force)" />
+	<Parameter Id="118" Value="7944" Info="[um] reference point lifting table 2" />
+	<Parameter Id="117" Value="65513" Info="[um] travel range lifting table 2" />
+	<Parameter Id="317" Value="40500" Info="[um] lifting table 2 up position" />
+	<Parameter Id="319" Value="19400" Info="[um] lifting table 2 mapping position" />
+	<Parameter Id="29" Value="300" Info="[um] clamping tolerance lifting table" />
+	<Parameter Id="28" Value="3000" Info="[ms] timeout waiting barcode message" />
+	<Parameter Id="100" Value="0" Info="[ms] add. waiting time for barcode trigger" />
+	<Parameter Id="297" Value="4340" Info="[100um] position stopper output section" />
+	<Parameter Id="130" Value="50" Info="[mm/s] velocity width adj. search rails" />
+	<Parameter Id="131" Value="6" Info="[mm/s] velocity width adj. check rails" />
+	<Parameter Id="132" Value="15" Info="[mm/s] velocity width adj. move rails" />
+	<Parameter Id="133" Value="500" Info="[mm/s2] max. acceleration spindle" />
+	<Parameter Id="134" Value="100" Info="[mm/s2] max. acceleration rail" />
+	<Parameter Id="135" Value="30" Info="[0.1m/s3] max. jerk width adj." />
+	<Parameter Id="51" Value="0" Info="[um] reference pos. motor WA" />
+	<Parameter Id="47" Value="1500" Info="[mA] max. motor current width adj." />
+	<Parameter Id="136" Value="244" Info="[um] width adj. index pulse" />
+	<Parameter Id="137" Value="629962" Info="[um] width adj. motor travel range" />
+	<Parameter Id="49" Value="-1133" Info="[um] offset width track 1" />
+	<Parameter Id="50" Value="0" Info="[um] offset conveyor (fixed rail track 1)" />
+	<Parameter Id="138" Value="-420" Info="[um] offset width track 2" />
+	<Parameter Id="139" Value="0" Info="[um] offset fixed rail track 2" />
+	<Parameter Id="42" Value="50000" Info="[um] minimum width track 1" />
+	<Parameter Id="288" Value="50000" Info="[um] minimum width track 2" />
+	<Parameter Id="292" Value="-3440" Info="[0.1mm] WA minimum rail position" />
+	<Parameter Id="293" Value="3440" Info="[0.1mm] WA maximum rail position" />
+	<Parameter Id="36" Value="-344000" Info="[um] position rail A" />
+	<Parameter Id="37" Value="-125567" Info="[um] position rail B" />
+	<Parameter Id="41" Value="0" Info="fixed side left track 1" />
+	<Parameter Id="38" Value="293000" Info="[um] position rail C" />
+	<Parameter Id="39" Value="344000" Info="[um] position rail D" />
+	<Parameter Id="35" Value="1" Info="fixed side left track 2" />
+	<Parameter Id="74" Value="293986" Info="Rail A cal. reference position 1" />
+	<Parameter Id="75" Value="11416" Info="Rail A cal. reference position 2" />
+	<Parameter Id="52" Value="240" Info="Rail A driver 1 gap" />
+	<Parameter Id="53" Value="1143324672" Info="Rail A driver 1 cal. coeff a0" />
+	<Parameter Id="54" Value="-1165256840" Info="Rail A driver 1 cal. coeff a1" />
+	<Parameter Id="55" Value="822251815" Info="Rail A driver 1 cal. coeff a2" />
+	<Parameter Id="76" Value="231" Info="Rail A driver 3 gap" />
+	<Parameter Id="77" Value="1133051904" Info="Rail A driver 3 cal. coeff a0" />
+	<Parameter Id="78" Value="979017931" Info="Rail A driver 3 cal. coeff a1" />
+	<Parameter Id="79" Value="-1321313701" Info="Rail A driver 3 cal. coeff a2" />
+	<Parameter Id="56" Value="242" Info="Rail A driver 2 gap" />
+	<Parameter Id="57" Value="1133576192" Info="Rail A driver 2 cal. coeff a0" />
+	<Parameter Id="58" Value="970045207" Info="Rail A driver 2 cal. coeff a1" />
+	<Parameter Id="59" Value="-1326865041" Info="Rail A driver 2 cal. coeff a2" />
+	<Parameter Id="144" Value="237" Info="Rail A average gap" />
+	<Parameter Id="140" Value="-557" Info="Rail A driver 1 offset" />
+	<Parameter Id="141" Value="-301" Info="Rail A driver 2 offset" />
+	<Parameter Id="142" Value="-320" Info="Rail A driver 3 offset" />
+	<Parameter Id="60" Value="2801" Info="Rail B cal. reference position 1" />
+	<Parameter Id="61" Value="555361" Info="Rail B cal. reference position 2" />
+	<Parameter Id="62" Value="129" Info="Rail B driver 1 gap" />
+	<Parameter Id="63" Value="-1008173056" Info="Rail B driver 1 cal. coeff a0" />
+	<Parameter Id="64" Value="-1182145725" Info="Rail B driver 1 cal. coeff a1" />
+	<Parameter Id="65" Value="811329279" Info="Rail B driver 1 cal. coeff a2" />
+	<Parameter Id="70" Value="120" Info="Rail B driver 3 gap" />
+	<Parameter Id="71" Value="-1026818048" Info="Rail B driver 3 cal. coeff a0" />
+	<Parameter Id="72" Value="975530417" Info="Rail B driver 3 cal. coeff a1" />
+	<Parameter Id="73" Value="-1331999145" Info="Rail B driver 3 cal. coeff a2" />
+	<Parameter Id="66" Value="208" Info="Rail B driver 2 gap" />
+	<Parameter Id="67" Value="-1012563968" Info="Rail B driver 2 cal. coeff a0" />
+	<Parameter Id="68" Value="-1182695481" Info="Rail B driver 2 cal. coeff a1" />
+	<Parameter Id="69" Value="807005823" Info="Rail B driver 2 cal. coeff a2" />
+	<Parameter Id="154" Value="152" Info="Rail B average gap" />
+	<Parameter Id="150" Value="-453" Info="Rail B driver 1 offset" />
+	<Parameter Id="151" Value="-341" Info="Rail B driver 2 offset" />
+	<Parameter Id="152" Value="-42" Info="Rail B driver 3 offset" />
+	<Parameter Id="180" Value="627863" Info="Rail C cal. reference position 1" />
+	<Parameter Id="181" Value="75303" Info="Rail C cal. reference position 2" />
+	<Parameter Id="182" Value="255" Info="Rail C driver 1 gap" />
+	<Parameter Id="183" Value="1137410048" Info="Rail C driver 1 cal. coeff a0" />
+	<Parameter Id="184" Value="977506102" Info="Rail C driver 1 cal. coeff a1" />
+	<Parameter Id="185" Value="-1332719721" Info="Rail C driver 1 cal. coeff a2" />
+	<Parameter Id="256" Value="216" Info="Rail C driver 3 gap" />
+	<Parameter Id="251" Value="1126825984" Info="Rail C driver 3 cal. coeff a0" />
+	<Parameter Id="252" Value="926452900" Info="Rail C driver 3 cal. coeff a1" />
+	<Parameter Id="253" Value="800058367" Info="Rail C driver 3 cal. coeff a2" />
+	<Parameter Id="186" Value="264" Info="Rail C driver 2 gap" />
+	<Parameter Id="187" Value="1124990976" Info="Rail C driver 2 cal. coeff a0" />
+	<Parameter Id="188" Value="969392372" Info="Rail C driver 2 cal. coeff a1" />
+	<Parameter Id="189" Value="-1338316097" Info="Rail C driver 2 cal. coeff a2" />
+	<Parameter Id="149" Value="245" Info="Rail C average gap" />
+	<Parameter Id="145" Value="-509" Info="Rail C driver 1 offset" />
+	<Parameter Id="255" Value="-178" Info="Rail C driver 2 offset" />
+	<Parameter Id="147" Value="-208" Info="Rail C driver 3 offset" />
+	<Parameter Id="190" Value="336744" Info="Rail D cal. reference position 1" />
+	<Parameter Id="191" Value="619314" Info="Rail D cal. reference position 2" />
+	<Parameter Id="192" Value="287" Info="Rail D driver 1 gap" />
+	<Parameter Id="193" Value="-1003978752" Info="Rail D driver 1 cal. coeff a0" />
+	<Parameter Id="194" Value="991534539" Info="Rail D driver 1 cal. coeff a1" />
+	<Parameter Id="195" Value="-1310380559" Info="Rail D driver 1 cal. coeff a2" />
+	<Parameter Id="257" Value="197" Info="Rail D driver 3 gap" />
+	<Parameter Id="260" Value="-1026818048" Info="Rail D driver 3 cal. coeff a0" />
+	<Parameter Id="261" Value="-1190499973" Info="Rail D driver 3 cal. coeff a1" />
+	<Parameter Id="262" Value="815934863" Info="Rail D driver 3 cal. coeff a2" />
+	<Parameter Id="196" Value="282" Info="Rail D driver 2 gap" />
+	<Parameter Id="197" Value="-1006125056" Info="Rail D driver 2 cal. coeff a0" />
+	<Parameter Id="198" Value="991714928" Info="Rail D driver 2 cal. coeff a1" />
+	<Parameter Id="199" Value="-1312835021" Info="Rail D driver 2 cal. coeff a2" />
+	<Parameter Id="159" Value="255" Info="Rail D average gap" />
+	<Parameter Id="155" Value="-511" Info="Rail D driver 1 offset" />
+	<Parameter Id="258" Value="-342" Info="Rail D driver 2 offset" />
+	<Parameter Id="157" Value="-86" Info="Rail D driver 3 offset" />
+	<Parameter Id="91" Value="1000" Info="[ms] time after moving up pins" />
+	<Parameter Id="92" Value="100" Info="[ms] time after moving down pins" />
+	<Parameter Id="309" Value="20" Info="[100ms] timeout checking vacuum on" />
+</LaneParameter>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MachineIo Version="1.0">
+  <VacuumPump>
+    <SwitchOnDuration Individual="false">5</SwitchOnDuration>
+    <SwitchOffDelay Individual="false">360</SwitchOffDelay>
+    <SwitchOffDelayAfterStandBy Individual="false">300</SwitchOffDelayAfterStandBy>
+    <SwitchOffIsEnabled Individual="false">true</SwitchOffIsEnabled>
+    <SwitchOffFansDelay Individual="false">120</SwitchOffFansDelay>
+    <FrequencyControl>
+      <CompatibleMode Individual="false">false</CompatibleMode>
+      <MaxFrequency Individual="false">50</MaxFrequency>
+      <StandByFrequency Individual="false">30</StandByFrequency>
+      <FreqRegulationPercentage Individual="false">50</FreqRegulationPercentage>
+    </FrequencyControl>
+  </VacuumPump>
+  <ComponentCounter>
+    <GcuDeviceId>000000000000000000000000000.00</GcuDeviceId>
+    <ComponentCount>394210114</ComponentCount>
+    <Uptime>78742127</Uptime>
+  </ComponentCounter>
+  <Tagging>
+    <PersistedTag Individual="false"></PersistedTag>
+  </Tagging>
+</MachineIo>

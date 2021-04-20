@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TemperatureCompensation Version="1.0">
+  <Activated Individual="false">true</Activated>
+  <Logging>
+    <Activated Individual="false">true</Activated>
+  </Logging>
+  <TemperatureSensors>
+    <TemperatureSensor>
+      <CompensationCoefficientX Individual="false">-0.001</CompensationCoefficientX>
+      <CompensationCoefficientY Individual="false">0.0014</CompensationCoefficientY>
+      <BaseTemperature>29.100000</BaseTemperature>
+    </TemperatureSensor>
+    <TemperatureSensor>
+      <CompensationCoefficientX Individual="false">0.0</CompensationCoefficientX>
+      <CompensationCoefficientY Individual="false">0.0</CompensationCoefficientY>
+      <BaseTemperature>30.600000</BaseTemperature>
+    </TemperatureSensor>
+  </TemperatureSensors>
+</TemperatureCompensation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MachineEventModel Version="1.0">
+  <Configuration>
+    <TraceEnabled Individual="false">false</TraceEnabled>
+    <Enabled Individual="false">false</Enabled>
+    <CacheWriteTime Individual="false">seconds / unused</CacheWriteTime>
+    <CacheQuotaWakeUp Individual="false">90.0</CacheQuotaWakeUp>
+    <CacheSize Individual="false">1024</CacheSize>
+    <DirectoryQuota Individual="false">1024</DirectoryQuota>
+  </Configuration>
+</MachineEventModel>

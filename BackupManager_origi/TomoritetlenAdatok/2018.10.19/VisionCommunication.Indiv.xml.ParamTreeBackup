@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisionCommunication Version="1.0">
+  <VisionComputer Id="1">
+    <NetworkSetting>
+      <VisionIpAdr Individual="false">127.0.0.1</VisionIpAdr>
+    </NetworkSetting>
+  </VisionComputer>
+  <VisionComputer Id="2">
+    <NetworkSetting>
+      <VisionIpAdr Individual="false">192.168.255.253</VisionIpAdr>
+    </NetworkSetting>
+  </VisionComputer>
+  <VisionComputer Id="3">
+    <NetworkSetting>
+      <VisionIpAdr Individual="false">192.168.255.254</VisionIpAdr>
+    </NetworkSetting>
+  </VisionComputer>
+</VisionCommunication>

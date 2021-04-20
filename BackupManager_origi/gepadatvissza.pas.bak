@@ -1,0 +1,126 @@
+unit gepadatvissza;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls,
+  Buttons;
+
+type
+
+  { TfrmGepeadatokVissza }
+
+  TfrmGepeadatokVissza = class(TForm)
+    btnKilepes : TButton;
+    GroupBox1 : TGroupBox;
+    lstGepadatok : TListBox;
+    spbGepadatVissza : TSpeedButton;
+    procedure btnKilepesClick(Sender : TObject);
+    procedure FormShow(Sender : TObject);
+    procedure spbGepadatVisszaClick(Sender : TObject);
+  private
+    { private declarations }
+  public
+    { public declarations }
+  end;
+
+var
+  frmGepeadatokVissza : TfrmGepeadatokVissza;
+
+implementation
+
+uses Unit1,global;
+
+{ TfrmGepeadatokVissza }
+
+procedure TfrmGepeadatokVissza.FormShow(Sender : TObject);
+var
+  sTavoliUtv,sMentesNeve : string;
+  dwRet: DWORD;
+begin
+  //gomb felirat beállítása....
+  spbGepadatVissza.Caption := 'Gépadatok' + LineEnding + 'visszatöltése';
+  lstGepadatok.Clear;
+  //Géphez tartozó gépadatok összegyüjtése:
+  sTavoliUtv := '\\' + sSorvezIP + '\SrcMaBackup$';
+
+  dwRet := MakeDriveMapping(sTavoliMeghajtoNev,sTavoliUtv);
+  if (dwRet <> 0) then
+  begin
+    ShowMessage('Hálózati hiba! ' + #10#10 + 'Hiba száma : ' + IntToStr(dwRet));
+    Kapcsolat_vege(sTavoliMeghajtoNev);
+    exit;
+  end;
+
+  sMentesNeve := sTavoliMeghajtoNev+'\srcmabackup\' + sGepAzonosito;
+  GetSubDirectories(sMentesNeve,lstGepadatok.Items);
+  Kapcsolat_vege(sTavoliMeghajtoNev);
+
+end;
+
+procedure TfrmGepeadatokVissza.spbGepadatVisszaClick(Sender : TObject);
+const
+  AKTUELLMA         = 'c:\srdaten\srcma\AKTUELL.MA';
+  AKTUELLBAK 			  = 'c:\srdaten\srcma\AKTUELL.BAK';
+  AKTUELLMA_TEMP    = 'c:\srcmatemp\srcma\AKTUELL.MA';
+  AKTUELLBAK_TEMP   = 'c:\srcmatemp\srcma\AKTUELL.BAK';
+var
+  sGepadat,sTavoliUtv : string;
+  dwRet: DWORD;
+begin
+  //Kiválasztott gépadat visszatötlése:
+	sGepadat := lstGepadatok.GetSelectedText;
+  if (trim(sGepadat) = '') then
+  begin
+    ShowMessage('Válassz ki egy gépadatot!');
+    lstGepadatok.SetFocus;
+    exit;
+  end;
+if MessageDlg ('Gépadat visszatöltése...', 'Biztos hogy visszaállítod a következő gépadatot ?' + #10 + #10 +
+  							sGepadat + #10 + #10 + 'A jelenlegi gépadatokról másolat készül a C:\SrcMaTemp -könyvtárba!',
+                mtConfirmation, [mbYes, mbNo],0) = mrNo then exit;
+
+  //bizt. ment. készítése :
+  if not DirectoryExists('C:\SrcMaTemp') then CreateDir('C:\SrcMaTemp');
+  if not DirectoryExists('C:\SrcMaTemp\srcma') then CreateDir('C:\SrcMaTemp\srcma');
+  //Copy_Dir('c:\srdaten\srcma', 'C:\SrcMaTemp');
+  CopyFiles('c:\srdaten\srcma', 'C:\SrcMaTemp\srcma','*.*');
+
+
+  sTavoliUtv := '\\' + sSorvezIP + '\SrcMaBackup$';
+  dwRet := MakeDriveMapping(sTavoliMeghajtoNev,sTavoliUtv);
+  if (dwRet <> 0) then
+  begin
+    ShowMessage('Hálózati hiba! '+ #10+#10 + 'Hiba száma : ' + IntToStr(dwRet));
+    Kapcsolat_vege(sTavoliMeghajtoNev);
+    exit;
+  end;
+
+  //adatok visszamásolása (beültetőgépen):
+  sTavoliUtv := sTavoliMeghajtoNev + '\SrcMaBackup\' + sGepAzonosito + '\' + sGepadat;
+  //Copy_Dir(sTavoliUtv, 'C:\srdaten\srcma');
+  CopyFiles(sTavoliUtv,'c:\srdaten\srcma','*.*');
+
+  Kapcsolat_vege(sTavoliMeghajtoNev);
+
+  //pipettakonfig visszaírása :
+  CopyFile(AKTUELLBAK_TEMP,AKTUELLBAK);
+  CopyFile(AKTUELLMA_TEMP,AKTUELLMA);
+
+  ShowMessage('Az eredeti gépadatok felül lettek írva!' + #10 + 'A beültetőgépet újra kell indítani!!');
+  frmGepeadatokVissza.Hide;
+	Form1.Show;
+end;
+
+procedure TfrmGepeadatokVissza.btnKilepesClick(Sender : TObject);
+begin
+  frmGepeadatokVissza.Hide;
+	Form1.Show;
+end;
+
+{$R *.lfm}
+
+end.
+

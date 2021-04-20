@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NozzleChanger Id="R" Version="1.0">
+  <Kinematics>
+    <MountingProperties>
+      <CurrentPositionId>XTableSlot</CurrentPositionId>
+      <CurrentType>X4iS_CP20Plus_C13</CurrentType>
+    </MountingProperties>
+    <ManualTeachingOffset>
+      <x>0.000000</x>
+      <y>0.000000</y>
+      <z Individual="false">0.0</z>
+      <phi Individual="false">0.0</phi>
+    </ManualTeachingOffset>
+    <Carriers>
+      <Carrier Id="1">
+        <CurrentCarrier LinkNode="CarrierTypes/CP20Plus_Carrier_Short_NewLock">
+          <Kinematics>
+            <ManualTeachingOffset>
+              <x Individual="false">0.0</x>
+              <y Individual="false">0.0</y>
+              <z Individual="false">0.0</z>
+              <phi Individual="false">0.0</phi>
+            </ManualTeachingOffset>
+            <CalibOffset>
+              <x Individual="false">0.0</x>
+              <y Individual="false">0.0</y>
+              <z Individual="false">0.0</z>
+              <phi Individual="false">0.0</phi>
+              <IsCalibrated Individual="false">false</IsCalibrated>
+            </CalibOffset>
+            <Magazines>
+              <Magazine Id="1">
+                <CurrentMagazine LinkNode="MagazineTypes/CP20Plus_Magazine_40xx">
+                  <Kinematics>
+                    <CalibOffset>
+                      <x>0.158632</x>
+                      <y>0.117264</y>
+                      <z>0.263500</z>
+                      <phi>-0.035127</phi>
+                      <IsCalibrated>true</IsCalibrated>
+                    </CalibOffset>
+                    <Garages>
+                      <Garage Id="1">
+                        <Nozzle>
+                          <CurrentType>4103</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>1363</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="2">
+                        <Nozzle>
+                          <CurrentType>4103</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>1354</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="3">
+                        <Nozzle>
+                          <CurrentType>4103</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>1355</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="4">
+                        <Nozzle>
+                          <CurrentType>4103</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>1356</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="5">
+                        <Nozzle>
+                          <CurrentType>4103</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>1398</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="6">
+                        <Nozzle>
+                          <CurrentType>4103</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>1392</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="7">
+                        <Nozzle>
+                          <CurrentType>4103</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>1357</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="8">
+                        <Nozzle>
+                          <CurrentType>4103</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>1358</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="9">
+                        <Nozzle>
+                          <CurrentType>4103</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>1359</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="10">
+                        <Nozzle>
+                          <CurrentType>4103</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>1360</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="11">
+                        <Nozzle>
+                          <CurrentType>4103</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>1361</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="12">
+                        <Nozzle>
+                          <CurrentType>4103</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>1362</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="13">
+                        <Nozzle>
+                          <CurrentType>4004</CurrentType>
+                          <OnHead>true</OnHead>
+                          <SegmentNumber>9</SegmentNumber>
+                          <NozzleUniqueId>1445</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="14">
+                        <Nozzle>
+                          <CurrentType>4004</CurrentType>
+                          <OnHead>true</OnHead>
+                          <SegmentNumber>10</SegmentNumber>
+                          <NozzleUniqueId>1454</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="15">
+                        <Nozzle>
+                          <CurrentType>4004</CurrentType>
+                          <OnHead>true</OnHead>
+                          <SegmentNumber>11</SegmentNumber>
+                          <NozzleUniqueId>1518</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="16">
+                        <Nozzle>
+                          <CurrentType>4004</CurrentType>
+                          <OnHead>true</OnHead>
+                          <SegmentNumber>12</SegmentNumber>
+                          <NozzleUniqueId>1455</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="17">
+                        <Nozzle>
+                          <CurrentType>4004</CurrentType>
+                          <OnHead>true</OnHead>
+                          <SegmentNumber>13</SegmentNumber>
+                          <NozzleUniqueId>1456</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="18">
+                        <Nozzle>
+                          <CurrentType>4004</CurrentType>
+                          <OnHead>true</OnHead>
+                          <SegmentNumber>14</SegmentNumber>
+                          <NozzleUniqueId>1457</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="19">
+                        <Nozzle>
+                          <CurrentType>4004</CurrentType>
+                          <OnHead>true</OnHead>
+                          <SegmentNumber>15</SegmentNumber>
+                          <NozzleUniqueId>1458</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="20">
+                        <Nozzle>
+                          <CurrentType>4004</CurrentType>
+                          <OnHead>true</OnHead>
+                          <SegmentNumber>16</SegmentNumber>
+                          <NozzleUniqueId>1459</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                    </Garages>
+                  </Kinematics>
+                </CurrentMagazine>
+              </Magazine>
+              <Magazine Id="2">
+                <CurrentMagazine LinkNode="MagazineTypes/CP20Plus_Magazine_40xx">
+                  <Kinematics>
+                    <CalibOffset>
+                      <x>0.100625</x>
+                      <y>0.209842</y>
+                      <z>0.183500</z>
+                      <phi>-0.017025</phi>
+                      <IsCalibrated>true</IsCalibrated>
+                    </CalibOffset>
+                    <Garages>
+                      <Garage Id="1">
+                        <Nozzle>
+                          <CurrentType>4004</CurrentType>
+                          <OnHead>true</OnHead>
+                          <SegmentNumber>17</SegmentNumber>
+                          <NozzleUniqueId>1447</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="2">
+                        <Nozzle>
+                          <CurrentType>4004</CurrentType>
+                          <OnHead>true</OnHead>
+                          <SegmentNumber>18</SegmentNumber>
+                          <NozzleUniqueId>1423</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="3">
+                        <Nozzle>
+                          <CurrentType>4004</CurrentType>
+                          <OnHead>true</OnHead>
+                          <SegmentNumber>19</SegmentNumber>
+                          <NozzleUniqueId>1424</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="4">
+                        <Nozzle>
+                          <CurrentType>4004</CurrentType>
+                          <OnHead>true</OnHead>
+                          <SegmentNumber>20</SegmentNumber>
+                          <NozzleUniqueId>1425</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="5">
+                        <Nozzle>
+                          <CurrentType>4004</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>1426</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="6">
+                        <Nozzle>
+                          <CurrentType>4004</CurrentType>
+                          <OnHead>true</OnHead>
+                          <SegmentNumber>6</SegmentNumber>
+                          <NozzleUniqueId>1460</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="7">
+                        <Nozzle>
+                          <CurrentType>4004</CurrentType>
+                          <OnHead>true</OnHead>
+                          <SegmentNumber>7</SegmentNumber>
+                          <NozzleUniqueId>1427</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="8">
+                        <Nozzle>
+                          <CurrentType>4004</CurrentType>
+                          <OnHead>true</OnHead>
+                          <SegmentNumber>8</SegmentNumber>
+                          <NozzleUniqueId>1461</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="9">
+                        <Nozzle>
+                          <CurrentType>4004</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>1428</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="10">
+                        <Nozzle>
+                          <CurrentType>4035</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>1446</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="11">
+                        <Nozzle>
+                          <CurrentType>4035</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>1462</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="12">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="13">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="14">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="15">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="16">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="17">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="18">
+                        <Nozzle>
+                          <CurrentType>4033</CurrentType>
+                          <OnHead>true</OnHead>
+                          <SegmentNumber>1</SegmentNumber>
+                          <NozzleUniqueId>1492</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="19">
+                        <Nozzle>
+                          <CurrentType>4033</CurrentType>
+                          <OnHead>true</OnHead>
+                          <SegmentNumber>2</SegmentNumber>
+                          <NozzleUniqueId>1493</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="20">
+                        <Nozzle>
+                          <CurrentType>4033</CurrentType>
+                          <OnHead>true</OnHead>
+                          <SegmentNumber>3</SegmentNumber>
+                          <NozzleUniqueId>1489</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                    </Garages>
+                  </Kinematics>
+                </CurrentMagazine>
+              </Magazine>
+              <Magazine Id="3">
+                <CurrentMagazine LinkNode="MagazineTypes/CP20Plus_Magazine_40xx">
+                  <Kinematics>
+                    <CalibOffset>
+                      <x>0.113625</x>
+                      <y>0.042115</y>
+                      <z>0.252500</z>
+                      <phi>0.039229</phi>
+                      <IsCalibrated>true</IsCalibrated>
+                    </CalibOffset>
+                    <Garages>
+                      <Garage Id="1">
+                        <Nozzle>
+                          <CurrentType>4033</CurrentType>
+                          <OnHead>true</OnHead>
+                          <SegmentNumber>4</SegmentNumber>
+                          <NozzleUniqueId>1396</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="2">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="3">
+                        <Nozzle>
+                          <CurrentType>4033</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>1463</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="4">
+                        <Nozzle>
+                          <CurrentType>4033</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>1464</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="5">
+                        <Nozzle>
+                          <CurrentType>4033</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>1429</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="6">
+                        <Nozzle>
+                          <CurrentType>4004</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>1490</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="7">
+                        <Nozzle>
+                          <CurrentType>4004</CurrentType>
+                          <OnHead>true</OnHead>
+                          <SegmentNumber>5</SegmentNumber>
+                          <NozzleUniqueId>1491</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="8">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="9">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="10">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="11">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="12">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="13">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="14">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="15">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="16">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="17">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="18">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="19">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="20">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                    </Garages>
+                  </Kinematics>
+                </CurrentMagazine>
+              </Magazine>
+              <Magazine Id="4">
+                <CurrentMagazine LinkNode="MagazineTypes/CP20Plus_Magazine_40xx">
+                  <Kinematics>
+                    <CalibOffset>
+                      <x>0.267757</x>
+                      <y>0.718324</y>
+                      <z>0.148500</z>
+                      <phi>-0.036878</phi>
+                      <IsCalibrated>true</IsCalibrated>
+                    </CalibOffset>
+                    <Garages>
+                      <Garage Id="1">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="2">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="3">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="4">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="5">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="6">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="7">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="8">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="9">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="10">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="11">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="12">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="13">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="14">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="15">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="16">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="17">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="18">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="19">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                      <Garage Id="20">
+                        <Nozzle>
+                          <CurrentType>0</CurrentType>
+                          <OnHead>false</OnHead>
+                          <SegmentNumber>0</SegmentNumber>
+                          <NozzleUniqueId>0</NozzleUniqueId>
+                        </Nozzle>
+                      </Garage>
+                    </Garages>
+                  </Kinematics>
+                </CurrentMagazine>
+              </Magazine>
+            </Magazines>
+          </Kinematics>
+        </CurrentCarrier>
+      </Carrier>
+      <Carrier Id="3">
+        <CurrentCarrier LinkNode="CarrierTypes/CP20_CarrierShortSlot"/>
+      </Carrier>
+    </Carriers>
+    <CenterAndRejectStation>
+      <CurrentCenterAndRejectStation LinkNode="CenterAndRejectStationTypes/SX4a_CP20Plus_RejectStation">
+        <Kinematics>
+          <ManualTeachingOffset>
+            <x>0.000000</x>
+            <y>0.000000</y>
+            <z Individual="false">0.0</z>
+            <phi Individual="false">0.0</phi>
+          </ManualTeachingOffset>
+          <CalibOffset>
+            <x>0.141888</x>
+            <y>0.032440</y>
+            <z>1.040000</z>
+            <phi>0.138302</phi>
+            <IsCalibrated>true</IsCalibrated>
+          </CalibOffset>
+        </Kinematics>
+      </CurrentCenterAndRejectStation>
+    </CenterAndRejectStation>
+  </Kinematics>
+</NozzleChanger>

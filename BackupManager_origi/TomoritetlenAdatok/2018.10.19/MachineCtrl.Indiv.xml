@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MachineCtrl Version="1.0">
+  <AirPolicy>
+    <AirOffIsEnabled>true</AirOffIsEnabled>
+    <AirOffAfterHowManySeconds>60</AirOffAfterHowManySeconds>
+  </AirPolicy>
+</MachineCtrl>

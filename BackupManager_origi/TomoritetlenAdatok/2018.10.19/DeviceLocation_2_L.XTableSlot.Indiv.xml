@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DeviceLocation Id="L" Version="1.0">
+  <Devices>
+    <Device>
+      <Kinematics>
+        <Offset>
+          <x>0.006578</x>
+          <y>0.074671</y>
+          <phi>0.011174</phi>
+        </Offset>
+      </Kinematics>
+      <Individual>
+        <IsCalibrated>true</IsCalibrated>
+      </Individual>
+    </Device>
+  </Devices>
+</DeviceLocation>

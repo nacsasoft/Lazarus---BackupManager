@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LampControl Version="1.0">
+  <SelectedStrategy>3Lamps</SelectedStrategy>
+  <Custom>
+    <Strategy Id="SampleStrategy">
+      <Info Individual="false">Some information about creation of the customized strategy.</Info>
+      <IsCategoryMergeAllowed>false</IsCategoryMergeAllowed>
+      <Categories>
+        <Category Id="Busy">
+          <LampCombinations>
+            <LampCombination>
+              <Name>GreenBlink</Name>
+              <DelayInSeconds Individual="false">0</DelayInSeconds>
+              <TriggerBuzzer Individual="false">false</TriggerBuzzer>
+              <BuzzerConfig Individual="false"></BuzzerConfig>
+            </LampCombination>
+          </LampCombinations>
+          <IsExclusive Individual="false">false</IsExclusive>
+          <MergeAllowed Individual="false">false</MergeAllowed>
+        </Category>
+        <Category Id="Production">
+          <LampCombinations>
+            <LampCombination>
+              <Name>GreenOn</Name>
+              <DelayInSeconds Individual="false">0</DelayInSeconds>
+              <TriggerBuzzer Individual="false">false</TriggerBuzzer>
+              <BuzzerConfig Individual="false"></BuzzerConfig>
+            </LampCombination>
+          </LampCombinations>
+          <IsExclusive Individual="false">false</IsExclusive>
+          <MergeAllowed Individual="false">false</MergeAllowed>
+        </Category>
+        <Category Id="ProductionPreparation">
+          <LampCombinations>
+            <LampCombination>
+              <Name>GreenOn</Name>
+              <DelayInSeconds Individual="false">0</DelayInSeconds>
+              <TriggerBuzzer Individual="false">false</TriggerBuzzer>
+              <BuzzerConfig Individual="false"></BuzzerConfig>
+            </LampCombination>
+          </LampCombinations>
+          <IsExclusive Individual="false">false</IsExclusive>
+          <MergeAllowed Individual="false">false</MergeAllowed>
+        </Category>
+        <Category Id="StoppedByUser">
+          <LampCombinations>
+            <LampCombination>
+              <Name>GreenBlink</Name>
+              <DelayInSeconds Individual="false">0</DelayInSeconds>
+              <TriggerBuzzer Individual="false">false</TriggerBuzzer>
+              <BuzzerConfig Individual="false"></BuzzerConfig>
+            </LampCombination>
+          </LampCombinations>
+          <IsExclusive Individual="false">false</IsExclusive>
+          <MergeAllowed Individual="false">false</MergeAllowed>
+        </Category>
+        <Category Id="WaitingForBoard">
+          <LampCombinations>
+            <LampCombination>
+              <Name>GreenBlink</Name>
+              <DelayInSeconds Individual="false">0</DelayInSeconds>
+              <TriggerBuzzer Individual="false">false</TriggerBuzzer>
+              <BuzzerConfig Individual="false"></BuzzerConfig>
+            </LampCombination>
+          </LampCombinations>
+          <IsExclusive Individual="false">false</IsExclusive>
+          <MergeAllowed Individual="false">false</MergeAllowed>
+        </Category>
+        <Category Id="WaitingForRecipe">
+          <LampCombinations>
+            <LampCombination>
+              <Name>GreenBlink</Name>
+              <DelayInSeconds Individual="false">0</DelayInSeconds>
+              <TriggerBuzzer Individual="false">false</TriggerBuzzer>
+              <BuzzerConfig Individual="false"></BuzzerConfig>
+            </LampCombination>
+          </LampCombinations>
+          <IsExclusive Individual="false">false</IsExclusive>
+          <MergeAllowed Individual="false">false</MergeAllowed>
+        </Category>
+        <Category Id="Referencing">
+          <LampCombinations>
+            <LampCombination>
+              <Name>GreenBlink</Name>
+              <DelayInSeconds Individual="false">0</DelayInSeconds>
+              <TriggerBuzzer Individual="false">false</TriggerBuzzer>
+              <BuzzerConfig Individual="false"></BuzzerConfig>
+            </LampCombination>
+          </LampCombinations>
+          <IsExclusive Individual="false">false</IsExclusive>
+          <MergeAllowed Individual="false">false</MergeAllowed>
+        </Category>
+        <Category Id="RemoveFromOutput">
+          <LampCombinations>
+            <LampCombination>
+              <Name>GreenBlink</Name>
+              <DelayInSeconds Individual="false">0</DelayInSeconds>
+              <TriggerBuzzer>true</TriggerBuzzer>
+              <BuzzerConfig Individual="false"></BuzzerConfig>
+            </LampCombination>
+          </LampCombinations>
+          <IsExclusive Individual="false">false</IsExclusive>
+          <MergeAllowed Individual="false">false</MergeAllowed>
+        </Category>
+        <Category Id="ConveyorJammed">
+          <LampCombinations>
+            <LampCombination>
+              <Name>GreenBlink</Name>
+              <DelayInSeconds Individual="false">0</DelayInSeconds>
+              <TriggerBuzzer Individual="false">false</TriggerBuzzer>
+              <BuzzerConfig Individual="false"></BuzzerConfig>
+            </LampCombination>
+          </LampCombinations>
+          <IsExclusive Individual="false">false</IsExclusive>
+          <MergeAllowed Individual="false">false</MergeAllowed>
+        </Category>
+        <Category Id="ManualOperations">
+          <LampCombinations>
+            <LampCombination>
+              <Name>GreenBlink</Name>
+              <DelayInSeconds Individual="false">0</DelayInSeconds>
+              <TriggerBuzzer Individual="false">false</TriggerBuzzer>
+              <BuzzerConfig Individual="false"></BuzzerConfig>
+            </LampCombination>
+          </LampCombinations>
+          <IsExclusive Individual="false">false</IsExclusive>
+          <MergeAllowed Individual="false">false</MergeAllowed>
+        </Category>
+        <Category Id="AltLocationInUse">
+          <LampCombinations>
+            <LampCombination>
+              <Name>GreenYellowOn</Name>
+              <DelayInSeconds Individual="false">0</DelayInSeconds>
+              <TriggerBuzzer Individual="false">false</TriggerBuzzer>
+              <BuzzerConfig Individual="false"></BuzzerConfig>
+            </LampCombination>
+          </LampCombinations>
+          <IsExclusive Individual="false">false</IsExclusive>
+          <MergeAllowed Individual="false">false</MergeAllowed>
+        </Category>
+        <Category Id="SomeLocationDeactivated">
+          <LampCombinations>
+            <LampCombination>
+              <Name>GreenYellowOn</Name>
+              <DelayInSeconds Individual="false">0</DelayInSeconds>
+              <TriggerBuzzer Individual="false">false</TriggerBuzzer>
+              <BuzzerConfig Individual="false"></BuzzerConfig>
+            </LampCombination>
+          </LampCombinations>
+          <IsExclusive Individual="false">false</IsExclusive>
+          <MergeAllowed Individual="false">false</MergeAllowed>
+        </Category>
+        <Category Id="LastAltLocationInUse">
+          <LampCombinations>
+            <LampCombination>
+              <Name>GreenYellowOn</Name>
+              <DelayInSeconds Individual="false">0</DelayInSeconds>
+              <TriggerBuzzer Individual="false">false</TriggerBuzzer>
+              <BuzzerConfig Individual="false"></BuzzerConfig>
+            </LampCombination>
+          </LampCombinations>
+          <IsExclusive Individual="false">false</IsExclusive>
+          <MergeAllowed Individual="false">false</MergeAllowed>
+        </Category>
+        <Category Id="LowFillingLevel">
+          <LampCombinations>
+            <LampCombination>
+              <Name>GreenYellowOn</Name>
+              <DelayInSeconds Individual="false">0</DelayInSeconds>
+              <TriggerBuzzer Individual="false">false</TriggerBuzzer>
+              <BuzzerConfig Individual="false"></BuzzerConfig>
+            </LampCombination>
+          </LampCombinations>
+          <IsExclusive Individual="false">false</IsExclusive>
+          <MergeAllowed Individual="false">false</MergeAllowed>
+        </Category>
+        <Category Id="SetupNotComplete">
+          <LampCombinations>
+            <LampCombination>
+              <Name>GreenYellowOn</Name>
+              <DelayInSeconds Individual="false">0</DelayInSeconds>
+              <TriggerBuzzer Individual="false">false</TriggerBuzzer>
+              <BuzzerConfig Individual="false"></BuzzerConfig>
+            </LampCombination>
+          </LampCombinations>
+          <IsExclusive Individual="false">false</IsExclusive>
+          <MergeAllowed Individual="false">false</MergeAllowed>
+        </Category>
+        <Category Id="StoppedByError">
+          <LampCombinations>
+            <LampCombination>
+              <Name>YellowBlink</Name>
+              <DelayInSeconds Individual="false">0</DelayInSeconds>
+              <TriggerBuzzer Individual="false">false</TriggerBuzzer>
+              <BuzzerConfig Individual="false"></BuzzerConfig>
+            </LampCombination>
+          </LampCombinations>
+          <IsExclusive Individual="false">false</IsExclusive>
+          <MergeAllowed Individual="false">false</MergeAllowed>
+        </Category>
+        <Category Id="PlacementStopped">
+          <LampCombinations>
+            <LampCombination>
+              <Name>YellowBlink</Name>
+              <DelayInSeconds Individual="false">0</DelayInSeconds>
+              <TriggerBuzzer Individual="false">false</TriggerBuzzer>
+              <BuzzerConfig Individual="false"></BuzzerConfig>
+            </LampCombination>
+          </LampCombinations>
+          <IsExclusive Individual="false">false</IsExclusive>
+          <MergeAllowed Individual="false">false</MergeAllowed>
+        </Category>
+        <Category Id="BoardTransportError">
+          <LampCombinations>
+            <LampCombination>
+              <Name>YellowBlink</Name>
+              <DelayInSeconds Individual="false">0</DelayInSeconds>
+              <TriggerBuzzer Individual="false">false</TriggerBuzzer>
+              <BuzzerConfig Individual="false"></BuzzerConfig>
+            </LampCombination>
+          </LampCombinations>
+          <IsExclusive Individual="false">false</IsExclusive>
+          <MergeAllowed Individual="false">false</MergeAllowed>
+        </Category>
+        <Category Id="FiducialManipRequired">
+          <LampCombinations>
+            <LampCombination>
+              <Name>YellowBlink</Name>
+              <DelayInSeconds Individual="false">0</DelayInSeconds>
+              <TriggerBuzzer Individual="false">false</TriggerBuzzer>
+              <BuzzerConfig Individual="false"></BuzzerConfig>
+            </LampCombination>
+          </LampCombinations>
+          <IsExclusive Individual="false">false</IsExclusive>
+          <MergeAllowed Individual="false">false</MergeAllowed>
+        </Category>
+        <Category Id="PackagingNeeded">
+          <LampCombinations>
+            <LampCombination>
+              <Name>YellowBlink</Name>
+              <DelayInSeconds Individual="false">0</DelayInSeconds>
+              <TriggerBuzzer Individual="false">false</TriggerBuzzer>
+              <BuzzerConfig Individual="false"></BuzzerConfig>
+            </LampCombination>
+          </LampCombinations>
+          <IsExclusive Individual="false">false</IsExclusive>
+          <MergeAllowed Individual="false">false</MergeAllowed>
+        </Category>
+        <Category Id="EnterBarcodeManually">
+          <LampCombinations>
+            <LampCombination>
+              <Name>YellowBlink</Name>
+              <DelayInSeconds Individual="false">0</DelayInSeconds>
+              <TriggerBuzzer Individual="false">false</TriggerBuzzer>
+              <BuzzerConfig Individual="false"></BuzzerConfig>
+            </LampCombination>
+          </LampCombinations>
+          <IsExclusive Individual="false">false</IsExclusive>
+          <MergeAllowed Individual="false">false</MergeAllowed>
+        </Category>
+        <Category Id="MeasurementError">
+          <LampCombinations>
+            <LampCombination>
+              <Name>YellowBlink</Name>
+              <DelayInSeconds Individual="false">0</DelayInSeconds>
+              <TriggerBuzzer Individual="false">false</TriggerBuzzer>
+              <BuzzerConfig Individual="false"></BuzzerConfig>
+            </LampCombination>
+          </LampCombinations>
+          <IsExclusive Individual="false">false</IsExclusive>
+          <MergeAllowed Individual="false">false</MergeAllowed>
+        </Category>
+        <Category Id="SecurityCircuitIsOpen">
+          <LampCombinations>
+            <LampCombination>
+              <Name>RedOn</Name>
+              <DelayInSeconds Individual="false">0</DelayInSeconds>
+              <TriggerBuzzer Individual="false">false</TriggerBuzzer>
+              <BuzzerConfig Individual="false"></BuzzerConfig>
+            </LampCombination>
+          </LampCombinations>
+          <IsExclusive Individual="false">false</IsExclusive>
+          <MergeAllowed Individual="false">false</MergeAllowed>
+        </Category>
+        <Category Id="MachineError">
+          <LampCombinations>
+            <LampCombination>
+              <Name>RedOn</Name>
+              <DelayInSeconds Individual="false">0</DelayInSeconds>
+              <TriggerBuzzer>true</TriggerBuzzer>
+              <BuzzerConfig Individual="false"></BuzzerConfig>
+            </LampCombination>
+          </LampCombinations>
+          <IsExclusive Individual="false">false</IsExclusive>
+          <MergeAllowed Individual="false">false</MergeAllowed>
+        </Category>
+      </Categories>
+      <LampCombinations>
+        <LampCombination Id="GreenOn">
+          <Yellow>Off</Yellow>
+          <Red>Off</Red>
+          <Green>On</Green>
+        </LampCombination>
+        <LampCombination Id="GreenBlink">
+          <Yellow>Off</Yellow>
+          <Red>Off</Red>
+          <Green>Blink</Green>
+        </LampCombination>
+        <LampCombination Id="GreenYellowOn">
+          <Yellow>On</Yellow>
+          <Red>Off</Red>
+          <Green>On</Green>
+        </LampCombination>
+        <LampCombination Id="YellowBlink">
+          <Yellow>Blink</Yellow>
+          <Red>Off</Red>
+          <Green>Off</Green>
+        </LampCombination>
+        <LampCombination Id="RedOn">
+          <Yellow>Off</Yellow>
+          <Red>On</Red>
+          <Green>Off</Green>
+        </LampCombination>
+      </LampCombinations>
+      <LampConfigurations>
+        <LampConfiguration Id="On">
+          <On Individual="false">0</On>
+          <Off Individual="false">0</Off>
+        </LampConfiguration>
+        <LampConfiguration Id="Off">
+          <On Individual="false">0</On>
+          <Off Individual="false">0</Off>
+        </LampConfiguration>
+        <LampConfiguration Id="Blink">
+          <On>500</On>
+          <Off>500</Off>
+        </LampConfiguration>
+      </LampConfigurations>
+      <BuzzerConfigurations/>
+    </Strategy>
+  </Custom>
+</LampControl>

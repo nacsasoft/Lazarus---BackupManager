@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MeasureHead Version="1.0">
+  <Kinematics>
+    <SensorOffset>
+      <x Individual="false">0</x>
+      <y Individual="false">0</y>
+      <phi>0.135566</phi>
+    </SensorOffset>
+  </Kinematics>
+</MeasureHead>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BugReporter Version="1.0">
+  <BugReportOnError>
+    <Errors></Errors>
+  </BugReportOnError>
+  <StopMachineOnError>
+    <Errors Individual="false"></Errors>
+  </StopMachineOnError>
+  <CheckHeapValid>
+    <Enabled Individual="false">false</Enabled>
+    <PollingTime Individual="false">60</PollingTime>
+  </CheckHeapValid>
+  <CheckHeapValidRunningWithVirtualMachine>
+    <Enabled Individual="false">true</Enabled>
+    <PollingTime Individual="false">30</PollingTime>
+  </CheckHeapValidRunningWithVirtualMachine>
+</BugReporter>

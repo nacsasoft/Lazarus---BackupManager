@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<LaneParameter>
+	<MachineParameterId Value="2015030237" />
+	<Parameter Id="4" Value="60" Info="Release parameter" />
+	<Parameter Id="30" Value="41984" Info="conveyor options - part 1" />
+	<Parameter Id="323" Value="0" Info="conveyor options - part 2" />
+	<Parameter Id="31" Value="0" Info="Robust PCB movement" />
+	<Parameter Id="10" Value="1000" Info="[mm/s] velocity PCB maximum" />
+	<Parameter Id="11" Value="350" Info="[mm/s] velocity input machine" />
+	<Parameter Id="12" Value="350" Info="[mm/s] velocity output machine" />
+	<Parameter Id="13" Value="3000" Info="[mm/s2] acceleration maximum" />
+	<Parameter Id="101" Value="100" Info="[m/s3] jerk PCB maximum" />
+	<Parameter Id="17" Value="50" Info="[mm/s] velocity stopper/laser" />
+	<Parameter Id="18" Value="150" Info="[mm/s] velocity positioning long PCBs" />
+	<Parameter Id="19" Value="1000" Info="[mm/s] acceleration positioning long PCBs" />
+	<Parameter Id="21" Value="80" Info="[mm/s] velocity laser posit. long PCBs" />
+	<Parameter Id="22" Value="350" Info="[mm/s] velocity for moving to PCB sensor" />
+	<Parameter Id="25" Value="1" Info="error message timeout downstream machine" />
+	<Parameter Id="26" Value="25" Info="[s] timeout moving downstream machine" />
+	<Parameter Id="320" Value="4" Info="[s] timeout finished upstream machine" />
+	<Parameter Id="321" Value="10" Info="[s] timeout start move upstream" />
+	<Parameter Id="322" Value="10" Info="[s] timeout start move downstream" />
+	<Parameter Id="121" Value="300" Info="[mm/s] velocity lifting table maximum" />
+	<Parameter Id="120" Value="50" Info="[mm/s] clamping velocity board" />
+	<Parameter Id="122" Value="3000" Info="[mm/s2] acceleration lifting table" />
+	<Parameter Id="123" Value="100" Info="[m/s3] jerk lifting table" />
+	<Parameter Id="126" Value="4847" Info="[um] lifting table 1 index pulse" />
+	<Parameter Id="127" Value="1000" Info="[um] lifting table 1 down position" />
+	<Parameter Id="128" Value="1300" Info="[0/00] lifting table 1 current (force)" />
+	<Parameter Id="129" Value="4875" Info="[um] reference point 1 lifting table" />
+	<Parameter Id="119" Value="65507" Info="[um] travel range 1 lifting table" />
+	<Parameter Id="316" Value="40500" Info="[um] lifting table 1 up position" />
+	<Parameter Id="318" Value="19400" Info="[um] lifting table 1 mapping position" />
+	<Parameter Id="114" Value="9371" Info="[um] lifting table 2 index pulse" />
+	<Parameter Id="115" Value="1000" Info="[um] lifting table 2 down position" />
+	<Parameter Id="116" Value="1300" Info="[0/00] lifting table 2 current (force)" />
+	<Parameter Id="118" Value="8959" Info="[um] reference point lifting table 2" />
+	<Parameter Id="117" Value="301" Info="[um] travel range lifting table 2" />
+	<Parameter Id="317" Value="40500" Info="[um] lifting table 2 up position" />
+	<Parameter Id="319" Value="19400" Info="[um] lifting table 2 mapping position" />
+	<Parameter Id="29" Value="300" Info="[um] clamping tolerance lifting table" />
+	<Parameter Id="28" Value="3000" Info="[ms] timeout waiting barcode message" />
+	<Parameter Id="100" Value="0" Info="[ms] add. waiting time for barcode trigger" />
+	<Parameter Id="297" Value="4340" Info="[100um] position stopper output section" />
+	<Parameter Id="91" Value="1000" Info="[ms] time after moving up pins" />
+	<Parameter Id="92" Value="100" Info="[ms] time after moving down pins" />
+	<Parameter Id="309" Value="20" Info="[100ms] timeout checking vacuum on" />
+</LaneParameter>

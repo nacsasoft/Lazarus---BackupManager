@@ -1,0 +1,1 @@
+upx --best --overlay=strip -o new_backupmanager.exe backupmanager.exe

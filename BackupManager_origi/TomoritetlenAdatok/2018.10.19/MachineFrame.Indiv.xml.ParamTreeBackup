@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MachineFrame>
+  <UniqueMachineId>00011311</UniqueMachineId>
+  <MachineName Version="1.0">Line_U\X4iS_U</MachineName>
+  <MachineFrameSerialNumber>H00712041703</MachineFrameSerialNumber>
+  <Features>
+    <SegOffUpAdjustmentConfig>
+      <is_active Individual="false">false</is_active>
+      <nr_of_angles Individual="false">2</nr_of_angles>
+      <interval Individual="false">600.0</interval>
+    </SegOffUpAdjustmentConfig>
+  </Features>
+  <MappingSettings>
+    <DefaultMappingTolerance Individual="false">4.0</DefaultMappingTolerance>
+    <FilteredMapping>
+      <UseHighResolutionForFiltering Individual="false">true</UseHighResolutionForFiltering>
+      <UsePcbFiltering Individual="false">true</UsePcbFiltering>
+      <UseHeadFiltering Individual="false">true</UseHeadFiltering>
+    </FilteredMapping>
+    <ProcessedMappingDataStorage>
+      <UseBackupDirectory Individual="false">false</UseBackupDirectory>
+      <BackupDirectory Individual="false">ProcessedMappingData</BackupDirectory>
+      <Quota>
+        <MaxNumberOfFiles Individual="false">100</MaxNumberOfFiles>
+        <DirectoryQuotaInMB Individual="false">20</DirectoryQuotaInMB>
+      </Quota>
+    </ProcessedMappingDataStorage>
+  </MappingSettings>
+</MachineFrame>

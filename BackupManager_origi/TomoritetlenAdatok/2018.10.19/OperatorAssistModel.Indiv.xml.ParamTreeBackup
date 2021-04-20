@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OperatorAssistModel Version="1.0">
+  <Config>
+    <Enabled Individual="false">true</Enabled>
+    <OnlyBlockIfTop Individual="false">false</OnlyBlockIfTop>
+    <PreferRemote Individual="false">true</PreferRemote>
+    <PreferOlder Individual="false">true</PreferOlder>
+    <OnlySendDuringProduction Individual="false">true</OnlySendDuringProduction>
+    <NoSendAfterProductionStartInSeconds Individual="false">10</NoSendAfterProductionStartInSeconds>
+    <SendAfterProductionStopInSeconds Individual="false">10</SendAfterProductionStopInSeconds>
+    <WaitAfterUserEventSetInSeconds Individual="false">0.1</WaitAfterUserEventSetInSeconds>
+    <WaitAfterUserEventResetInSeconds Individual="false">0.1</WaitAfterUserEventResetInSeconds>
+  </Config>
+</OperatorAssistModel>

@@ -1,0 +1,96 @@
+unit gepadatmentes;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls;
+
+type
+
+  { TfrmGepadatmentes }
+
+  TfrmGepadatmentes = class(TForm)
+    btnMentes : TButton;
+    btnKilepes : TButton;
+    edtMentesNeve : TEdit;
+    Label1 : TLabel;
+    procedure btnKilepesClick(Sender : TObject);
+    procedure btnMentesClick(Sender : TObject);
+    procedure FormClose(Sender : TObject; var CloseAction : TCloseAction);
+    procedure FormShow(Sender : TObject);
+  private
+    { private declarations }
+  public
+    { public declarations }
+  end;
+
+var
+  frmGepadatmentes : TfrmGepadatmentes;
+
+implementation
+
+uses Unit1,global;
+
+{$R *.lfm}
+
+{ TfrmGepadatmentes }
+
+procedure TfrmGepadatmentes.btnKilepesClick(Sender : TObject);
+begin
+  frmGepadatmentes.Hide;
+	Form1.Show;
+end;
+
+procedure TfrmGepadatmentes.btnMentesClick(Sender : TObject);
+var
+  sTavoliUtv,sMentesNeve : string;
+  dwRet: DWORD;
+
+begin
+  //Gépadatok mentése:
+
+  sMentesNeve := edtMentesNeve.Text;
+  sTavoliUtv := '\\' + sSorvezIP + '\SrcMaBackup';
+
+  dwRet := MakeDriveMapping(sTavoliMeghajtoNev,sTavoliUtv);
+  if dwRet = 0 then
+    begin
+      if not DirectoryExists(sTavoliMeghajtoNev + '\srcmabackup\' + sGepAzonosito) then
+        CreateDir(sTavoliMeghajtoNev + '\srcmabackup\' + sGepAzonosito);
+      if not DirectoryExists(sTavoliMeghajtoNev + '\srcmabackup\' + sGepAzonosito + '\' + sMentesNeve) then
+        CreateDir(sTavoliMeghajtoNev + '\srcmabackup\' + sGepAzonosito + '\' + sMentesNeve);
+		  //Copy_Dir(Gepadatok, sTavoliMeghajtoNev + '\srcmabackup\' + sGepAzonosito + '\' + sMentesNeve);
+      CopyFiles(Gepadatok,sTavoliMeghajtoNev + '\srcmabackup\' + sGepAzonosito + '\' + sMentesNeve,'*.*');
+    end
+  else
+    begin
+		  ShowMessage('Csatlakozási hiba! ' + #10#10 + 'A(z) '
+        + sGepAzonosito + ' beültetőgép adatait nem sikerült lementeni!' + #10+#10
+        + 'Hiba száma : ' + IntToStr(dwRet));
+      Kapcsolat_vege(sTavoliMeghajtoNev);
+      exit;
+    end;
+
+  	Kapcsolat_vege(sTavoliMeghajtoNev);
+
+    ShowMessage('Gépadatok mentése megtörtént!');
+    frmGepadatmentes.Hide;
+	  Form1.Show;
+end;
+
+procedure TfrmGepadatmentes.FormClose(Sender : TObject;
+  var CloseAction : TCloseAction);
+begin
+	frmGepadatmentes.Hide;
+	Form1.Show;
+end;
+
+procedure TfrmGepadatmentes.FormShow(Sender : TObject);
+begin
+  edtMentesNeve.Text := FormatDateTime('YYYY.MM.DD',Now);
+end;
+
+end.
+

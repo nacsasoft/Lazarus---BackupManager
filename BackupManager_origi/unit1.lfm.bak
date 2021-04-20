@@ -1,0 +1,60 @@
+object Form1: TForm1
+  Left = 558
+  Height = 160
+  Top = 329
+  Width = 432
+  BorderStyle = bsDialog
+  Caption = 'SrcMaBackup - Főmenü...'
+  ClientHeight = 160
+  ClientWidth = 432
+  OnShow = FormShow
+  Position = poScreenCenter
+  LCLVersion = '1.6.0.4'
+  object btnMentes: TButton
+    Left = 16
+    Height = 35
+    Top = 24
+    Width = 109
+    Caption = 'Gépadatok mentése'
+    Font.Height = 13
+    Font.Name = 'Tahoma'
+    OnClick = btnMentesClick
+    ParentFont = False
+    TabOrder = 0
+  end
+  object btnBeallitasok: TButton
+    Left = 304
+    Height = 35
+    Top = 24
+    Width = 109
+    Caption = 'Beállítások'
+    Font.Height = 13
+    Font.Name = 'Tahoma'
+    OnClick = btnBeallitasokClick
+    ParentFont = False
+    TabOrder = 1
+  end
+  object btnKilepes: TButton
+    Left = 168
+    Height = 35
+    Top = 104
+    Width = 109
+    Caption = 'Kilépés'
+    Font.Height = 13
+    Font.Name = 'Tahoma'
+    OnClick = btnKilepesClick
+    ParentFont = False
+    TabOrder = 2
+  end
+  object spbVisszatoltes: TSpeedButton
+    Left = 152
+    Height = 35
+    Top = 24
+    Width = 109
+    Caption = 'Kódból beállítva'
+    Font.Height = 13
+    Font.Name = 'Tahoma'
+    OnClick = spbVisszatoltesClick
+    ParentFont = False
+  end
+end

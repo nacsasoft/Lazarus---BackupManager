@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NonVolatileStorage Version="1.0">
+  <Config>
+    <Formatted>true</Formatted>
+    <HasVersion Individual="false">true</HasVersion>
+    <Enabled>true</Enabled>
+    <ReadFromFile Individual="false">false</ReadFromFile>
+    <Type Individual="false">WinAC</Type>
+    <TypeOfNvRam Individual="false">eWINAC</TypeOfNvRam>
+    <NameOfNvRam Individual="false">NVRAM_V1</NameOfNvRam>
+    <CheckNvs>
+      <Periodic>
+        <Enabled Individual="false">true</Enabled>
+        <Seconds Individual="false">300.0</Seconds>
+      </Periodic>
+      <Trigger>
+        <Enabled Individual="false">false</Enabled>
+      </Trigger>
+    </CheckNvs>
+  </Config>
+</NonVolatileStorage>

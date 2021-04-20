@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Elements>
+  <Element>
+    <Description>Release</Description>
+    <Value>R18-1</Value>
+  </Element>
+  <Element>
+    <Description>Machine type</Description>
+    <Value>X4iS</Value>
+  </Element>
+  <Element>
+    <Description>Build#</Description>
+    <Value>11.1.1067.0</Value>
+  </Element>
+  <Element>
+    <Description>Installation date</Description>
+    <Value>30.09.2018</Value>
+  </Element>
+</Elements>

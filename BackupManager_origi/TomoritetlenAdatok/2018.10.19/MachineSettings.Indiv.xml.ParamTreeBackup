@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MachineSettings Version="1.0">
+  <AirPressureHandling>
+    <HeightInMeters Individual="false">550</HeightInMeters>
+  </AirPressureHandling>
+</MachineSettings>

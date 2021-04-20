@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CanInterface Version="1.0">
+  <CanCards>
+    <CanCard>
+      <Individual>
+        <Lan Individual="false">192.168.255.0</Lan>
+        <Name Individual="false">&quot;Unknown&quot;</Name>
+        <Mac Individual="false">00-00-00-00-00-00</Mac>
+      </Individual>
+    </CanCard>
+    <CanCard>
+      <Individual>
+        <Lan Individual="false">192.168.255.0</Lan>
+        <Name Individual="false">&quot;Unknown&quot;</Name>
+        <Mac Individual="false">00-00-00-00-00-00</Mac>
+      </Individual>
+    </CanCard>
+    <CanCard>
+      <Individual>
+        <Lan Individual="false">192.168.255.0</Lan>
+        <Name Individual="false">&quot;Unknown&quot;</Name>
+        <Mac Individual="false">00-00-00-00-00-00</Mac>
+      </Individual>
+    </CanCard>
+    <CanCard>
+      <Individual>
+        <Lan Individual="false">192.168.255.0</Lan>
+        <Name Individual="false">&quot;Unknown&quot;</Name>
+        <Mac Individual="false">00-00-00-00-00-00</Mac>
+      </Individual>
+    </CanCard>
+  </CanCards>
+</CanInterface>

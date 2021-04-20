@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AccuracyModel Version="1.0">
+  <ManualCorrection>
+    <Database>
+      <Settings Individual="false"></Settings>
+    </Database>
+  </ManualCorrection>
+</AccuracyModel>

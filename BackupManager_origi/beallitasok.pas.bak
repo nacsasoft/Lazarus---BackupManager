@@ -1,0 +1,159 @@
+unit beallitasok;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls,
+  global, synaip;
+
+type
+
+  { TfrmBeallitasok }
+
+  TfrmBeallitasok = class(TForm)
+    btnKilepes : TButton;
+    btnMentes : TButton;
+    cmbMeghajto : TComboBox;
+    cmbPlatform: TComboBox;
+    cmbMentettGepadatok: TComboBox;
+    edtPassword : TEdit;
+    edtIP : TEdit;
+    edtGepAzonosito : TEdit;
+    Label1 : TLabel;
+    Label2 : TLabel;
+    Label3 : TLabel;
+    Label4 : TLabel;
+    Label5: TLabel;
+    Label6: TLabel;
+    procedure btnKilepesClick(Sender : TObject);
+    procedure btnMentesClick(Sender : TObject);
+    procedure edtGepAzonositoClick(Sender: TObject);
+    procedure edtGepAzonositoEnter(Sender: TObject);
+    procedure FormClose(Sender : TObject; var CloseAction : TCloseAction);
+    procedure FormShow(Sender : TObject);
+  private
+    { private declarations }
+  public
+    { public declarations }
+  end;
+
+var
+  frmBeallitasok : TfrmBeallitasok;
+
+implementation
+
+uses Unit1;
+
+{ TfrmBeallitasok }
+
+procedure TfrmBeallitasok.btnKilepesClick(Sender : TObject);
+begin
+  frmBeallitasok.Hide;
+  Form1.Show;
+end;
+
+procedure TfrmBeallitasok.btnMentesClick(Sender : TObject);
+var
+	inifile: TextFile;
+  sPassword : string;
+begin
+
+  //Adatok ellenörzése és lementése ill. a globális változók frissítése...
+  //Jelszó ellenörzés:
+  sPassword := edtPassword.Text;
+  if (sPassword <> 'kincso') then
+  begin
+    ShowMessage('Rossz jelszó!');
+    exit;
+  end;
+
+  {
+  if (NOT IsIP(edtIP.Text)) then
+  begin
+    ShowMessage('IP cím formátum nem megfelelő, vagy nincs kitöltve!'+#10+#10+'A helyes formátum pl.: 192.168.100.101');
+    exit;
+  end;
+  }
+
+  if (Trim(edtGepAzonosito.Text) = '') then
+  begin
+    ShowMessage('Gép azonosító mező kitöltése kötelező!'+#10+'pl.: HS50_1, vagy lehet sorozatszám is!');
+    exit;
+  end;
+
+  //adatok oksa....
+  sSorvezIP := edtIP.Text;
+  sGepAzonosito := edtGepAzonosito.Text;
+  sTavoliMeghajtoNev := cmbMeghajto.Text;
+  if cmbPlatform.ItemIndex = 0 then
+     sPlatform := 'sirio'
+  else
+        sPlatform := 'old';
+
+
+  //mentés az ini-fájlba...
+	AssignFile (inifile, sSettings_ini_utvonal);
+ 	Rewrite (inifile);
+	WriteLn(inifile,sSorvezIP);
+	WriteLn(inifile,sGepAzonosito);
+  WriteLn(inifile,sTavoliMeghajtoNev);
+  CloseFile(inifile);
+  ShowMessage('Beállítások frissítése megtörtént!');
+	frmBeallitasok.Hide;
+  Form1.Show;
+end;
+
+procedure TfrmBeallitasok.edtGepAzonositoClick(Sender: TObject);
+begin
+  //edtGepAzonosito.Text := '';
+end;
+
+procedure TfrmBeallitasok.edtGepAzonositoEnter(Sender: TObject);
+begin
+  //edtGepAzonosito.Text := '';
+end;
+
+procedure TfrmBeallitasok.FormClose(Sender : TObject;
+  var CloseAction : TCloseAction);
+begin
+	frmBeallitasok.Hide;
+  Form1.Show;
+end;
+
+procedure TfrmBeallitasok.FormShow(Sender : TObject);
+var
+  sTavoliUtv,sMentesNeve : string;
+  dwRet: DWORD;
+
+begin
+  edtIP.Text := sSorvezIP;
+  edtGepAzonosito.Text := sGepAzonosito;
+  cmbMeghajto.Text := sTavoliMeghajtoNev;
+  edtPassword.Text := '';
+
+  //Mentett gepadatokhoz tartozo lista :
+  //sTavoliUtv := '\\' + sSorvezIP + '\SrcMaBackup$';	// + sGepAzonosito;
+  sTavoliUtv := '\\' + sSorvezIP + '\siemens';
+
+  dwRet := MakeDriveMapping(sTavoliMeghajtoNev,sTavoliUtv);
+  if (dwRet <> 0) then
+  begin
+    ShowMessage('Hálózati hiba! ' + #10#10 + 'Hiba száma : ' + IntToStr(dwRet));
+    Kapcsolat_vege(sTavoliMeghajtoNev);
+    exit;
+  end;
+
+  //sMentesNeve := sTavoliMeghajtoNev+'\srcmabackup';
+  sMentesNeve := sTavoliMeghajtoNev; //+ '\siemens';
+
+  GetSubDirectories(sMentesNeve,cmbMentettGepadatok.Items);
+  cmbMentettGepadatok.ItemIndex := 0;
+  Kapcsolat_vege(sTavoliMeghajtoNev);
+end;
+
+{$R *.lfm}
+
+end.
+

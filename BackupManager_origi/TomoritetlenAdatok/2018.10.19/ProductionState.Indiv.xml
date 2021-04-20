@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductionState Version="1.0">
+  <Settings>
+    <MustStopProductionOnFeederEmpty Individual="false">false</MustStopProductionOnFeederEmpty>
+  </Settings>
+</ProductionState>

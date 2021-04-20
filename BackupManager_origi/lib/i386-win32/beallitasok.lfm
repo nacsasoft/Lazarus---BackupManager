@@ -1,0 +1,209 @@
+object frmBeallitasok: TfrmBeallitasok
+  Left = 864
+  Height = 549
+  Top = 271
+  Width = 492
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'BackupManager - Beállítások...'
+  ClientHeight = 549
+  ClientWidth = 492
+  DesignTimePPI = 120
+  OnClose = FormClose
+  OnShow = FormShow
+  Position = poScreenCenter
+  ShowInTaskBar = stAlways
+  LCLVersion = '1.8.4.0'
+  object btnKilepes: TButton
+    Left = 344
+    Height = 26
+    Top = 496
+    Width = 84
+    Caption = 'Kilépés'
+    Font.Height = 13
+    Font.Name = 'Tahoma'
+    OnClick = btnKilepesClick
+    ParentFont = False
+    TabOrder = 5
+  end
+  object btnMentes: TButton
+    Left = 48
+    Height = 26
+    Top = 496
+    Width = 84
+    Caption = 'Adatmentés'
+    Font.Height = 13
+    Font.Name = 'Tahoma'
+    OnClick = btnMentesClick
+    ParentFont = False
+    TabOrder = 6
+  end
+  object Label1: TLabel
+    Left = 80
+    Height = 20
+    Top = 23
+    Width = 129
+    Caption = 'Sorvezérlő IP címe :'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 23
+    Height = 40
+    Top = 104
+    Width = 186
+    AutoSize = False
+    Caption = 'Gép sorozatszáma (S. No.) :'#13#10'pl.:  I-F5_735-12000805'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 80
+    Height = 20
+    Top = 160
+    Width = 129
+    Caption = 'Meghajtó betüjele :'
+    ParentColor = False
+  end
+  object edtGepAzonosito: TEdit
+    Left = 239
+    Height = 28
+    Top = 112
+    Width = 146
+    OnClick = edtGepAzonositoClick
+    OnEnter = edtGepAzonositoEnter
+    TabOrder = 2
+  end
+  object edtIP: TEdit
+    Left = 239
+    Height = 28
+    Top = 16
+    Width = 146
+    TabOrder = 0
+  end
+  object cmbMeghajto: TComboBox
+    Left = 239
+    Height = 28
+    Top = 160
+    Width = 66
+    ItemHeight = 20
+    ItemIndex = 0
+    Items.Strings = (
+      'F:'
+      'G:'
+      'H:'
+      'I:'
+      'J:'
+      'K:'
+      'L:'
+      'M:'
+      'N:'
+      'O:'
+      'P:'
+      'Q:'
+      'R:'
+      'S:'
+      'T:'
+      'U:'
+      'V:'
+      'W:'
+      'X:'
+      'Y:'
+      'Z:'
+    )
+    TabOrder = 3
+    Text = 'F:'
+  end
+  object Label4: TLabel
+    Left = 163
+    Height = 20
+    Top = 440
+    Width = 46
+    Caption = 'Jelszó :'
+    ParentColor = False
+  end
+  object edtPassword: TEdit
+    Left = 239
+    Height = 28
+    Top = 440
+    Width = 66
+    EchoMode = emPassword
+    PasswordChar = '*'
+    TabOrder = 4
+  end
+  object cmbMentettGepadatok: TComboBox
+    Left = 239
+    Height = 28
+    Top = 71
+    Width = 146
+    ItemHeight = 20
+    OnChange = cmbMentettGepadatokChange
+    TabOrder = 1
+  end
+  object Label5: TLabel
+    Left = 74
+    Height = 20
+    Top = 71
+    Width = 135
+    Caption = 'Mentett gépadatok :'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 129
+    Height = 20
+    Top = 200
+    Width = 80
+    Caption = 'Station SW :'
+    ParentColor = False
+  end
+  object cmbPlatform: TComboBox
+    Left = 239
+    Height = 28
+    Top = 200
+    Width = 225
+    ItemHeight = 20
+    ItemIndex = 0
+    Items.Strings = (
+      '4XX     (F4, F5, F5HM, S23HM)'
+      '5XX     (S27HM, HS50, HS60)'
+      '6XX     (D1, D4, X4 - DLM3 fejjel)'
+      '7XX     (X4i(S), SX4, X4 - CPP fejjel)'
+    )
+    TabOrder = 7
+    Text = '4XX     (F4, F5, F5HM, S23HM)'
+  end
+  object GroupBox1: TGroupBox
+    Left = 23
+    Height = 140
+    Top = 256
+    Width = 441
+    Caption = 'Szoftver opciók...'
+    ClientHeight = 115
+    ClientWidth = 437
+    TabOrder = 8
+    object chkTest: TCheckBox
+      Left = 384
+      Height = 24
+      Top = 24
+      Width = 20
+      AutoSize = False
+      TabOrder = 0
+    end
+    object Label8: TLabel
+      Left = 16
+      Height = 64
+      Top = 8
+      Width = 344
+      AutoSize = False
+      Caption = 'Teszt üzemmód!'#13#10'Bekapcsoláskor az adatok visszaállítása a "D:\GepadatokvisszaTeszt" mappába történik!!'
+      ParentColor = False
+      WordWrap = True
+    end
+    object Shape1: TShape
+      Left = 11
+      Height = 8
+      Top = 81
+      Width = 415
+      Brush.Color = clTeal
+      Pen.Color = clGreen
+    end
+  end
+end

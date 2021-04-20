@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HermesComponent Version="1.0">
+  <Configuration>
+    <MachineId Individual="false"></MachineId>
+    <ConfigurationService>
+      <Enabled Individual="false">true</Enabled>
+      <RemoteConfigurationEnabled Individual="false">true</RemoteConfigurationEnabled>
+      <ReconnectWaitTimeInSeconds Individual="false">10</ReconnectWaitTimeInSeconds>
+      <Port Individual="false">1248</Port>
+    </ConfigurationService>
+    <Lanes>
+      <Lane Id="1">
+        <Downstream>
+          <Exists Individual="false">false</Exists>
+          <Port Individual="false">50101</Port>
+          <PeerAddress Individual="false"></PeerAddress>
+          <CheckAlivePeriodInSeconds Individual="false">60</CheckAlivePeriodInSeconds>
+          <ReconnectWaitTimeInSeconds Individual="false">10</ReconnectWaitTimeInSeconds>
+          <Capable Individual="false">false</Capable>
+          <Enabled Individual="false">false</Enabled>
+          <Configurator Individual="false"></Configurator>
+          <ConfigurationTime Individual="false"></ConfigurationTime>
+        </Downstream>
+        <Upstream>
+          <Exists Individual="false">false</Exists>
+          <Port Individual="false">50101</Port>
+          <PeerAddress Individual="false"></PeerAddress>
+          <CheckAlivePeriodInSeconds Individual="false">60</CheckAlivePeriodInSeconds>
+          <ReconnectWaitTimeInSeconds Individual="false">10</ReconnectWaitTimeInSeconds>
+          <Capable Individual="false">false</Capable>
+          <Enabled Individual="false">false</Enabled>
+          <Configurator Individual="false"></Configurator>
+          <ConfigurationTime Individual="false"></ConfigurationTime>
+        </Upstream>
+      </Lane>
+      <Lane Id="2">
+        <Downstream>
+          <Exists Individual="false">false</Exists>
+          <Port Individual="false">50102</Port>
+          <PeerAddress Individual="false"></PeerAddress>
+          <CheckAlivePeriodInSeconds Individual="false">60</CheckAlivePeriodInSeconds>
+          <ReconnectWaitTimeInSeconds Individual="false">10</ReconnectWaitTimeInSeconds>
+          <Capable Individual="false">false</Capable>
+          <Enabled Individual="false">false</Enabled>
+          <Configurator Individual="false"></Configurator>
+          <ConfigurationTime Individual="false"></ConfigurationTime>
+        </Downstream>
+        <Upstream>
+          <Exists Individual="false">false</Exists>
+          <Port Individual="false">50102</Port>
+          <PeerAddress Individual="false"></PeerAddress>
+          <CheckAlivePeriodInSeconds Individual="false">60</CheckAlivePeriodInSeconds>
+          <ReconnectWaitTimeInSeconds Individual="false">10</ReconnectWaitTimeInSeconds>
+          <Capable Individual="false">false</Capable>
+          <Enabled Individual="false">false</Enabled>
+          <Configurator Individual="false"></Configurator>
+          <ConfigurationTime Individual="false"></ConfigurationTime>
+        </Upstream>
+      </Lane>
+    </Lanes>
+  </Configuration>
+</HermesComponent>

@@ -1,0 +1,169 @@
+object frmBeallitasok: TfrmBeallitasok
+  Left = 658
+  Height = 366
+  Top = 314
+  Width = 471
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'BackupManager - Beállítások...'
+  ClientHeight = 366
+  ClientWidth = 471
+  OnClose = FormClose
+  OnShow = FormShow
+  Position = poScreenCenter
+  ShowInTaskBar = stAlways
+  LCLVersion = '1.6.0.4'
+  object btnKilepes: TButton
+    Left = 336
+    Height = 26
+    Top = 312
+    Width = 84
+    Caption = 'Kilépés'
+    Font.Height = 13
+    Font.Name = 'Tahoma'
+    OnClick = btnKilepesClick
+    ParentFont = False
+    TabOrder = 5
+  end
+  object btnMentes: TButton
+    Left = 48
+    Height = 26
+    Top = 312
+    Width = 84
+    Caption = 'Adatmentés'
+    Font.Height = 13
+    Font.Name = 'Tahoma'
+    OnClick = btnMentesClick
+    ParentFont = False
+    TabOrder = 6
+  end
+  object Label1: TLabel
+    Left = 80
+    Height = 20
+    Top = 23
+    Width = 129
+    Caption = 'Sorvezérlő IP címe :'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 23
+    Height = 40
+    Top = 104
+    Width = 186
+    AutoSize = False
+    Caption = 'Gép sorozatszáma (S. No.) :'#13#10'pl.:  I-F5_735-12000805'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 80
+    Height = 20
+    Top = 160
+    Width = 129
+    Caption = 'Meghajtó betüjele :'
+    ParentColor = False
+  end
+  object edtGepAzonosito: TEdit
+    Left = 239
+    Height = 28
+    Top = 104
+    Width = 146
+    OnClick = edtGepAzonositoClick
+    OnEnter = edtGepAzonositoEnter
+    TabOrder = 2
+  end
+  object edtIP: TEdit
+    Left = 239
+    Height = 28
+    Top = 16
+    Width = 146
+    TabOrder = 0
+  end
+  object cmbMeghajto: TComboBox
+    Left = 239
+    Height = 28
+    Top = 160
+    Width = 66
+    ItemHeight = 20
+    ItemIndex = 0
+    Items.Strings = (
+      'F:'
+      'G:'
+      'H:'
+      'I:'
+      'J:'
+      'K:'
+      'L:'
+      'M:'
+      'N:'
+      'O:'
+      'P:'
+      'Q:'
+      'R:'
+      'S:'
+      'T:'
+      'U:'
+      'V:'
+      'W:'
+      'X:'
+      'Y:'
+      'Z:'
+    )
+    TabOrder = 3
+    Text = 'F:'
+  end
+  object Label4: TLabel
+    Left = 163
+    Height = 20
+    Top = 256
+    Width = 46
+    Caption = 'Jelszó :'
+    ParentColor = False
+  end
+  object edtPassword: TEdit
+    Left = 239
+    Height = 28
+    Top = 256
+    Width = 66
+    EchoMode = emPassword
+    PasswordChar = '*'
+    TabOrder = 4
+  end
+  object cmbMentettGepadatok: TComboBox
+    Left = 239
+    Height = 28
+    Top = 71
+    Width = 146
+    ItemHeight = 20
+    TabOrder = 1
+  end
+  object Label5: TLabel
+    Left = 74
+    Height = 20
+    Top = 71
+    Width = 135
+    Caption = 'Mentett gépadatok :'
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 129
+    Height = 20
+    Top = 200
+    Width = 80
+    Caption = 'Station SW :'
+    ParentColor = False
+  end
+  object cmbPlatform: TComboBox
+    Left = 239
+    Height = 28
+    Top = 200
+    Width = 201
+    ItemHeight = 20
+    ItemIndex = 0
+    Items.Strings = (
+      'Sirio (X4i(S),SX4)'
+      'Old (X4, F5HM, D1, D4, S27, F5)'
+    )
+    TabOrder = 7
+    Text = 'Sirio (X4i(S),SX4)'
+  end
+end

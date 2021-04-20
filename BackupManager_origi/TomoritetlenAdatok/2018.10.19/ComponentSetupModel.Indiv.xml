@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ComponentSetupModel Version="1.0">
+  <Configuration>
+    <ComponentBatch>
+      <LengthWidthLearning>
+        <Enabled Individual="false">false</Enabled>
+        <SamplingWindowSize Individual="false">25</SamplingWindowSize>
+        <MaxAllowedDeviationPercentage Individual="false">0.15</MaxAllowedDeviationPercentage>
+      </LengthWidthLearning>
+    </ComponentBatch>
+    <ComponentFillLevelStorage>
+      <ComponentFillLevelData/>
+    </ComponentFillLevelStorage>
+  </Configuration>
+</ComponentSetupModel>

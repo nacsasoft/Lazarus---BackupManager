@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProcessingArea Id="2" Version="1.0">
+  <Kinematics>
+    <ProcessingArea_1>
+      <ZeroPoint_R>
+        <x Individual="false">329.50</x>
+        <y Individual="false">370.00</y>
+      </ZeroPoint_R>
+      <CalibrationPart_10_Location_L>
+        <AlternativeDipfs>
+          <PCBCam_PositionLowY Individual="false">2129</PCBCam_PositionLowY>
+          <PCBCam_PositionUpY Individual="false">2128</PCBCam_PositionUpY>
+        </AlternativeDipfs>
+        <Common>
+          <Dimension Individual="false">12.2</Dimension>
+          <Variance Individual="false">0.2</Variance>
+          <SizeZ Individual="false">1.0</SizeZ>
+          <SizeTolZ Individual="false">0.4</SizeTolZ>
+          <OpticalThickness Individual="false">0.333</OpticalThickness>
+          <DipfIdUpperPos Individual="false">2127</DipfIdUpperPos>
+          <DipfIdUpperCalib Individual="false">2127</DipfIdUpperCalib>
+          <DipfIdFeederCameraLowerCalib Individual="false">6503</DipfIdFeederCameraLowerCalib>
+          <DipfIdLowerPosRobust Individual="false">2228</DipfIdLowerPosRobust>
+          <DipfIdFeederCameraLowerPos Individual="false">6503</DipfIdFeederCameraLowerPos>
+        </Common>
+        <Position>
+          <x Individual="false">363.6 // vorher 360.5</x>
+          <y Individual="false">-384.50</y>
+        </Position>
+      </CalibrationPart_10_Location_L>
+      <CalibrationPart_10_Location_R>
+        <AlternativeDipfs>
+          <PCBCam_PositionLowY Individual="false">2129</PCBCam_PositionLowY>
+          <PCBCam_PositionUpY Individual="false">2128</PCBCam_PositionUpY>
+        </AlternativeDipfs>
+        <Common>
+          <Dimension Individual="false">12.2</Dimension>
+          <Variance Individual="false">0.2</Variance>
+          <SizeZ Individual="false">1.0</SizeZ>
+          <SizeTolZ Individual="false">0.4</SizeTolZ>
+          <OpticalThickness Individual="false">0.333</OpticalThickness>
+          <DipfIdUpperPos Individual="false">2127</DipfIdUpperPos>
+          <DipfIdUpperCalib Individual="false">2127</DipfIdUpperCalib>
+          <DipfIdFeederCameraLowerCalib Individual="false">6503</DipfIdFeederCameraLowerCalib>
+          <DipfIdLowerPosRobust Individual="false">2228</DipfIdLowerPosRobust>
+          <DipfIdFeederCameraLowerPos Individual="false">6503</DipfIdFeederCameraLowerPos>
+        </Common>
+        <Position>
+          <x Individual="false">363.6 // vorher 360.5</x>
+          <y Individual="false">384.50</y>
+        </Position>
+      </CalibrationPart_10_Location_R>
+      <CalibrationPart_Cpl_Location_L>
+        <Common>
+          <Dimension Individual="false">12.2</Dimension>
+          <Variance Individual="false">0.2</Variance>
+          <SizeZ Individual="false">3.0</SizeZ>
+          <SizeTolZ Individual="false">1.0</SizeTolZ>
+          <OpticalThickness Individual="false">3.0</OpticalThickness>
+          <DipfIdUpperPos Individual="false">NotUsed</DipfIdUpperPos>
+          <DipfIdUpperCalib Individual="false">NotUsed</DipfIdUpperCalib>
+          <DipfIdFeederCameraLowerCalib Individual="false">NotUsed</DipfIdFeederCameraLowerCalib>
+          <DipfIdLowerPosRobust Individual="false">2137</DipfIdLowerPosRobust>
+          <DipfIdFeederCameraLowerPos Individual="false">NotUsed</DipfIdFeederCameraLowerPos>
+        </Common>
+        <Position>
+          <x Individual="false">363.6 // vorher 360.5</x>
+          <y Individual="false">-384.50</y>
+        </Position>
+      </CalibrationPart_Cpl_Location_L>
+      <CalibrationPart_Cpl_Location_R>
+        <Common>
+          <Dimension Individual="false">12.2</Dimension>
+          <Variance Individual="false">0.2</Variance>
+          <SizeZ Individual="false">3.0</SizeZ>
+          <SizeTolZ Individual="false">1.0</SizeTolZ>
+          <OpticalThickness Individual="false">3.0</OpticalThickness>
+          <DipfIdUpperPos Individual="false">NotUsed</DipfIdUpperPos>
+          <DipfIdUpperCalib Individual="false">NotUsed</DipfIdUpperCalib>
+          <DipfIdFeederCameraLowerCalib Individual="false">NotUsed</DipfIdFeederCameraLowerCalib>
+          <DipfIdLowerPosRobust Individual="false">2137</DipfIdLowerPosRobust>
+          <DipfIdFeederCameraLowerPos Individual="false">NotUsed</DipfIdFeederCameraLowerPos>
+        </Common>
+        <Position>
+          <x Individual="false">363.6 // vorher 360.5</x>
+          <y Individual="false">384.50</y>
+        </Position>
+      </CalibrationPart_Cpl_Location_R>
+      <CalibrationPart_7_white_Loc_L>
+        <Common>
+          <Dimension Individual="false">5.70</Dimension>
+          <Variance Individual="false">0.2</Variance>
+          <SizeZ Individual="false">1.0</SizeZ>
+          <SizeTolZ Individual="false">0.26</SizeTolZ>
+          <OpticalThickness Individual="false">0.333</OpticalThickness>
+          <DipfIdUpperPos Individual="false">2523</DipfIdUpperPos>
+          <DipfIdUpperCalib Individual="false">2523</DipfIdUpperCalib>
+          <DipfIdFeederCameraLowerCalib Individual="false">6504</DipfIdFeederCameraLowerCalib>
+          <DipfIdLowerPosRobust Individual="false">2624</DipfIdLowerPosRobust>
+          <DipfIdFeederCameraLowerPos Individual="false">6504</DipfIdFeederCameraLowerPos>
+        </Common>
+        <Position>
+          <x Individual="false">335.10</x>
+          <y Individual="false">-371.50</y>
+        </Position>
+      </CalibrationPart_7_white_Loc_L>
+      <CalibrationPart_7_white_Loc_R>
+        <Common>
+          <Dimension Individual="false">5.70</Dimension>
+          <Variance Individual="false">0.2</Variance>
+          <SizeZ Individual="false">1.0</SizeZ>
+          <SizeTolZ Individual="false">0.26</SizeTolZ>
+          <OpticalThickness Individual="false">0.333</OpticalThickness>
+          <DipfIdUpperPos Individual="false">2523</DipfIdUpperPos>
+          <DipfIdUpperCalib Individual="false">2523</DipfIdUpperCalib>
+          <DipfIdFeederCameraLowerCalib Individual="false">6504</DipfIdFeederCameraLowerCalib>
+          <DipfIdLowerPosRobust Individual="false">2624</DipfIdLowerPosRobust>
+          <DipfIdFeederCameraLowerPos Individual="false">6504</DipfIdFeederCameraLowerPos>
+        </Common>
+        <Position>
+          <x Individual="false">335.10</x>
+          <y Individual="false">371.50</y>
+        </Position>
+      </CalibrationPart_7_white_Loc_R>
+      <CalibrationPart_7_blue_Loc_L>
+        <Common>
+          <Dimension Individual="false">5.70</Dimension>
+          <Variance Individual="false">0.2</Variance>
+          <SizeZ Individual="false">1.0</SizeZ>
+          <SizeTolZ Individual="false">0.26</SizeTolZ>
+          <OpticalThickness Individual="false">1.0</OpticalThickness>
+          <DipfIdUpperPos Individual="false">2525</DipfIdUpperPos>
+          <DipfIdUpperCalib Individual="false">2525</DipfIdUpperCalib>
+          <DipfIdFeederCameraLowerCalib Individual="false">6504</DipfIdFeederCameraLowerCalib>
+          <DipfIdLowerPosRobust Individual="false">2624</DipfIdLowerPosRobust>
+          <DipfIdFeederCameraLowerPos Individual="false">6504</DipfIdFeederCameraLowerPos>
+        </Common>
+        <Position>
+          <x Individual="false">335.10</x>
+          <y Individual="false">-371.50</y>
+        </Position>
+      </CalibrationPart_7_blue_Loc_L>
+      <CalibrationPart_7_blue_Loc_R>
+        <Common>
+          <Dimension Individual="false">5.70</Dimension>
+          <Variance Individual="false">0.2</Variance>
+          <SizeZ Individual="false">1.0</SizeZ>
+          <SizeTolZ Individual="false">0.26</SizeTolZ>
+          <OpticalThickness Individual="false">1.0</OpticalThickness>
+          <DipfIdUpperPos Individual="false">2525</DipfIdUpperPos>
+          <DipfIdUpperCalib Individual="false">2525</DipfIdUpperCalib>
+          <DipfIdFeederCameraLowerCalib Individual="false">6504</DipfIdFeederCameraLowerCalib>
+          <DipfIdLowerPosRobust Individual="false">2624</DipfIdLowerPosRobust>
+          <DipfIdFeederCameraLowerPos Individual="false">6504</DipfIdFeederCameraLowerPos>
+        </Common>
+        <Position>
+          <x Individual="false">335.10</x>
+          <y Individual="false">371.50</y>
+        </Position>
+      </CalibrationPart_7_blue_Loc_R>
+    </ProcessingArea_1>
+    <ProcessingArea_2>
+      <ZeroPoint_L>
+        <x>329.370887</x>
+        <y>369.867235</y>
+      </ZeroPoint_L>
+      <CalibrationPart_10_Location_L>
+        <AlternativeDipfs>
+          <PCBCam_PositionLowY Individual="false">2129</PCBCam_PositionLowY>
+          <PCBCam_PositionUpY Individual="false">2128</PCBCam_PositionUpY>
+        </AlternativeDipfs>
+        <Common>
+          <Dimension Individual="false">12.2</Dimension>
+          <Variance Individual="false">0.2</Variance>
+          <SizeZ Individual="false">1.0</SizeZ>
+          <SizeTolZ Individual="false">0.4</SizeTolZ>
+          <OpticalThickness Individual="false">0.333</OpticalThickness>
+          <DipfIdUpperPos Individual="false">2127</DipfIdUpperPos>
+          <DipfIdUpperCalib Individual="false">2127</DipfIdUpperCalib>
+          <DipfIdFeederCameraLowerCalib Individual="false">6503</DipfIdFeederCameraLowerCalib>
+          <DipfIdLowerPosRobust Individual="false">2228</DipfIdLowerPosRobust>
+          <DipfIdFeederCameraLowerPos Individual="false">6503</DipfIdFeederCameraLowerPos>
+        </Common>
+        <Position>
+          <x Individual="false">363.6 // vorher 360.5</x>
+          <y Individual="false">384.50</y>
+        </Position>
+      </CalibrationPart_10_Location_L>
+      <CalibrationPart_10_Location_R>
+        <AlternativeDipfs>
+          <PCBCam_PositionLowY Individual="false">2129</PCBCam_PositionLowY>
+          <PCBCam_PositionUpY Individual="false">2128</PCBCam_PositionUpY>
+        </AlternativeDipfs>
+        <Common>
+          <Dimension Individual="false">12.2</Dimension>
+          <Variance Individual="false">0.2</Variance>
+          <SizeZ Individual="false">1.0</SizeZ>
+          <SizeTolZ Individual="false">0.4</SizeTolZ>
+          <OpticalThickness Individual="false">0.333</OpticalThickness>
+          <DipfIdUpperPos Individual="false">2127</DipfIdUpperPos>
+          <DipfIdUpperCalib Individual="false">2127</DipfIdUpperCalib>
+          <DipfIdFeederCameraLowerCalib Individual="false">6503</DipfIdFeederCameraLowerCalib>
+          <DipfIdLowerPosRobust Individual="false">2228</DipfIdLowerPosRobust>
+          <DipfIdFeederCameraLowerPos Individual="false">6503</DipfIdFeederCameraLowerPos>
+        </Common>
+        <Position>
+          <x Individual="false">363.6 // vorher 360.5</x>
+          <y Individual="false">-384.50</y>
+        </Position>
+      </CalibrationPart_10_Location_R>
+      <CalibrationPart_Cpl_Location_L>
+        <Common>
+          <Dimension Individual="false">12.2</Dimension>
+          <Variance Individual="false">0.2</Variance>
+          <SizeZ Individual="false">3.0</SizeZ>
+          <SizeTolZ Individual="false">1.0</SizeTolZ>
+          <OpticalThickness Individual="false">3.0</OpticalThickness>
+          <DipfIdUpperPos Individual="false">NotUsed</DipfIdUpperPos>
+          <DipfIdUpperCalib Individual="false">NotUsed</DipfIdUpperCalib>
+          <DipfIdFeederCameraLowerCalib Individual="false">NotUsed</DipfIdFeederCameraLowerCalib>
+          <DipfIdLowerPosRobust Individual="false">2137</DipfIdLowerPosRobust>
+          <DipfIdFeederCameraLowerPos Individual="false">NotUsed</DipfIdFeederCameraLowerPos>
+        </Common>
+        <Position>
+          <x Individual="false">363.6 // vorher 360.5</x>
+          <y Individual="false">384.50</y>
+        </Position>
+      </CalibrationPart_Cpl_Location_L>
+      <CalibrationPart_Cpl_Location_R>
+        <Common>
+          <Dimension Individual="false">12.2</Dimension>
+          <Variance Individual="false">0.2</Variance>
+          <SizeZ Individual="false">3.0</SizeZ>
+          <SizeTolZ Individual="false">1.0</SizeTolZ>
+          <OpticalThickness Individual="false">3.0</OpticalThickness>
+          <DipfIdUpperPos Individual="false">NotUsed</DipfIdUpperPos>
+          <DipfIdUpperCalib Individual="false">NotUsed</DipfIdUpperCalib>
+          <DipfIdFeederCameraLowerCalib Individual="false">NotUsed</DipfIdFeederCameraLowerCalib>
+          <DipfIdLowerPosRobust Individual="false">2137</DipfIdLowerPosRobust>
+          <DipfIdFeederCameraLowerPos Individual="false">NotUsed</DipfIdFeederCameraLowerPos>
+        </Common>
+        <Position>
+          <x Individual="false">363.6 // vorher 360.5</x>
+          <y Individual="false">-384.50</y>
+        </Position>
+      </CalibrationPart_Cpl_Location_R>
+      <CalibrationPart_7_white_Loc_L>
+        <Common>
+          <Dimension Individual="false">5.70</Dimension>
+          <Variance Individual="false">0.2</Variance>
+          <SizeZ Individual="false">1.0</SizeZ>
+          <SizeTolZ Individual="false">0.26</SizeTolZ>
+          <OpticalThickness Individual="false">0.333</OpticalThickness>
+          <DipfIdUpperPos Individual="false">2523</DipfIdUpperPos>
+          <DipfIdUpperCalib Individual="false">2523</DipfIdUpperCalib>
+          <DipfIdFeederCameraLowerCalib Individual="false">6504</DipfIdFeederCameraLowerCalib>
+          <DipfIdLowerPosRobust Individual="false">2624</DipfIdLowerPosRobust>
+          <DipfIdFeederCameraLowerPos Individual="false">6504</DipfIdFeederCameraLowerPos>
+        </Common>
+        <Position>
+          <x Individual="false">335.10</x>
+          <y Individual="false">371.50</y>
+        </Position>
+      </CalibrationPart_7_white_Loc_L>
+      <CalibrationPart_7_white_Loc_R>
+        <Common>
+          <Dimension Individual="false">5.70</Dimension>
+          <Variance Individual="false">0.2</Variance>
+          <SizeZ Individual="false">1.0</SizeZ>
+          <SizeTolZ Individual="false">0.26</SizeTolZ>
+          <OpticalThickness Individual="false">0.333</OpticalThickness>
+          <DipfIdUpperPos Individual="false">2523</DipfIdUpperPos>
+          <DipfIdUpperCalib Individual="false">2523</DipfIdUpperCalib>
+          <DipfIdFeederCameraLowerCalib Individual="false">6504</DipfIdFeederCameraLowerCalib>
+          <DipfIdLowerPosRobust Individual="false">2624</DipfIdLowerPosRobust>
+          <DipfIdFeederCameraLowerPos Individual="false">6504</DipfIdFeederCameraLowerPos>
+        </Common>
+        <Position>
+          <x Individual="false">335.10</x>
+          <y Individual="false">-371.50</y>
+        </Position>
+      </CalibrationPart_7_white_Loc_R>
+      <CalibrationPart_7_blue_Loc_L>
+        <Common>
+          <Dimension Individual="false">5.70</Dimension>
+          <Variance Individual="false">0.2</Variance>
+          <SizeZ Individual="false">1.0</SizeZ>
+          <SizeTolZ Individual="false">0.26</SizeTolZ>
+          <OpticalThickness Individual="false">1.0</OpticalThickness>
+          <DipfIdUpperPos Individual="false">2525</DipfIdUpperPos>
+          <DipfIdUpperCalib Individual="false">2525</DipfIdUpperCalib>
+          <DipfIdFeederCameraLowerCalib Individual="false">6504</DipfIdFeederCameraLowerCalib>
+          <DipfIdLowerPosRobust Individual="false">2624</DipfIdLowerPosRobust>
+          <DipfIdFeederCameraLowerPos Individual="false">6504</DipfIdFeederCameraLowerPos>
+        </Common>
+        <Position>
+          <x Individual="false">335.10</x>
+          <y Individual="false">371.50</y>
+        </Position>
+      </CalibrationPart_7_blue_Loc_L>
+      <CalibrationPart_7_blue_Loc_R>
+        <Common>
+          <Dimension Individual="false">5.70</Dimension>
+          <Variance Individual="false">0.2</Variance>
+          <SizeZ Individual="false">1.0</SizeZ>
+          <SizeTolZ Individual="false">0.26</SizeTolZ>
+          <OpticalThickness Individual="false">1.0</OpticalThickness>
+          <DipfIdUpperPos Individual="false">2525</DipfIdUpperPos>
+          <DipfIdUpperCalib Individual="false">2525</DipfIdUpperCalib>
+          <DipfIdFeederCameraLowerCalib Individual="false">6504</DipfIdFeederCameraLowerCalib>
+          <DipfIdLowerPosRobust Individual="false">2624</DipfIdLowerPosRobust>
+          <DipfIdFeederCameraLowerPos Individual="false">6504</DipfIdFeederCameraLowerPos>
+        </Common>
+        <Position>
+          <x Individual="false">335.10</x>
+          <y Individual="false">-371.50</y>
+        </Position>
+      </CalibrationPart_7_blue_Loc_R>
+    </ProcessingArea_2>
+  </Kinematics>
+  <Data>
+    <UnsafeHeadCombinationConfirmed Individual="false">false</UnsafeHeadCombinationConfirmed>
+  </Data>
+</ProcessingArea>

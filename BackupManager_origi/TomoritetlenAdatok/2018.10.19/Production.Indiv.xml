@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Production Version="1.0">
+  <CorrectionInZ>
+    <OscillatingBoardReaction Individual="false">eSTOP</OscillatingBoardReaction>
+    <OscillatingBoardThresholdInMM Individual="false">0.5</OscillatingBoardThresholdInMM>
+  </CorrectionInZ>
+  <WhisperServer>
+    <ConfigurationFile Individual="false"></ConfigurationFile>
+  </WhisperServer>
+  <SWDOptions>
+    <QueryUserOnPCB_StationSetting Individual="false">false</QueryUserOnPCB_StationSetting>
+    <TimerUndoButton Individual="false">10</TimerUndoButton>
+    <AutoConfirmationIsEnabled>true</AutoConfirmationIsEnabled>
+    <TimerAutoConfirmation Individual="false">4</TimerAutoConfirmation>
+    <MustInspectFirstBoard Individual="false">true</MustInspectFirstBoard>
+  </SWDOptions>
+  <CycleOrder>
+    <IsEnabled Individual="false">true</IsEnabled>
+  </CycleOrder>
+  <OptimisticPick>
+    <AllowOptimisticPick Individual="false">eCHECK_INKSPOTS</AllowOptimisticPick>
+    <AllowPcbMeasurementAfterPick Individual="false">eCHECK_FOR_REDUCED_SPEED</AllowPcbMeasurementAfterPick>
+  </OptimisticPick>
+  <IsSchedulingModeEnabled Individual="false">true</IsSchedulingModeEnabled>
+  <RecipeSelectionList/>
+  <BlockedGantryYPositions>
+    <Gantry_1_R Individual="false">0.0</Gantry_1_R>
+    <Gantry_1_L Individual="false">0.0</Gantry_1_L>
+    <Gantry_2_R Individual="false">0.0</Gantry_2_R>
+    <Gantry_2_L Individual="false">0.0</Gantry_2_L>
+  </BlockedGantryYPositions>
+  <VariantTypeBarcodes>
+    <Lane1>
+      <value Individual="false"></value>
+      <recipeName Individual="false"></recipeName>
+      <processingArea Individual="false">-1</processingArea>
+    </Lane1>
+    <Lane2>
+      <value Individual="false"></value>
+      <recipeName Individual="false"></recipeName>
+      <processingArea Individual="false">-1</processingArea>
+    </Lane2>
+  </VariantTypeBarcodes>
+</Production>

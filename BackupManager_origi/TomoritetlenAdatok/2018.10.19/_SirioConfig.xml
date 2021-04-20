@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SirioConfiguration Name="">
+ <MachineFrame Type="X4iS">
+  <MachineIo Type="IoGreenYellowRedBuzzerXS"/>
+  <VacuumType Type="VacuumPump"/>
+  <CanCard Suffix="Cin_4" Type="CanCardSieCin4"/>
+  <Conveyor Type="DualLaneX4iS"/>
+  <ProcessingAreas>
+   <ProcessingArea Id="1" Type="X4iS">
+    <Gantries>
+     <Gantry Id="L" Type="X4iS_1L_2R">
+      <MeasureHead Type="SST34"/>
+      <PlaceHeads>
+       <PlaceHead Id="1" Type="CP20Plus" VisionSensorType="SST23"/>
+      </PlaceHeads>
+     </Gantry>
+     <Gantry Id="R" Type="X4iS_1R_2L">
+      <MeasureHead Type="SST34"/>
+      <PlaceHeads>
+       <PlaceHead Id="1" Type="CP20Plus" VisionSensorType="SST23"/>
+      </PlaceHeads>
+     </Gantry>
+    </Gantries>
+    <LocationFrames>
+     <LocationFrame Id="L" Type="X4iSPosition1_1L_2R"/>
+     <LocationFrame Id="R" Type="X4iSPosition1_1R_2L"/>
+    </LocationFrames>
+    <AspLocations/>
+    <NozzleChangers>
+     <NozzleChanger Id="L" Type="X4iS_CP20Plus_C13"/>
+     <NozzleChanger Id="R" Type="X4iS_CP20Plus_C13"/>
+    </NozzleChangers>
+    <DeviceLocations>
+     <DeviceLocation Id="L" Type="XTableSlot">
+      <TapeCutter Type="TapeCutterXS"/>
+     </DeviceLocation>
+     <DeviceLocation Id="R" Type="XTableSlot">
+      <TapeCutter Type="TapeCutterXS"/>
+     </DeviceLocation>
+    </DeviceLocations>
+   </ProcessingArea>
+   <ProcessingArea Id="2" Type="X4iS">
+    <Gantries>
+     <Gantry Id="L" Type="X4iS_1R_2L">
+      <MeasureHead Type="SST34"/>
+      <PlaceHeads>
+       <PlaceHead Id="1" Type="CP20Plus" VisionSensorType="SST23"/>
+      </PlaceHeads>
+     </Gantry>
+     <Gantry Id="R" Type="X4iS_1L_2R">
+      <MeasureHead Type="SST34"/>
+      <PlaceHeads>
+       <PlaceHead Id="1" Type="CP20Plus" VisionSensorType="SST23"/>
+      </PlaceHeads>
+     </Gantry>
+    </Gantries>
+    <LocationFrames>
+     <LocationFrame Id="L" Type="X4iSPosition1_1R_2L"/>
+     <LocationFrame Id="R" Type="X4iSPosition1_1L_2R"/>
+    </LocationFrames>
+    <AspLocations/>
+    <NozzleChangers>
+     <NozzleChanger Id="L" Type="X4iS_CP20Plus_C13"/>
+     <NozzleChanger Id="R" Type="X4iS_CP20Plus_C13"/>
+    </NozzleChangers>
+    <DeviceLocations>
+     <DeviceLocation Id="L" Type="XTableSlot">
+      <TapeCutter Type="TapeCutterXS"/>
+     </DeviceLocation>
+     <DeviceLocation Id="R" Type="XTableSlot">
+      <TapeCutter Type="TapeCutterXS"/>
+     </DeviceLocation>
+    </DeviceLocations>
+   </ProcessingArea>
+  </ProcessingAreas>
+ </MachineFrame>
+</SirioConfiguration>

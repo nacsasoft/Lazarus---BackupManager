@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<YatsServer Version="1.0">
+  <Config>
+    <Buffer>
+      <Name Individual="false">CAN_ERROR</Name>
+      <Size Individual="false">2000000</Size>
+    </Buffer>
+    <Buffer>
+      <Name Individual="false">MaintenanceData</Name>
+      <Size Individual="false">1000000</Size>
+      <Alias>
+        <Name Individual="false">MaintenanceDataManager</Name>
+      </Alias>
+    </Buffer>
+    <Buffer>
+      <Name Individual="false">Misc</Name>
+      <Size Individual="false">8388608</Size>
+      <Alias>
+        <Name Individual="false">eSW</Name>
+      </Alias>
+      <Alias>
+        <Name Individual="false">ComponentSensor</Name>
+      </Alias>
+      <Alias>
+        <Name Individual="false">SetupCtrl</Name>
+      </Alias>
+      <Alias>
+        <Name Individual="false">DualGantryTrace</Name>
+      </Alias>
+      <Alias>
+        <Name Individual="false">RetainerPosition</Name>
+      </Alias>
+    </Buffer>
+    <Buffer>
+      <Name Individual="false">CAN_0</Name>
+      <Size Individual="false">4194304</Size>
+      <Alias>
+        <Name Individual="false">CAN_0_E</Name>
+        <Name Individual="false">CAN_Sensor</Name>
+      </Alias>
+      <Alias>
+        <Name Individual="false">CAN_1_R</Name>
+      </Alias>
+      <Alias>
+        <Name Individual="false">CAN_1_R_1</Name>
+      </Alias>
+      <Alias>
+        <Name Individual="false">CAN_1_L</Name>
+      </Alias>
+      <Alias>
+        <Name Individual="false">CAN_1_L_1</Name>
+      </Alias>
+      <Alias>
+        <Name Individual="false">CAN_1_L_2</Name>
+      </Alias>
+      <Alias>
+        <Name Individual="false">CAN_2_R</Name>
+      </Alias>
+      <Alias>
+        <Name Individual="false">CAN_2_R_1</Name>
+      </Alias>
+      <Alias>
+        <Name Individual="false">CAN_2_R_2</Name>
+      </Alias>
+      <Alias>
+        <Name Individual="false">CAN_2_L</Name>
+      </Alias>
+      <Alias>
+        <Name Individual="false">CAN_2_L_1</Name>
+      </Alias>
+      <Alias>
+        <Name Individual="false">CAN_2_L_2</Name>
+      </Alias>
+    </Buffer>
+    <Buffer>
+      <Name Individual="false">Setup_1_R</Name>
+      <Size Individual="false">4194304</Size>
+    </Buffer>
+    <Buffer>
+      <Name Individual="false">Setup_1_L</Name>
+      <Size Individual="false">4194304</Size>
+    </Buffer>
+    <Buffer>
+      <Name Individual="false">Setup_2_R</Name>
+      <Size Individual="false">4194304</Size>
+    </Buffer>
+    <Buffer>
+      <Name Individual="false">Setup_2_L</Name>
+      <Size Individual="false">4194304</Size>
+    </Buffer>
+    <Buffer>
+      <Name Individual="false">TemperatureCompensation</Name>
+      <Size Individual="false">1000000</Size>
+    </Buffer>
+    <Buffer>
+      <Name Individual="false">SIPLACEVision_TcpMessages</Name>
+      <Size Individual="false">2000000</Size>
+    </Buffer>
+    <Buffer>
+      <Name Individual="false">ComponentSensor</Name>
+      <Size Individual="false">1000000</Size>
+    </Buffer>
+    <Buffer>
+      <Name Individual="false">StationaryCameraPositions</Name>
+      <Size Individual="false">512000</Size>
+    </Buffer>
+    <Buffer>
+      <Name Individual="false">CyclicSegmentOffsetUpAdjustment_Traces</Name>
+      <Size Individual="false">512000</Size>
+    </Buffer>
+    <Buffer>
+      <Name Individual="false">TapeCutterSyncQueue</Name>
+      <Size Individual="false">512000</Size>
+    </Buffer>
+    <Buffer>
+      <Name Individual="false">VisionCommunication</Name>
+      <Size Individual="false">2000000</Size>
+    </Buffer>
+    <Buffer>
+      <Name Individual="false">CameraGlassPlate</Name>
+      <Size Individual="false">1000000</Size>
+    </Buffer>
+    <Buffer>
+      <Name Individual="false">CyclicSegmentOffsetCalibration</Name>
+      <Size Individual="false">524288</Size>
+    </Buffer>
+    <Buffer>
+      <Name Individual="false">KinematicServerAnalysis</Name>
+      <Size Individual="false">1000000</Size>
+    </Buffer>
+  </Config>
+</YatsServer>

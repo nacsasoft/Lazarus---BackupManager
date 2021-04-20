@@ -1,0 +1,1727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PlaceHead Id="1" Version="1.0">
+  <Individual>
+    <MinimizePrerotateAngle Individual="false">true</MinimizePrerotateAngle>
+    <RotateAngleBeforePickIsOptimizedForPlace Individual="false">false</RotateAngleBeforePickIsOptimizedForPlace>
+    <DpToleranceForPickInDegrees Individual="false">5.0</DpToleranceForPickInDegrees>
+    <DpToleranceForCameraInDegrees Individual="false">-1.0</DpToleranceForCameraInDegrees>
+    <HeadOffset>
+      <x>0.178853</x>
+      <y>-0.267888</y>
+      <phi>-0.263480</phi>
+      <CalibrationDateOffsetXY>
+        <date_time>2018-Jul-03 15:04:55</date_time>
+        <counter>131750966950320000</counter>
+      </CalibrationDateOffsetXY>
+      <CalibrationDateAngle>
+        <date_time>2018-Jul-03 15:04:39</date_time>
+        <counter>131750966799710000</counter>
+      </CalibrationDateAngle>
+    </HeadOffset>
+    <Segments>
+      <DefaultNozzle Individual="false">4235</DefaultNozzle>
+      <Segment_1>
+        <Number Individual="false">1</Number>
+        <SegmentFunctionalState>eENABLED_BY_USER</SegmentFunctionalState>
+        <NozzleType>4035</NozzleType>
+        <NozzleUniqueId>1558</NozzleUniqueId>
+        <SegmentOffset>
+          <x Individual="false">0</x>
+          <y Individual="false">0</y>
+          <z Individual="false">0</z>
+          <phi Individual="false">0</phi>
+        </SegmentOffset>
+        <OffsetUp>
+          <x>0.023734</x>
+          <y>-0.027215</y>
+          <z>-9.682500</z>
+          <phi Individual="false">0</phi>
+        </OffsetUp>
+        <OffsetDown>
+          <x>0.000000</x>
+          <y>0.000000</y>
+          <z>0.000000</z>
+          <AngleDependentOffsets/>
+        </OffsetDown>
+        <ExternalOffsets>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+        </ExternalOffsets>
+        <CalibrationDate>
+          <date_time>2018-Jul-03 15:04:55</date_time>
+          <counter>131750966950320000</counter>
+        </CalibrationDate>
+      </Segment_1>
+      <Segment_2>
+        <Number Individual="false">2</Number>
+        <SegmentFunctionalState>eENABLED_BY_USER</SegmentFunctionalState>
+        <NozzleType>0</NozzleType>
+        <NozzleUniqueId>0</NozzleUniqueId>
+        <SegmentOffset>
+          <x Individual="false">0</x>
+          <y Individual="false">0</y>
+          <z Individual="false">0</z>
+          <phi Individual="false">0</phi>
+        </SegmentOffset>
+        <OffsetUp>
+          <x>0.014402</x>
+          <y>-0.053975</y>
+          <z>-9.682500</z>
+          <phi Individual="false">0</phi>
+        </OffsetUp>
+        <OffsetDown>
+          <x>0.020131</x>
+          <y>0.023695</y>
+          <z>0.000000</z>
+          <AngleDependentOffsets/>
+        </OffsetDown>
+        <ExternalOffsets>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+        </ExternalOffsets>
+        <CalibrationDate>
+          <date_time>2018-Jul-02 15:57:51</date_time>
+          <counter>131750134712260000</counter>
+        </CalibrationDate>
+      </Segment_2>
+      <Segment_3>
+        <Number Individual="false">3</Number>
+        <SegmentFunctionalState>eENABLED_BY_USER</SegmentFunctionalState>
+        <NozzleType>4033</NozzleType>
+        <NozzleUniqueId>1554</NozzleUniqueId>
+        <SegmentOffset>
+          <x Individual="false">0</x>
+          <y Individual="false">0</y>
+          <z Individual="false">0</z>
+          <phi Individual="false">0</phi>
+        </SegmentOffset>
+        <OffsetUp>
+          <x>0.004765</x>
+          <y>-0.057649</y>
+          <z>-9.682500</z>
+          <phi Individual="false">0</phi>
+        </OffsetUp>
+        <OffsetDown>
+          <x>0.024143</x>
+          <y>0.019009</y>
+          <z>0.000000</z>
+          <AngleDependentOffsets/>
+        </OffsetDown>
+        <ExternalOffsets>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+        </ExternalOffsets>
+        <CalibrationDate>
+          <date_time>2018-Jul-02 15:57:51</date_time>
+          <counter>131750134712260000</counter>
+        </CalibrationDate>
+      </Segment_3>
+      <Segment_4>
+        <Number Individual="false">4</Number>
+        <SegmentFunctionalState>eENABLED_BY_USER</SegmentFunctionalState>
+        <NozzleType>4033</NozzleType>
+        <NozzleUniqueId>1555</NozzleUniqueId>
+        <SegmentOffset>
+          <x Individual="false">0</x>
+          <y Individual="false">0</y>
+          <z Individual="false">0</z>
+          <phi Individual="false">0</phi>
+        </SegmentOffset>
+        <OffsetUp>
+          <x>-0.026573</x>
+          <y>-0.091793</y>
+          <z>-9.682500</z>
+          <phi Individual="false">0</phi>
+        </OffsetUp>
+        <OffsetDown>
+          <x>0.043381</x>
+          <y>0.051317</y>
+          <z>0.000000</z>
+          <AngleDependentOffsets/>
+        </OffsetDown>
+        <ExternalOffsets>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+        </ExternalOffsets>
+        <CalibrationDate>
+          <date_time>2018-Jul-03 15:04:55</date_time>
+          <counter>131750966950320000</counter>
+        </CalibrationDate>
+      </Segment_4>
+      <Segment_5>
+        <Number Individual="false">5</Number>
+        <SegmentFunctionalState>eENABLED_BY_USER</SegmentFunctionalState>
+        <NozzleType>4033</NozzleType>
+        <NozzleUniqueId>1556</NozzleUniqueId>
+        <SegmentOffset>
+          <x Individual="false">0</x>
+          <y Individual="false">0</y>
+          <z Individual="false">0</z>
+          <phi Individual="false">0</phi>
+        </SegmentOffset>
+        <OffsetUp>
+          <x>0.030803</x>
+          <y>-0.058167</y>
+          <z>-9.682500</z>
+          <phi Individual="false">0</phi>
+        </OffsetUp>
+        <OffsetDown>
+          <x>-0.017278</x>
+          <y>0.006329</y>
+          <z>0.000000</z>
+          <AngleDependentOffsets/>
+        </OffsetDown>
+        <ExternalOffsets>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+        </ExternalOffsets>
+        <CalibrationDate>
+          <date_time>2018-Jun-17 04:59:00</date_time>
+          <counter>131736779404130000</counter>
+        </CalibrationDate>
+      </Segment_5>
+      <Segment_6>
+        <Number Individual="false">6</Number>
+        <SegmentFunctionalState>eENABLED_BY_USER</SegmentFunctionalState>
+        <NozzleType>4033</NozzleType>
+        <NozzleUniqueId>1557</NozzleUniqueId>
+        <SegmentOffset>
+          <x Individual="false">0</x>
+          <y Individual="false">0</y>
+          <z Individual="false">0</z>
+          <phi Individual="false">0</phi>
+        </SegmentOffset>
+        <OffsetUp>
+          <x>0.067682</x>
+          <y>-0.067008</y>
+          <z>-9.682500</z>
+          <phi Individual="false">0</phi>
+        </OffsetUp>
+        <OffsetDown>
+          <x>-0.052223</x>
+          <y>0.022571</y>
+          <z>0.000000</z>
+          <AngleDependentOffsets/>
+        </OffsetDown>
+        <ExternalOffsets>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+        </ExternalOffsets>
+        <CalibrationDate>
+          <date_time>2018-Jul-02 15:57:51</date_time>
+          <counter>131750134712260000</counter>
+        </CalibrationDate>
+      </Segment_6>
+      <Segment_7>
+        <Number Individual="false">7</Number>
+        <SegmentFunctionalState>eENABLED_BY_USER</SegmentFunctionalState>
+        <NozzleType>4004</NozzleType>
+        <NozzleUniqueId>1535</NozzleUniqueId>
+        <SegmentOffset>
+          <x Individual="false">0</x>
+          <y Individual="false">0</y>
+          <z Individual="false">0</z>
+          <phi Individual="false">0</phi>
+        </SegmentOffset>
+        <OffsetUp>
+          <x>0.040657</x>
+          <y>-0.068586</y>
+          <z>-9.682500</z>
+          <phi Individual="false">0</phi>
+        </OffsetUp>
+        <OffsetDown>
+          <x>-0.022947</x>
+          <y>0.027559</y>
+          <z>0.000000</z>
+          <AngleDependentOffsets/>
+        </OffsetDown>
+        <ExternalOffsets>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+        </ExternalOffsets>
+        <CalibrationDate>
+          <date_time>2018-Jul-02 15:57:51</date_time>
+          <counter>131750134712260000</counter>
+        </CalibrationDate>
+      </Segment_7>
+      <Segment_8>
+        <Number Individual="false">8</Number>
+        <SegmentFunctionalState>eENABLED_BY_USER</SegmentFunctionalState>
+        <NozzleType>4004</NozzleType>
+        <NozzleUniqueId>1536</NozzleUniqueId>
+        <SegmentOffset>
+          <x Individual="false">0</x>
+          <y Individual="false">0</y>
+          <z Individual="false">0</z>
+          <phi Individual="false">0</phi>
+        </SegmentOffset>
+        <OffsetUp>
+          <x>0.045501</x>
+          <y>-0.095261</y>
+          <z>-9.682500</z>
+          <phi Individual="false">0</phi>
+        </OffsetUp>
+        <OffsetDown>
+          <x>-0.029259</x>
+          <y>0.042630</y>
+          <z>0.000000</z>
+          <AngleDependentOffsets/>
+        </OffsetDown>
+        <ExternalOffsets>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+        </ExternalOffsets>
+        <CalibrationDate>
+          <date_time>2018-Jul-02 15:57:51</date_time>
+          <counter>131750134712260000</counter>
+        </CalibrationDate>
+      </Segment_8>
+      <Segment_9>
+        <Number Individual="false">9</Number>
+        <SegmentFunctionalState>eENABLED_BY_USER</SegmentFunctionalState>
+        <NozzleType>4004</NozzleType>
+        <NozzleUniqueId>1537</NozzleUniqueId>
+        <SegmentOffset>
+          <x Individual="false">0</x>
+          <y Individual="false">0</y>
+          <z Individual="false">0</z>
+          <phi Individual="false">0</phi>
+        </SegmentOffset>
+        <OffsetUp>
+          <x>0.063511</x>
+          <y>-0.061217</y>
+          <z>-9.682500</z>
+          <phi Individual="false">0</phi>
+        </OffsetUp>
+        <OffsetDown>
+          <x>-0.025316</x>
+          <y>0.017572</y>
+          <z>0.000000</z>
+          <AngleDependentOffsets/>
+        </OffsetDown>
+        <ExternalOffsets>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+        </ExternalOffsets>
+        <CalibrationDate>
+          <date_time>2018-Jul-02 15:57:51</date_time>
+          <counter>131750134712260000</counter>
+        </CalibrationDate>
+      </Segment_9>
+      <Segment_10>
+        <Number Individual="false">10</Number>
+        <SegmentFunctionalState>eENABLED_BY_USER</SegmentFunctionalState>
+        <NozzleType>4004</NozzleType>
+        <NozzleUniqueId>1538</NozzleUniqueId>
+        <SegmentOffset>
+          <x Individual="false">0</x>
+          <y Individual="false">0</y>
+          <z Individual="false">0</z>
+          <phi Individual="false">0</phi>
+        </SegmentOffset>
+        <OffsetUp>
+          <x>0.047403</x>
+          <y>-0.068408</y>
+          <z>-9.682500</z>
+          <phi Individual="false">0</phi>
+        </OffsetUp>
+        <OffsetDown>
+          <x>-0.027863</x>
+          <y>0.024223</y>
+          <z>0.000000</z>
+          <AngleDependentOffsets/>
+        </OffsetDown>
+        <ExternalOffsets>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+        </ExternalOffsets>
+        <CalibrationDate>
+          <date_time>2018-Jul-02 15:57:51</date_time>
+          <counter>131750134712260000</counter>
+        </CalibrationDate>
+      </Segment_10>
+      <Segment_11>
+        <Number Individual="false">11</Number>
+        <SegmentFunctionalState>eENABLED_BY_USER</SegmentFunctionalState>
+        <NozzleType>4004</NozzleType>
+        <NozzleUniqueId>1539</NozzleUniqueId>
+        <SegmentOffset>
+          <x Individual="false">0</x>
+          <y Individual="false">0</y>
+          <z Individual="false">0</z>
+          <phi Individual="false">0</phi>
+        </SegmentOffset>
+        <OffsetUp>
+          <x>0.037700</x>
+          <y>-0.065418</y>
+          <z>-9.682500</z>
+          <phi Individual="false">0</phi>
+        </OffsetUp>
+        <OffsetDown>
+          <x>-0.016334</x>
+          <y>0.018705</y>
+          <z>0.000000</z>
+          <AngleDependentOffsets/>
+        </OffsetDown>
+        <ExternalOffsets>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+        </ExternalOffsets>
+        <CalibrationDate>
+          <date_time>2018-Jul-02 15:57:51</date_time>
+          <counter>131750134712260000</counter>
+        </CalibrationDate>
+      </Segment_11>
+      <Segment_12>
+        <Number Individual="false">12</Number>
+        <SegmentFunctionalState>eENABLED_BY_USER</SegmentFunctionalState>
+        <NozzleType>4004</NozzleType>
+        <NozzleUniqueId>1540</NozzleUniqueId>
+        <SegmentOffset>
+          <x Individual="false">0</x>
+          <y Individual="false">0</y>
+          <z Individual="false">0</z>
+          <phi Individual="false">0</phi>
+        </SegmentOffset>
+        <OffsetUp>
+          <x>0.080149</x>
+          <y>-0.069781</y>
+          <z>-9.682500</z>
+          <phi Individual="false">0</phi>
+        </OffsetUp>
+        <OffsetDown>
+          <x>-0.049366</x>
+          <y>0.022388</y>
+          <z>0.000000</z>
+          <AngleDependentOffsets/>
+        </OffsetDown>
+        <ExternalOffsets>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+        </ExternalOffsets>
+        <CalibrationDate>
+          <date_time>2018-Jul-02 15:57:51</date_time>
+          <counter>131750134712260000</counter>
+        </CalibrationDate>
+      </Segment_12>
+      <Segment_13>
+        <Number Individual="false">13</Number>
+        <SegmentFunctionalState>eENABLED_BY_USER</SegmentFunctionalState>
+        <NozzleType>4004</NozzleType>
+        <NozzleUniqueId>1541</NozzleUniqueId>
+        <SegmentOffset>
+          <x Individual="false">0</x>
+          <y Individual="false">0</y>
+          <z Individual="false">0</z>
+          <phi Individual="false">0</phi>
+        </SegmentOffset>
+        <OffsetUp>
+          <x>0.074325</x>
+          <y>-0.081826</y>
+          <z>-9.682500</z>
+          <phi Individual="false">0</phi>
+        </OffsetUp>
+        <OffsetDown>
+          <x>-0.065453</x>
+          <y>0.032632</y>
+          <z>0.000000</z>
+          <AngleDependentOffsets/>
+        </OffsetDown>
+        <ExternalOffsets>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+        </ExternalOffsets>
+        <CalibrationDate>
+          <date_time>2018-Jul-02 15:57:51</date_time>
+          <counter>131750134712260000</counter>
+        </CalibrationDate>
+      </Segment_13>
+      <Segment_14>
+        <Number Individual="false">14</Number>
+        <SegmentFunctionalState>eENABLED_BY_USER</SegmentFunctionalState>
+        <NozzleType>4004</NozzleType>
+        <NozzleUniqueId>1542</NozzleUniqueId>
+        <SegmentOffset>
+          <x Individual="false">0</x>
+          <y Individual="false">0</y>
+          <z Individual="false">0</z>
+          <phi Individual="false">0</phi>
+        </SegmentOffset>
+        <OffsetUp>
+          <x>0.073984</x>
+          <y>-0.077423</y>
+          <z>-9.682500</z>
+          <phi Individual="false">0</phi>
+        </OffsetUp>
+        <OffsetDown>
+          <x>-0.068861</x>
+          <y>0.039542</y>
+          <z>0.000000</z>
+          <AngleDependentOffsets/>
+        </OffsetDown>
+        <ExternalOffsets>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+        </ExternalOffsets>
+        <CalibrationDate>
+          <date_time>2018-Jul-03 15:04:55</date_time>
+          <counter>131750966950320000</counter>
+        </CalibrationDate>
+      </Segment_14>
+      <Segment_15>
+        <Number Individual="false">15</Number>
+        <SegmentFunctionalState>eENABLED_BY_USER</SegmentFunctionalState>
+        <NozzleType>4004</NozzleType>
+        <NozzleUniqueId>1543</NozzleUniqueId>
+        <SegmentOffset>
+          <x Individual="false">0</x>
+          <y Individual="false">0</y>
+          <z Individual="false">0</z>
+          <phi Individual="false">0</phi>
+        </SegmentOffset>
+        <OffsetUp>
+          <x>0.061891</x>
+          <y>-0.099823</y>
+          <z>-9.682500</z>
+          <phi Individual="false">0</phi>
+        </OffsetUp>
+        <OffsetDown>
+          <x>-0.046808</x>
+          <y>0.064442</y>
+          <z>0.000000</z>
+          <AngleDependentOffsets/>
+        </OffsetDown>
+        <ExternalOffsets>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+        </ExternalOffsets>
+        <CalibrationDate>
+          <date_time>2018-Jul-02 15:57:51</date_time>
+          <counter>131750134712260000</counter>
+        </CalibrationDate>
+      </Segment_15>
+      <Segment_16>
+        <Number Individual="false">16</Number>
+        <SegmentFunctionalState>eENABLED_BY_USER</SegmentFunctionalState>
+        <NozzleType>4004</NozzleType>
+        <NozzleUniqueId>1544</NozzleUniqueId>
+        <SegmentOffset>
+          <x Individual="false">0</x>
+          <y Individual="false">0</y>
+          <z Individual="false">0</z>
+          <phi Individual="false">0</phi>
+        </SegmentOffset>
+        <OffsetUp>
+          <x>0.059955</x>
+          <y>-0.093611</y>
+          <z>-9.682500</z>
+          <phi Individual="false">0</phi>
+        </OffsetUp>
+        <OffsetDown>
+          <x>-0.032540</x>
+          <y>0.062034</y>
+          <z>0.000000</z>
+          <AngleDependentOffsets/>
+        </OffsetDown>
+        <ExternalOffsets>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+        </ExternalOffsets>
+        <CalibrationDate>
+          <date_time>2018-Jul-02 15:57:51</date_time>
+          <counter>131750134712260000</counter>
+        </CalibrationDate>
+      </Segment_16>
+      <Segment_17>
+        <Number Individual="false">17</Number>
+        <SegmentFunctionalState>eENABLED_BY_USER</SegmentFunctionalState>
+        <NozzleType>4004</NozzleType>
+        <NozzleUniqueId>1545</NozzleUniqueId>
+        <SegmentOffset>
+          <x Individual="false">0</x>
+          <y Individual="false">0</y>
+          <z Individual="false">0</z>
+          <phi Individual="false">0</phi>
+        </SegmentOffset>
+        <OffsetUp>
+          <x>0.085681</x>
+          <y>-0.107675</y>
+          <z>-9.682500</z>
+          <phi Individual="false">0</phi>
+        </OffsetUp>
+        <OffsetDown>
+          <x>-0.063686</x>
+          <y>0.087107</y>
+          <z>0.000000</z>
+          <AngleDependentOffsets/>
+        </OffsetDown>
+        <ExternalOffsets>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+        </ExternalOffsets>
+        <CalibrationDate>
+          <date_time>2018-Jul-02 15:57:51</date_time>
+          <counter>131750134712260000</counter>
+        </CalibrationDate>
+      </Segment_17>
+      <Segment_18>
+        <Number Individual="false">18</Number>
+        <SegmentFunctionalState>eENABLED_BY_USER</SegmentFunctionalState>
+        <NozzleType>4004</NozzleType>
+        <NozzleUniqueId>1546</NozzleUniqueId>
+        <SegmentOffset>
+          <x Individual="false">0</x>
+          <y Individual="false">0</y>
+          <z Individual="false">0</z>
+          <phi Individual="false">0</phi>
+        </SegmentOffset>
+        <OffsetUp>
+          <x>0.032275</x>
+          <y>-0.097881</y>
+          <z>-9.682500</z>
+          <phi Individual="false">0</phi>
+        </OffsetUp>
+        <OffsetDown>
+          <x>-0.008407</x>
+          <y>0.077577</y>
+          <z>0.000000</z>
+          <AngleDependentOffsets/>
+        </OffsetDown>
+        <ExternalOffsets>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+        </ExternalOffsets>
+        <CalibrationDate>
+          <date_time>2018-Jul-02 15:57:51</date_time>
+          <counter>131750134712260000</counter>
+        </CalibrationDate>
+      </Segment_18>
+      <Segment_19>
+        <Number Individual="false">19</Number>
+        <SegmentFunctionalState>eENABLED_BY_USER</SegmentFunctionalState>
+        <NozzleType>4004</NozzleType>
+        <NozzleUniqueId>1547</NozzleUniqueId>
+        <SegmentOffset>
+          <x Individual="false">0</x>
+          <y Individual="false">0</y>
+          <z Individual="false">0</z>
+          <phi Individual="false">0</phi>
+        </SegmentOffset>
+        <OffsetUp>
+          <x>0.021522</x>
+          <y>-0.090958</y>
+          <z>-9.682500</z>
+          <phi Individual="false">0</phi>
+        </OffsetUp>
+        <OffsetDown>
+          <x>0.002159</x>
+          <y>0.063468</y>
+          <z>0.000000</z>
+          <AngleDependentOffsets/>
+        </OffsetDown>
+        <ExternalOffsets>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+        </ExternalOffsets>
+        <CalibrationDate>
+          <date_time>2018-Jul-02 15:57:51</date_time>
+          <counter>131750134712260000</counter>
+        </CalibrationDate>
+      </Segment_19>
+      <Segment_20>
+        <Number Individual="false">20</Number>
+        <SegmentFunctionalState>eENABLED_BY_USER</SegmentFunctionalState>
+        <NozzleType>4004</NozzleType>
+        <NozzleUniqueId>1566</NozzleUniqueId>
+        <SegmentOffset>
+          <x Individual="false">0</x>
+          <y Individual="false">0</y>
+          <z Individual="false">0</z>
+          <phi Individual="false">0</phi>
+        </SegmentOffset>
+        <OffsetUp>
+          <x>0.040880</x>
+          <y>-0.083287</y>
+          <z>-9.682500</z>
+          <phi Individual="false">0</phi>
+        </OffsetUp>
+        <OffsetDown>
+          <x>-0.020384</x>
+          <y>0.062562</y>
+          <z>0.000000</z>
+          <AngleDependentOffsets/>
+        </OffsetDown>
+        <ExternalOffsets>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+          <ExternalOffset>
+            <CameraId Individual="false">Empty</CameraId>
+            <x Individual="false">0</x>
+            <y Individual="false">0</y>
+            <z Individual="false">0</z>
+          </ExternalOffset>
+        </ExternalOffsets>
+        <CalibrationDate>
+          <date_time>2018-Jul-02 15:57:51</date_time>
+          <counter>131750134712260000</counter>
+        </CalibrationDate>
+      </Segment_20>
+    </Segments>
+    <starAxis>
+      <ZeroCorrection>36975</ZeroCorrection>
+      <Distance Individual="false">0 //cycles</Distance>
+      <Moves Individual="false">0</Moves>
+    </starAxis>
+    <zAxis>
+      <ZeroCorrection>-2265</ZeroCorrection>
+      <Distance Individual="false">0 //meter</Distance>
+      <Moves Individual="false">0</Moves>
+      <CSCalibrationData>
+        <CS_1>0</CS_1>
+        <CS_2>0</CS_2>
+        <CS_3>1</CS_3>
+        <CS_4>0</CS_4>
+        <CS_5>0</CS_5>
+        <CS_6>0</CS_6>
+        <CS_7>0</CS_7>
+        <CS_8>0</CS_8>
+        <CS_9>0</CS_9>
+        <CS_10>0</CS_10>
+        <CS_11>0</CS_11>
+        <CS_12>0</CS_12>
+        <CS_13>0</CS_13>
+        <CS_14>0</CS_14>
+        <CS_15>0</CS_15>
+        <CS_16>0</CS_16>
+        <CS_17>0</CS_17>
+        <CS_18>1</CS_18>
+        <CS_19>0</CS_19>
+        <CS_20>1</CS_20>
+        <Valid>true</Valid>
+        <ComponentSensorDeviceID>20151400RFKF0184403092400-0100</ComponentSensorDeviceID>
+        <CalibrationDate>
+          <date_time>2016-Feb-24 12:38:24</date_time>
+          <counter>131007875043020000</counter>
+        </CalibrationDate>
+      </CSCalibrationData>
+    </zAxis>
+    <ZeroPointCorrectionRun>
+      <WasStarted Individual="false">false</WasStarted>
+    </ZeroPointCorrectionRun>
+    <CalibrationDateZeroPressureAdjustment>
+      <date_time>2018-Jul-03 15:03:53</date_time>
+      <counter>131750966330440000</counter>
+    </CalibrationDateZeroPressureAdjustment>
+    <CalibrationDateHeadparameterIdentification>
+      <date_time>2018-Jun-17 04:56:49</date_time>
+      <counter>131736778092430000</counter>
+    </CalibrationDateHeadparameterIdentification>
+  </Individual>
+  <EquipmentData>
+    <Equipment>
+      <HardwareType Individual="false">eSTAR_AXIS</HardwareType>
+      <ProductionDate>20141209</ProductionDate>
+      <Manufacturer>RFK</Manufacturer>
+      <SerialNumber>ED1084</SerialNumber>
+      <MaterialNumber>03092615</MaterialNumber>
+      <NeuteilServiceteil>-</NeuteilServiceteil>
+      <Funktionsstand>01</Funktionsstand>
+      <Revisionsstand>01</Revisionsstand>
+      <LpKennung Individual="false">0</LpKennung>
+      <Baugruppenkennung Individual="false">0</Baugruppenkennung>
+      <SegmentNumber Individual="false">0</SegmentNumber>
+    </Equipment>
+    <Equipment>
+      <HardwareType Individual="false">eZ_AXIS</HardwareType>
+      <ProductionDate>20150508</ProductionDate>
+      <Manufacturer>KL.</Manufacturer>
+      <SerialNumber>F50035</SerialNumber>
+      <MaterialNumber>03091161</MaterialNumber>
+      <NeuteilServiceteil>-</NeuteilServiceteil>
+      <Funktionsstand>01</Funktionsstand>
+      <Revisionsstand>00</Revisionsstand>
+      <LpKennung Individual="false">0</LpKennung>
+      <Baugruppenkennung Individual="false">0</Baugruppenkennung>
+      <SegmentNumber Individual="false">0</SegmentNumber>
+    </Equipment>
+    <Equipment>
+      <HardwareType Individual="false">eCOMPONENT_CAMERA</HardwareType>
+      <ProductionDate>20150225</ProductionDate>
+      <Manufacturer>.KL</Manufacturer>
+      <SerialNumber>F50006</SerialNumber>
+      <MaterialNumber>03105195</MaterialNumber>
+      <NeuteilServiceteil>-</NeuteilServiceteil>
+      <Funktionsstand>02</Funktionsstand>
+      <Revisionsstand>00</Revisionsstand>
+      <LpKennung Individual="false">0</LpKennung>
+      <Baugruppenkennung Individual="false">0</Baugruppenkennung>
+      <SegmentNumber Individual="false">0</SegmentNumber>
+    </Equipment>
+    <Equipment>
+      <HardwareType Individual="false">eDP_AXIS</HardwareType>
+      <ProductionDate>20150505</ProductionDate>
+      <Manufacturer>.KL</Manufacturer>
+      <SerialNumber>F41559</SerialNumber>
+      <MaterialNumber>03102532</MaterialNumber>
+      <NeuteilServiceteil>-</NeuteilServiceteil>
+      <Funktionsstand>03</Funktionsstand>
+      <Revisionsstand>01</Revisionsstand>
+      <LpKennung Individual="false">0</LpKennung>
+      <Baugruppenkennung Individual="false">0</Baugruppenkennung>
+      <SegmentNumber Individual="false">1</SegmentNumber>
+    </Equipment>
+    <Equipment>
+      <HardwareType Individual="false">eDP_AXIS</HardwareType>
+      <ProductionDate>20150505</ProductionDate>
+      <Manufacturer>.KL</Manufacturer>
+      <SerialNumber>F41564</SerialNumber>
+      <MaterialNumber>03102532</MaterialNumber>
+      <NeuteilServiceteil>-</NeuteilServiceteil>
+      <Funktionsstand>03</Funktionsstand>
+      <Revisionsstand>01</Revisionsstand>
+      <LpKennung Individual="false">0</LpKennung>
+      <Baugruppenkennung Individual="false">0</Baugruppenkennung>
+      <SegmentNumber Individual="false">2</SegmentNumber>
+    </Equipment>
+    <Equipment>
+      <HardwareType Individual="false">eDP_AXIS</HardwareType>
+      <ProductionDate>20150505</ProductionDate>
+      <Manufacturer>.KL</Manufacturer>
+      <SerialNumber>F41495</SerialNumber>
+      <MaterialNumber>03102532</MaterialNumber>
+      <NeuteilServiceteil>-</NeuteilServiceteil>
+      <Funktionsstand>03</Funktionsstand>
+      <Revisionsstand>01</Revisionsstand>
+      <LpKennung Individual="false">0</LpKennung>
+      <Baugruppenkennung Individual="false">0</Baugruppenkennung>
+      <SegmentNumber Individual="false">3</SegmentNumber>
+    </Equipment>
+    <Equipment>
+      <HardwareType Individual="false">eDP_AXIS</HardwareType>
+      <ProductionDate>20150505</ProductionDate>
+      <Manufacturer>.KL</Manufacturer>
+      <SerialNumber>F41540</SerialNumber>
+      <MaterialNumber>03102532</MaterialNumber>
+      <NeuteilServiceteil>-</NeuteilServiceteil>
+      <Funktionsstand>03</Funktionsstand>
+      <Revisionsstand>01</Revisionsstand>
+      <LpKennung Individual="false">0</LpKennung>
+      <Baugruppenkennung Individual="false">0</Baugruppenkennung>
+      <SegmentNumber Individual="false">4</SegmentNumber>
+    </Equipment>
+    <Equipment>
+      <HardwareType Individual="false">eDP_AXIS</HardwareType>
+      <ProductionDate>20150505</ProductionDate>
+      <Manufacturer>.KL</Manufacturer>
+      <SerialNumber>F41401</SerialNumber>
+      <MaterialNumber>03102532</MaterialNumber>
+      <NeuteilServiceteil>-</NeuteilServiceteil>
+      <Funktionsstand>03</Funktionsstand>
+      <Revisionsstand>01</Revisionsstand>
+      <LpKennung Individual="false">0</LpKennung>
+      <Baugruppenkennung Individual="false">0</Baugruppenkennung>
+      <SegmentNumber Individual="false">5</SegmentNumber>
+    </Equipment>
+    <Equipment>
+      <HardwareType Individual="false">eDP_AXIS</HardwareType>
+      <ProductionDate>20150505</ProductionDate>
+      <Manufacturer>.KL</Manufacturer>
+      <SerialNumber>F41573</SerialNumber>
+      <MaterialNumber>03102532</MaterialNumber>
+      <NeuteilServiceteil>-</NeuteilServiceteil>
+      <Funktionsstand>03</Funktionsstand>
+      <Revisionsstand>01</Revisionsstand>
+      <LpKennung Individual="false">0</LpKennung>
+      <Baugruppenkennung Individual="false">0</Baugruppenkennung>
+      <SegmentNumber Individual="false">6</SegmentNumber>
+    </Equipment>
+    <Equipment>
+      <HardwareType Individual="false">eDP_AXIS</HardwareType>
+      <ProductionDate>20150505</ProductionDate>
+      <Manufacturer>.KL</Manufacturer>
+      <SerialNumber>F41575</SerialNumber>
+      <MaterialNumber>03102532</MaterialNumber>
+      <NeuteilServiceteil>-</NeuteilServiceteil>
+      <Funktionsstand>03</Funktionsstand>
+      <Revisionsstand>01</Revisionsstand>
+      <LpKennung Individual="false">0</LpKennung>
+      <Baugruppenkennung Individual="false">0</Baugruppenkennung>
+      <SegmentNumber Individual="false">7</SegmentNumber>
+    </Equipment>
+    <Equipment>
+      <HardwareType Individual="false">eDP_AXIS</HardwareType>
+      <ProductionDate>20150505</ProductionDate>
+      <Manufacturer>.KL</Manufacturer>
+      <SerialNumber>F41489</SerialNumber>
+      <MaterialNumber>03102532</MaterialNumber>
+      <NeuteilServiceteil>-</NeuteilServiceteil>
+      <Funktionsstand>03</Funktionsstand>
+      <Revisionsstand>01</Revisionsstand>
+      <LpKennung Individual="false">0</LpKennung>
+      <Baugruppenkennung Individual="false">0</Baugruppenkennung>
+      <SegmentNumber Individual="false">8</SegmentNumber>
+    </Equipment>
+    <Equipment>
+      <HardwareType Individual="false">eDP_AXIS</HardwareType>
+      <ProductionDate>20150505</ProductionDate>
+      <Manufacturer>.KL</Manufacturer>
+      <SerialNumber>F41467</SerialNumber>
+      <MaterialNumber>03102532</MaterialNumber>
+      <NeuteilServiceteil>-</NeuteilServiceteil>
+      <Funktionsstand>03</Funktionsstand>
+      <Revisionsstand>01</Revisionsstand>
+      <LpKennung Individual="false">0</LpKennung>
+      <Baugruppenkennung Individual="false">0</Baugruppenkennung>
+      <SegmentNumber Individual="false">9</SegmentNumber>
+    </Equipment>
+    <Equipment>
+      <HardwareType Individual="false">eDP_AXIS</HardwareType>
+      <ProductionDate>20150505</ProductionDate>
+      <Manufacturer>.KL</Manufacturer>
+      <SerialNumber>F41558</SerialNumber>
+      <MaterialNumber>03102532</MaterialNumber>
+      <NeuteilServiceteil>-</NeuteilServiceteil>
+      <Funktionsstand>03</Funktionsstand>
+      <Revisionsstand>01</Revisionsstand>
+      <LpKennung Individual="false">0</LpKennung>
+      <Baugruppenkennung Individual="false">0</Baugruppenkennung>
+      <SegmentNumber Individual="false">10</SegmentNumber>
+    </Equipment>
+    <Equipment>
+      <HardwareType Individual="false">eDP_AXIS</HardwareType>
+      <ProductionDate>20150505</ProductionDate>
+      <Manufacturer>.KL</Manufacturer>
+      <SerialNumber>F41512</SerialNumber>
+      <MaterialNumber>03102532</MaterialNumber>
+      <NeuteilServiceteil>-</NeuteilServiceteil>
+      <Funktionsstand>03</Funktionsstand>
+      <Revisionsstand>01</Revisionsstand>
+      <LpKennung Individual="false">0</LpKennung>
+      <Baugruppenkennung Individual="false">0</Baugruppenkennung>
+      <SegmentNumber Individual="false">11</SegmentNumber>
+    </Equipment>
+    <Equipment>
+      <HardwareType Individual="false">eDP_AXIS</HardwareType>
+      <ProductionDate>20150505</ProductionDate>
+      <Manufacturer>.KL</Manufacturer>
+      <SerialNumber>F41469</SerialNumber>
+      <MaterialNumber>03102532</MaterialNumber>
+      <NeuteilServiceteil>-</NeuteilServiceteil>
+      <Funktionsstand>03</Funktionsstand>
+      <Revisionsstand>01</Revisionsstand>
+      <LpKennung Individual="false">0</LpKennung>
+      <Baugruppenkennung Individual="false">0</Baugruppenkennung>
+      <SegmentNumber Individual="false">12</SegmentNumber>
+    </Equipment>
+    <Equipment>
+      <HardwareType Individual="false">eDP_AXIS</HardwareType>
+      <ProductionDate>20170817</ProductionDate>
+      <Manufacturer>.KL</Manufacturer>
+      <SerialNumber>J82300</SerialNumber>
+      <MaterialNumber>03102532</MaterialNumber>
+      <NeuteilServiceteil>-</NeuteilServiceteil>
+      <Funktionsstand>04</Funktionsstand>
+      <Revisionsstand>06</Revisionsstand>
+      <LpKennung Individual="false">0</LpKennung>
+      <Baugruppenkennung Individual="false">0</Baugruppenkennung>
+      <SegmentNumber Individual="false">13</SegmentNumber>
+    </Equipment>
+    <Equipment>
+      <HardwareType Individual="false">eDP_AXIS</HardwareType>
+      <ProductionDate>20150505</ProductionDate>
+      <Manufacturer>.KL</Manufacturer>
+      <SerialNumber>F41455</SerialNumber>
+      <MaterialNumber>03102532</MaterialNumber>
+      <NeuteilServiceteil>-</NeuteilServiceteil>
+      <Funktionsstand>03</Funktionsstand>
+      <Revisionsstand>01</Revisionsstand>
+      <LpKennung Individual="false">0</LpKennung>
+      <Baugruppenkennung Individual="false">0</Baugruppenkennung>
+      <SegmentNumber Individual="false">14</SegmentNumber>
+    </Equipment>
+    <Equipment>
+      <HardwareType Individual="false">eDP_AXIS</HardwareType>
+      <ProductionDate>20150505</ProductionDate>
+      <Manufacturer>.KL</Manufacturer>
+      <SerialNumber>F41571</SerialNumber>
+      <MaterialNumber>03102532</MaterialNumber>
+      <NeuteilServiceteil>-</NeuteilServiceteil>
+      <Funktionsstand>03</Funktionsstand>
+      <Revisionsstand>01</Revisionsstand>
+      <LpKennung Individual="false">0</LpKennung>
+      <Baugruppenkennung Individual="false">0</Baugruppenkennung>
+      <SegmentNumber Individual="false">15</SegmentNumber>
+    </Equipment>
+    <Equipment>
+      <HardwareType Individual="false">eDP_AXIS</HardwareType>
+      <ProductionDate>20150505</ProductionDate>
+      <Manufacturer>.KL</Manufacturer>
+      <SerialNumber>F41476</SerialNumber>
+      <MaterialNumber>03102532</MaterialNumber>
+      <NeuteilServiceteil>-</NeuteilServiceteil>
+      <Funktionsstand>03</Funktionsstand>
+      <Revisionsstand>01</Revisionsstand>
+      <LpKennung Individual="false">0</LpKennung>
+      <Baugruppenkennung Individual="false">0</Baugruppenkennung>
+      <SegmentNumber Individual="false">16</SegmentNumber>
+    </Equipment>
+    <Equipment>
+      <HardwareType Individual="false">eDP_AXIS</HardwareType>
+      <ProductionDate>20150505</ProductionDate>
+      <Manufacturer>.KL</Manufacturer>
+      <SerialNumber>F41569</SerialNumber>
+      <MaterialNumber>03102532</MaterialNumber>
+      <NeuteilServiceteil>-</NeuteilServiceteil>
+      <Funktionsstand>03</Funktionsstand>
+      <Revisionsstand>01</Revisionsstand>
+      <LpKennung Individual="false">0</LpKennung>
+      <Baugruppenkennung Individual="false">0</Baugruppenkennung>
+      <SegmentNumber Individual="false">17</SegmentNumber>
+    </Equipment>
+    <Equipment>
+      <HardwareType Individual="false">eDP_AXIS</HardwareType>
+      <ProductionDate>20150505</ProductionDate>
+      <Manufacturer>.KL</Manufacturer>
+      <SerialNumber>F41450</SerialNumber>
+      <MaterialNumber>03102532</MaterialNumber>
+      <NeuteilServiceteil>-</NeuteilServiceteil>
+      <Funktionsstand>03</Funktionsstand>
+      <Revisionsstand>01</Revisionsstand>
+      <LpKennung Individual="false">0</LpKennung>
+      <Baugruppenkennung Individual="false">0</Baugruppenkennung>
+      <SegmentNumber Individual="false">18</SegmentNumber>
+    </Equipment>
+    <Equipment>
+      <HardwareType Individual="false">eDP_AXIS</HardwareType>
+      <ProductionDate>20150505</ProductionDate>
+      <Manufacturer>.KL</Manufacturer>
+      <SerialNumber>F41439</SerialNumber>
+      <MaterialNumber>03102532</MaterialNumber>
+      <NeuteilServiceteil>-</NeuteilServiceteil>
+      <Funktionsstand>03</Funktionsstand>
+      <Revisionsstand>01</Revisionsstand>
+      <LpKennung Individual="false">0</LpKennung>
+      <Baugruppenkennung Individual="false">0</Baugruppenkennung>
+      <SegmentNumber Individual="false">19</SegmentNumber>
+    </Equipment>
+    <Equipment>
+      <HardwareType Individual="false">eDP_AXIS</HardwareType>
+      <ProductionDate>20150505</ProductionDate>
+      <Manufacturer>.KL</Manufacturer>
+      <SerialNumber>F41491</SerialNumber>
+      <MaterialNumber>03102532</MaterialNumber>
+      <NeuteilServiceteil>-</NeuteilServiceteil>
+      <Funktionsstand>03</Funktionsstand>
+      <Revisionsstand>01</Revisionsstand>
+      <LpKennung Individual="false">0</LpKennung>
+      <Baugruppenkennung Individual="false">0</Baugruppenkennung>
+      <SegmentNumber Individual="false">20</SegmentNumber>
+    </Equipment>
+    <Equipment>
+      <HardwareType Individual="false">eDUMMY</HardwareType>
+      <ProductionDate Individual="false">00002008</ProductionDate>
+      <Manufacturer Individual="false">Unknown</Manufacturer>
+      <SerialNumber Individual="false">000</SerialNumber>
+      <MaterialNumber Individual="false">00000000</MaterialNumber>
+      <NeuteilServiceteil Individual="false">00000000</NeuteilServiceteil>
+      <Funktionsstand Individual="false">00</Funktionsstand>
+      <Revisionsstand Individual="false">00</Revisionsstand>
+      <LpKennung Individual="false">0</LpKennung>
+      <Baugruppenkennung Individual="false">0</Baugruppenkennung>
+      <SegmentNumber Individual="false">0</SegmentNumber>
+    </Equipment>
+    <Equipment>
+      <HardwareType Individual="false">eDISTRIBUTOR_1</HardwareType>
+      <ProductionDate>20130926</ProductionDate>
+      <Manufacturer>000</Manufacturer>
+      <SerialNumber>000000</SerialNumber>
+      <MaterialNumber>00000000</MaterialNumber>
+      <NeuteilServiceteil>-</NeuteilServiceteil>
+      <Funktionsstand>03</Funktionsstand>
+      <Revisionsstand>01</Revisionsstand>
+      <LpKennung Individual="false">0</LpKennung>
+      <Baugruppenkennung Individual="false">0</Baugruppenkennung>
+      <SegmentNumber Individual="false">0</SegmentNumber>
+    </Equipment>
+  </EquipmentData>
+  <CalibrationInfo>
+    <HeightWhenCalibrated>eDEFAULT</HeightWhenCalibrated>
+  </CalibrationInfo>
+  <SegOffUpAdjustment>
+    <is_active Individual="false">true</is_active>
+  </SegOffUpAdjustment>
+</PlaceHead>

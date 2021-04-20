@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EnduranceData>
+  <VHS>
+    <NumberOfSegments>20</NumberOfSegments>
+    <Type>VHS</Type>
+    <Combined/>
+    <StarRelative/>
+    <Star/>
+    <Rotate/>
+    <Gripper/>
+    <Z/>
+    <NCEnduranceRun/>
+  </VHS>
+  <HS>
+    <NumberOfSegments>12</NumberOfSegments>
+    <Type>HS</Type>
+    <Combined/>
+    <StarRelative/>
+    <Star/>
+    <Rotate/>
+    <Gripper/>
+    <Z/>
+    <NCEnduranceRun/>
+  </HS>
+  <Twin>
+    <NumberOfSegments>2</NumberOfSegments>
+    <Type>TWIN</Type>
+    <Combined/>
+    <Rotate/>
+    <Gripper/>
+    <Z/>
+    <NCEnduranceRun/>
+  </Twin>
+  <DLM>
+    <NumberOfSegments>12</NumberOfSegments>
+    <Type>DLM</Type>
+    <Combined/>
+    <Rotate/>
+    <Gripper/>
+    <Z/>
+    <NCEnduranceRun/>
+  </DLM>
+  <Gantry>
+    <X/>
+    <Y/>
+  </Gantry>
+</EnduranceData>
